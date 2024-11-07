@@ -1,0 +1,38 @@
+<%= section_line @char.name, xp -%>
+%r<%= center( approval_status, 78 ) %>
+<%= section_line @char.sheet.template -%>
+<% base.each do |f| -%>
+<%= f -%>
+<% end %>
+
+<%= section_line "Attributes" -%>
+<% attrs.each do |a| -%>
+<%= a -%>
+<% end %>
+
+<%= section_line "Skills" -%>
+<% skills.each do |s| -%>
+<%= s -%>
+<% end %>
+
+<%= section_line "Specialties" -%>
+<% specialties.each do |s| -%>
+<%= s -%>
+<% end %>
+
+<%= section_line "Merits" -%>
+<% merits.each do |s| -%>
+<%= s -%>
+<% end %>
+
+<% if (abilities || []).size > 0 %>
+<% abilities.each do |type| %>
+<%= section_line type[:title] -%>
+<% type[:abilities].each do |a| %>
+<%= a -%>
+<% end %>
+
+<% end %>
+<% end %>
+
+<%= footer_line -%>

@@ -1,0 +1,14 @@
+<% combatants.each do |c| %>
+<%= section_line highlight(c.name), wounds(c) -%>
+
+<% base(c).each do |f| -%>
+<%= f -%>
+<% end %>
+
+<% end %>
+
+<% if !combat || is_combatant?(char) %>
+<%= footer_line t('cod.not_in_combat') -%>
+<% else %>
+<%= footer_line -%>
+<% end %>

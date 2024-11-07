@@ -1,0 +1,115 @@
+---
+en:
+  cod:
+    amount_cant_be_negative: Amount cannot be negative
+    attr_above_max: Attribute %{name} is above max of %{max}
+    attr_below_min: Attribute %{name} is below min of %{min}
+    attr_distribution_invalid: 'Attribute points need a total distribution of: %{points}'
+    beats_awarded_for: '%{beats} beats awarded to %{name} for: %{message}'
+    character_has_died: '%xr%xh%{name} has died!%xn'
+    character_is_concussed: '%{name} is concussed.%r%r - Make a reflexive Stamina roll each turn to remain conscious.'
+    character_is_dying: '%xr%{name} is dying!%xn%r%r - Take 1L per minute until medical attention is received.'
+    character_must_be_approved: '%{name} must first be approved'
+    checking_sheet: Checking sheet.
+    checking_template_info: Checking template info.
+    current_xp: 'Current XP: %{curr} / %{total}'
+    dramatic_failure: '%xr%xhDramatic Failure!! %xn%x8[%xn%{dice}%xn%x8]%xn'
+    exceptional_success: '%xg%xhExceptional Success!! %xn%x8[%xn%{dice}%xn%x8]%xn'
+    failure: '%xn%xrFailure! %xn%x8[%xn%{dice}%xn%x8]%xn'
+    insufficient_points: Insufficient points
+    insufficient_resource: Insufficent %{type} to spend
+    insufficient_xp: Insufficient XP
+    invalid_character: 'Invalid Character: %{char}'
+    invalid_classification: 'Invalid %{type}: %{name}'
+    invalid_field: 'Invalid field: %{name}'
+    invalid_merit: 'Invalid merit: %{name}'
+    invalid_merit_cost: 'Invalid merit cost: %{name}'
+    invalid_points: Invalid points
+    invalid_roll_switches: 'Invalid roll switches: %{switches}'
+    invalid_roll_terms: 'Invalid roll terms: %{values}'
+    invalid_stat: 'Invalid stat: %{stat}'
+    invalid_switch: 'Invalid Switch: %{switch}'
+    merit_needs_more_info: The merit %{name} needs more info
+    merit_points_incorrect: '%{spent} merit points spent of %{expected} expected points'
+    missing_classification: Missing %{type}
+    missing_field: 'Missing field: %{field}'
+    missing_merits: Missing or incomplete merits
+    missing_opposed_roll: Missing opposed roll
+    missing_specialties: Missing or incomplete specialties
+    no_reqs_found_stat: No requirements found for %{stat}
+    number_out_of_bounds: Number out of bounds
+    permission_denied: Permission Denied
+    reqs_met_for_stat: Requirements met for %{stat}
+    reqs_not_met_for_stat: 'Requirements for %{stat} not met: %{reqs}'
+    requires_more_info: 'More information required for: %{field}'
+    skill_above_max: Skill %{name} is above max of %{max}
+    skill_below_min: Skill %{name} is below min of %{min}
+    skill_distribution_invalid: 'Skill points need a total distribution of: %{points}'
+    success: '%xn%xgSuccess! %xn%x8[%xn%{dice}%xn%x8]%xn'
+    value_must_be_numeric: 'Value must be numeric: %{value}'
+    wound_penalty: -%{penalty} Wound Penalty
+    x_not_on_sheet: '%{stat} not on sheet'
+
+    # Roller
+    area_of_expertise: Area of Expertise
+    expert: Expert
+    unskilled: Unskilled
+
+    # Combat
+    already_in_combat: Already in a conflict
+    combat_next_char: 'Advancing to next character: %{name}'
+    combat_not_found: Conflict not found
+    combat_prev_char: 'Returning to previous character: %{name}'
+    combat_tracker_already_exists_for_scene: Conflict Tracker already exists for the scene
+    combat_tracker_ended: Conflict Tracking ended
+    combat_tracker_requires_an_active_scene: Conflict Tracker requires an active scene
+    combat_tracker_started: Conflict Tracking started
+    initiative_modified: Initiative roll for %{target} modified by %{value}
+    initiative_roll: 'Initiative roll for %{target}: %{value}%{bonus}'
+    no_combat_tracker_found_for_scene: No Conflict Tracker found for scene
+    no_permission_to_change_x: No permission to update %{name}
+    not_in_combat: Not in a conflict
+    npc_cannot_be_named_after_existing_character: NPCs cannot be named after existing characters
+    npc_not_found: NPC named %{name} not found
+    x_has_been_added_to_combat: '%{name} has been added to the conflict by %{enactor}'
+    x_has_been_removed_from_combat: '%{name} has been removed from the conflict by %{enactor}'
+    x_has_joined_combat: '%{name} has joined the conflict'
+    x_has_left_combat: '%{name} has left the conflict'
+
+    # XP
+    already_added: '%{name} has already been added'
+    arcana_cannot_go_above_max: Arcana cannot go above %{max}
+    cannot_exceed_x_dots_in_blessings: Cannot take more than %{dots} dots in Blessings
+    cannot_purchase_stat_please_submit_xp_request: This stat cannot be purchased automatically, please submit an XP request
+    cannot_raise_x_any_higher: Cannot raise %{stat} any higher
+    court_goodwill_not_high_enough: Court Goodwill (%{court}) not high enough
+    highest_arcanum_max_x: '%{arcanum} is already at highest arcanum max'
+    highest_other_arcana_max_x: '%{arcanum} is already at highest other arcana max'
+    mantle_or_court_goodwill_not_high_enough: Mantle (%{court}) or Court Goodwill (%{court}) not high enough
+    merit_is_cg_only: '%{name} is a CG only merit'
+    requirements_not_met_or_special_requirements_please_submit_xp_request: Requirements not met or Special requirements, please submit an XP request
+    specialty_already_exists: '%{name} specialty already exists'
+
+    # CHARGEN
+
+    # Changeling
+    changeling_contract_count: < You must select %{common} Common contracts >
+    changeling_contract_count_royal: < You must select %{common} Common and %{royal} Royal contracts >
+    contract_not_in_favored: < %{contract} is not in Favored Regalia >
+    contract_select_incomplete: < Contract selection incomplete >
+    favored_attribute_must_be: '< Favored Attribute must be in: %{category} >'
+    contract_not_in_favored: < %{contract} is not in Favored Regalia >
+
+    # Demon
+    must_have_at_least_one_embed: < Must have at least one Embed >
+    must_have_x_of_y_z_found: < Must have %{size} %{name}, %{curr} found >
+    no_correlating_embed_found: < No correlating embed found for %{name} >
+
+    # Mage
+    cannot_have_more_than_x_dots_in_an_arcanum: < Cannot have more than %{count} dots in an Arcanum >
+    cannot_start_play_with_any_dots_in_inferior_arcana: '< Cannot start play with any dots in Inferior Arcana: %{arcana} >'
+    must_have_at_least_one_dot_in_ruling_arcana: '< Must have at least one dot in Ruling Arcana: %{arcana} >'
+    must_have_x_blessings_y_found: < Must have %{count} Blessings, %{amount} found >
+    must_have_x_points_in_arcana_y_found: < Must have %{count} dots in Arcana, %{amount} found >
+    must_have_x_praxes_y_found: < Must have %{count} Praxes, %{amount} found >
+    must_have_x_rotes: < Must have %{count} dots in Rotes >
