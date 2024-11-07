@@ -1,0 +1,4580 @@
+---
+cod:
+  rotes:
+  - name: Ectoplasmic Shaping
+    reqs: Ability:Death:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Crafts
+    - Occult
+    - Larceny
+    book: Mage the Awakening, Second Edition
+    page: 128
+  - name: Deepen Shadows
+    reqs: Ability:Death:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Intimidation
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 128
+  - name: Forensic Gaze
+    reqs: Ability:Death:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Medicine
+    - Investigation
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 128
+  - name: Shadow Sculpting
+    reqs: Ability:Death:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Science
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 128
+  - name: Soul Marks
+    reqs: Ability:Death:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Medicine
+    - Occult
+    - Empathy
+    book: Mage the Awakening, Second Edition
+    page: 128
+  - name: Speak with the Dead
+    reqs: Ability:Death:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Socialize
+    - Expression
+    - Investigation
+    book: Mage the Awakening, Second Edition
+    page: 128
+  - name: Corpse Mask
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Subterfuge
+    - Crafts
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 129
+  - name: Decay
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Subterfuge
+    - Science
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 129
+  - name: Ectoplasm
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Expression
+    - Academics
+    book: Mage the Awakening, Second Edition
+    page: 129
+  - name: Ghost Shield
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Streetwise
+    - Subterfuge
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 129
+  - name: Shape Ephemera
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Crafts
+    - Expression
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 129
+  - name: Soul Armor
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Occult
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 129
+  - name: Soul Jar
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Crafts
+    - Occult
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 129
+  - name: Suppress Aura
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Subterfuge
+    - Intimidation
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 129
+  - name: Suppress Life
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Subterfuge
+    - Medicine
+    - Academics
+    book: Mage the Awakening, Second Edition
+    page: 130
+  - name: Touch of the Grave
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Survival
+    - Crafts
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 130
+  - name: Without a Trace
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Science
+    - Stealth
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 130
+  - name: Cold Snap
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Survival
+    - Intimidation
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 130
+  - name: Damage Ghost
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Intimidation
+    - Brawl
+    book: Mage the Awakening, Second Edition
+    page: 130
+  - name: Devouring the Slain
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Intimidation
+    - Medicine
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 130
+  - name: Ghost Gate
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Academics
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 130
+  - name: Ghost Summons
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Persuasion
+    - Socialize
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 131
+  - name: Quicken Corpse
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Medicine
+    - Crafts
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 131
+  - name: Quicken Ghost
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Potency
+    cost: One Mana (Optional)
+    withstand: 
+    rote_skills:
+    - Persuasion
+    - Socialize
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 131
+  - name: Rotting Flesh
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Empathy
+    book: Mage the Awakening, Second Edition
+    page: 132
+  - name: Sever Soul
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Intimidation
+    - Athletics
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 132
+  - name: Shadow Crafting
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Intimidation
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 132
+  - name: Enervation
+    reqs: Ability:Death:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Occult
+    - Intimidation
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 132
+  - name: Exorcism
+    reqs: Ability:Death:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Brawl
+    - Expression
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 132
+  - name: Revenant
+    reqs: Ability:Death:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Crafts
+    - Brawl
+    - Intimidation
+    book: Mage the Awakening, Second Edition
+    page: 132
+  - name: Shadow Flesh
+    reqs: Ability:Death:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Occult
+    - Medicine
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 132
+  - name: Withering
+    reqs: Ability:Death:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Intimidation
+    - Medicine
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 133
+  - name: Create Anchor
+    reqs: Ability:Death:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Crafts
+    - Occult
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 133
+  - name: Create Avernian Gate
+    reqs: Ability:Death:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Crafts
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 133
+  - name: Create Ghost
+    reqs: Ability:Death:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Expression
+    - Academics
+    book: Mage the Awakening, Second Edition
+    page: 133
+  - name: Deny the Reaper
+    reqs: Ability:Death:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Medicine
+    - Occult
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 133
+  - name: Empty Presence
+    reqs: Ability:Death:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Duration
+    cost: One Mana
+    withstand: Composure
+    rote_skills:
+    - Subterfuge
+    - Persuasion
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 133
+  - name: Sever the Awakened Soul
+    reqs: Ability:Death:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Crafts
+    - Intimidation
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 133
+  - name: Interconnections
+    reqs: Ability:Fate:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Empathy
+    - Investigation
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 134
+  - name: Oaths Fulfilled
+    reqs: Ability:Fate:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Politics
+    - Investigation
+    book: Mage the Awakening, Second Edition
+    page: 135
+  - name: Quantum Flux
+    reqs: Ability:Fate:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Firearms
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 135
+  - name: Reading the Outmost Eddies
+    reqs: Ability:Fate:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Computer
+    - Persuasion
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 135
+  - name: Serendipity
+    reqs: Ability:Fate:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Crafts
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 135
+  - name: Exceptional Luck
+    reqs: Ability:Fate:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 135
+  - name: Fabricate Fortune
+    reqs: Ability:Fate:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Larceny
+    - Occult
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 136
+  - name: Fools Rush In
+    reqs: Ability:Fate:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Socialize
+    - Streetwise
+    book: Mage the Awakening, Second Edition
+    page: 136
+  - name: Lucky Number
+    reqs: Ability:Fate:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Investigation
+    - Larceny
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 136
+  - name: Shifting the Odds
+    reqs: Ability:Fate:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Investigation
+    - Politics
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 136
+  - name: Warding Gesture
+    reqs: Ability:Fate:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Brawl
+    - Occult
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 136
+  - name: Grave Misfortune
+    reqs: Ability:Fate:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Weaponry
+    book: Mage the Awakening, Second Edition
+    page: 137
+  - name: Monkey's Paw
+    reqs: Ability:Fate:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Drive
+    - Crafts
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 137
+  - name: Shared Fate
+    reqs: Ability:Fate:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Medicine
+    - Persuasion
+    - Politics
+    book: Mage the Awakening, Second Edition
+    page: 137
+  - name: Superlative Luck
+    reqs: Ability:Fate:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Crafts
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 137
+  - name: Sworn Oaths
+    reqs: Ability:Fate:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Occult
+    - Politics
+    book: Mage the Awakening, Second Edition
+    page: 137
+  - name: Atonement
+    reqs: Ability:Fate:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: Subject effect's Potency
+    rote_skills:
+    - Academics
+    - Empathy
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 137
+  - name: Chaos Mastery
+    reqs: Ability:Fate:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Occult
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 138
+  - name: Divine Intervention
+    reqs: Ability:Fate:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 138
+  - name: Strings of Fate
+    reqs: Ability:Fate:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Academics
+    - Persuasion
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 138
+  - name: Sever Oaths
+    reqs: Ability:Fate:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Occult
+    - Subterfuge
+    - Weaponry
+    book: Mage the Awakening, Second Edition
+    page: 138
+  - name: Forge Destiny
+    reqs: Ability:Fate:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 139
+  - name: Pariah
+    reqs: Ability:Fate:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Investigation
+    - Medicine
+    - Politics
+    book: Mage the Awakening, Second Edition
+    page: 139
+  - name: Miracle
+    reqs: Ability:Fate:5
+    has_spec: true
+    practice: Making
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Persuasion
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 140
+  - name: Swarm of Locusts
+    reqs: Ability:Fate:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 140
+  - name: Influence Electricity
+    reqs: Ability:Forces:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Computers
+    - Crafts
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 140
+  - name: Influence Fire
+    reqs: Ability:Forces:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 140
+  - name: Kinetic Efficiency
+    reqs: Ability:Forces:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 141
+  - name: Influence Heat
+    reqs: Ability:Forces:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 141
+  - name: Nightvision
+    reqs: Ability:Forces:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Investigation
+    - Science
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 141
+  - name: Receiver
+    reqs: Ability:Forces:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Investigation
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 141
+  - name: Tune In
+    reqs: Ability:Forces:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Computers
+    - Empathy
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 141
+  - name: Control Electricity
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Computers
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 142
+  - name: Control Fire
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 142
+  - name: Control Gravity
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Occult
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 142
+  - name: Control Heat
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 142
+  - name: Control Light
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Investigation
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 142
+  - name: Control Sound
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Stealth
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 142
+  - name: Control Weather
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 143
+  - name: Environmental Shield
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 143
+  - name: Invisibility
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Larceny
+    - Science
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 143
+  - name: Kinetic Blow
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Brawl
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 143
+  - name: Transmission
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Expression
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 144
+  - name: Zoom In
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Investigation
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 144
+  - name: Call Lightning
+    reqs: Ability:Forces:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Firearms
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 144
+  - name: Gravitic Supremacy
+    reqs: Ability:Forces:3
+    has_spec: true
+    practice: Fraying or Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 144
+  - name: Telekinesis
+    reqs: Ability:Forces:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Brawl
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 144
+  - name: Telekinetic Strike
+    reqs: Ability:Forces:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Firearms
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 145
+  - name: Turn Momentum
+    reqs: Ability:Forces:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Firearms
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 145
+  - name: Velocity Control
+    reqs: Ability:Forces:3
+    has_spec: true
+    practice: Fraying or Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Drive
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 145
+  - name: Electromagnetic Pulse
+    reqs: Ability:Forces:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Computers
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 145
+  - name: Levitation
+    reqs: Ability:Forces:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Athletics
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 145
+  - name: Rend Friction
+    reqs: Ability:Forces:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Drive
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 145
+  - name: Thunderbolt
+    reqs: Ability:Forces:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Firearms
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 146
+  - name: Transform Energy
+    reqs: Ability:Forces:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Occult
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 146
+  - name: Adverse Weather
+    reqs: Ability:Forces:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Occult
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 146
+  - name: Create Energy
+    reqs: Ability:Forces:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Occult
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 146
+  - name: Eradicate Energy
+    reqs: Ability:Forces:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Intimidation
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 146
+  - name: Earthquake
+    reqs: Ability:Forces:5
+    has_spec: true
+    practice: Making
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 147
+  - name: Analyze Life
+    reqs: Ability:Life:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Animal Ken
+    - Medicine
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 148
+  - name: Cleanse the Body
+    reqs: Ability:Life:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Medicine
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 148
+  - name: Heightened Senses
+    reqs: Ability:Life:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Investigation
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 148
+  - name: Speak With Beasts
+    reqs: Ability:Life:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Animal Ken
+    - Empathy
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 148
+  - name: Web of Life
+    reqs: Ability:Life:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Investigation
+    - Medicine
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 148
+  - name: Body Control
+    reqs: Ability:Life:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Medicine
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 148
+  - name: Control Instincts
+    reqs: Ability:Life:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Animal Ken
+    - Intimidation
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 149
+  - name: Lure and Repel
+    reqs: Ability:Life:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Animal Ken
+    - Persuasion
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 149
+  - name: Mutable Mask
+    reqs: Ability:Life:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Medicine
+    - Stealth
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 149
+  - name: Purge Illness
+    reqs: Ability:Life:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Medicine
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 149
+  - name: Bruise Flesh
+    reqs: Ability:Life:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Brawl
+    - Intimidation
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 150
+  - name: Degrading the Form
+    reqs: Ability:Life:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Duration
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Brawl
+    - Medicine
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 150
+  - name: Honing the Form
+    reqs: Ability:Life:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Medicine
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 150
+  - name: Knit
+    reqs: Ability:Life:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Medicine
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 150
+  - name: Many Faces
+    reqs: Ability:Life:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Medicine
+    - Stealth
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 150
+  - name: Transform Life
+    reqs: Ability:Life:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Animal Ken
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 150
+  - name: Accelerate Growth
+    reqs: Ability:Life:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Animal Ken
+    - Medicine
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 151
+  - name: Animal Minion
+    reqs: Ability:Life:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Animal Ken
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 151
+  - name: Life-Force Assault
+    reqs: Ability:Life:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Brawl
+    - Intimidation
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 152
+  - name: Mend
+    reqs: Ability:Life:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Medicine
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 152
+  - name: Regeneration
+    reqs: Ability:Life:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Medicine
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 152
+  - name: Shapechanging
+    reqs: Ability:Life:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Animal Ken
+    - Athletics
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 152
+  - name: Create Life
+    reqs: Ability:Life:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Medicine
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 153
+  - name: Contagion
+    reqs: Ability:Life:5
+    has_spec: true
+    practice: Making
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Medicine
+    - Occult
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 153
+  - name: Salt the Earth
+    reqs: Ability:Life:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Medicine
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 153
+  - name: Craftsman's Eye
+    reqs: Ability:Matter:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Investigation
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 154
+  - name: Detect Substance
+    reqs: Ability:Matter:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Investigation
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 154
+  - name: Discern Composition
+    reqs: Ability:Matter:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Investigation
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 154
+  - name: Lodestone
+    reqs: Ability:Matter:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Larceny
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 154
+  - name: Remote Control
+    reqs: Ability:Matter:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Drive
+    - Intimidate
+    book: Mage the Awakening, Second Edition
+    page: 155
+  - name: Alchemist's Touch
+    reqs: Ability:Matter:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Survival
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 155
+  - name: Find the Balance
+    reqs: Ability:Matter:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Persuasion
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 155
+  - name: Hidden Hoard
+    reqs: Ability:Matter:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Larceny
+    - Occult
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 156
+  - name: Machine Invisibility
+    reqs: Ability:Matter:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Larceny
+    - Science
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 156
+  - name: Shaping
+    reqs: Ability:Matter:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: Durability
+    rote_skills:
+    - Crafts
+    - Expression
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 156
+  - name: Aegis
+    reqs: Ability:Matter:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Crafts
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 156
+  - name: Alter Conductivity
+    reqs: Ability:Matter:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Computers
+    - Science
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 156
+  - name: Alter Integrity
+    reqs: Ability:Matter:3
+    has_spec: true
+    practice: Fraying or Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: Durability
+    rote_skills:
+    - Crafts
+    - Medicine
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 156
+  - name: Crucible
+    reqs: Ability:Matter:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Occult
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 157
+  - name: Nigredo and Albedo
+    reqs: Ability:Matter:3
+    has_spec: true
+    practice: Fraying or Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Brawl
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 157
+  - name: Shrink and Grow
+    reqs: Ability:Matter:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: Durability
+    rote_skills:
+    - Crafts
+    - Expression
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 157
+  - name: State Change
+    reqs: Ability:Matter:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: Durability
+    rote_skills:
+    - Crafts
+    - Persuasion
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 157
+  - name: Windstrike
+    reqs: Ability:Matter:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Brawl
+    - Crafts
+    book: Mage the Awakening, Second Edition
+    page: 157
+  - name: Wonderful Machine
+    reqs: Ability:Matter:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Politics
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 157
+  - name: Ghostwall
+    reqs: Ability:Matter:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Occult
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 158
+  - name: Golem
+    reqs: Ability:Matter:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Expression
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 158
+  - name: Piercing Earth
+    reqs: Ability:Matter:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Brawl
+    - Crafts
+    book: Mage the Awakening, Second Edition
+    page: 158
+  - name: Transubstantiation
+    reqs: Ability:Matter:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Empathy
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 158
+  - name: Annihilate Matter
+    reqs: Ability:Matter:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: Durability
+    rote_skills:
+    - Athletics
+    - Intimidation
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 158
+  - name: Ex Nihilo
+    reqs: Ability:Matter:5
+    has_spec: true
+    practice: Making
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Expression
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 158
+  - name: Self-Repairing
+    reqs: Ability:Matter:5
+    has_spec: true
+    practice: Making
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Medicine
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 159
+  - name: Know Nature
+    reqs: Ability:Mind:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Science
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 159
+  - name: Mental Scan
+    reqs: Ability:Mind:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Empathy
+    - Investigation
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 159
+  - name: One Mind Two Thoughts
+    reqs: Ability:Mind:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Expression
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 159
+  - name: Perfect Recall
+    reqs: Ability:Mind:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Expression
+    - Investigation
+    book: Mage the Awakening, Second Edition
+    page: 160
+  - name: Alter Mental Pattern
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Science
+    - Stealth
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 160
+  - name: Dream Reaching
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Empathy
+    - Medicine
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 160
+  - name: Emotional Urging
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Empathy
+    - Intimidation
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 160
+  - name: First Impressions
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Crafts
+    - Socialize
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 160
+  - name: Incognito Presence
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: Resolve
+    rote_skills:
+    - Empathy
+    - Stealth
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 160
+  - name: Memory Hole
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Medicine
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 160
+  - name: Mental Shield
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Intimidation
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 160
+  - name: Psychic Domination
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Expression
+    - Intimidation
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 161
+  - name: Telepathy
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Crafts
+    - Empathy
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 161
+  - name: Augment Mind
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Expression
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 161
+  - name: Befuddle
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: Composure or Resolve
+    rote_skills:
+    - Intimidation
+    - Persuasion
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 161
+  - name: Clear Thoughts
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Empathy
+    - Intimidation
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 161
+  - name: Enhance Skill
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Expression
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 162
+  - name: Goetic Summons
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: Variable
+    withstand: Rank
+    rote_skills:
+    - Persuasion
+    - Socialize
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 162
+  - name: Imposter
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Persuasion
+    - Stealth
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 162
+  - name: Psychic Assault
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Intimidation
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 162
+  - name: Sleep of the Just
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Academics
+    - Athletics
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 162
+  - name: Read the Depths
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Empathy
+    - Investigation
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 162
+  - name: Universal Language
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Investigation
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 163
+  - name: Gain Skill
+    reqs: Ability:Mind:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Expression
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 163
+  - name: Hallucination
+    reqs: Ability:Mind:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Academics
+    - Persuasion
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 163
+  - name: Mind Flay
+    reqs: Ability:Mind:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Intimidation
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 164
+  - name: Possession
+    reqs: Ability:Mind:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Medicine
+    - Persuasion
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 164
+  - name: Psychic Projection
+    reqs: Ability:Mind:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Academics
+    - Occult
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 164
+  - name: Psychic Reprogramming
+    reqs: Ability:Mind:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Intimidation
+    - Medicine
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 164
+  - name: Terrorize
+    reqs: Ability:Mind:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Expression
+    - Intimidation
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 164
+  - name: Amorality
+    reqs: Ability:Mind:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Crafts
+    - Empathy
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 164
+  - name: No Exit
+    reqs: Ability:Mind:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Expression
+    - Persuasion
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 164
+  - name: Mind Wipe
+    reqs: Ability:Mind:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Academics
+    - Intimidation
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 165
+  - name: Psychic Genesis
+    reqs: Ability:Mind:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Expression
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 165
+  - name: Social Networking
+    reqs: Ability:Mind:5
+    has_spec: true
+    practice: Making
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Persuasion
+    - Politics
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 165
+  - name: Dispel Magic
+    reqs: Ability:Prime:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: 
+    withstand: Arcanum rating of the subject spell's caster
+    rote_skills:
+    - Athletics
+    - Intimidation
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 165
+  - name: Pierce Deception
+    reqs: Ability:Prime:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Investigation
+    - Medicine
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 165
+  - name: Supernal Vision
+    reqs: Ability:Prime:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Occult
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 166
+  - name: Sacred Geometry
+    reqs: Ability:Prime:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Occult
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 166
+  - name: Scribe Grimoire
+    reqs: Ability:Prime:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: 1 Mana
+    withstand: Total Arcanum dots of all Arcana used in the spell being scribed
+    rote_skills:
+    - Crafts
+    - Expression
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 166
+  - name: Word of Command
+    reqs: Ability:Prime:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: Variable
+    withstand: 
+    rote_skills:
+    - Craft
+    - Occult
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 166
+  - name: As Above, So Below
+    reqs: Ability:Prime:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Occult
+    - Politics
+    book: Mage the Awakening, Second Edition
+    page: 166
+  - name: Cloak Nimbus
+    reqs: Ability:Prime:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Politics
+    - Stealth
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 167
+  - name: Invisible Runes
+    reqs: Ability:Prime:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Intimidation
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 167
+  - name: Supernal Veil
+    reqs: Ability:Prime:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Subterfuge
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 168
+  - name: Wards and Signs
+    reqs: Ability:Prime:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 168
+  - name: Words of Truth
+    reqs: Ability:Prime:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Expression
+    - Intimidation
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 168
+  - name: Aetheric Winds
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Expression
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 168
+  - name: Channel Mana
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: Composure (or Rank for Supernal entities)
+    rote_skills:
+    - Occult
+    - Politics
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 168
+  - name: Cleanse Pattern
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Investigation
+    - Occult
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 168
+  - name: Display of Power
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Brawl
+    - Occult
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 168
+  - name: Ephemeral Enchantment
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Occult
+    - Weaponry
+    book: Mage the Awakening, Second Edition
+    page: 169
+  - name: Geomancy
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Expression
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 169
+  - name: Platonic Form
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 1+ Mana
+    withstand: 
+    rote_skills:
+    - Academics
+    - Crafts
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 169
+  - name: Stealing Fire
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Expression
+    - Larceny
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 169
+  - name: Apocalypse
+    reqs: Ability:Prime:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Occult
+    - Persuasion
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 169
+  - name: Celestial Fire
+    reqs: Ability:Prime:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Expression
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 170
+  - name: Destroy Tass
+    reqs: Ability:Prime:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: Durability
+    rote_skills:
+    - Brawl
+    - Intimidation
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 170
+  - name: Hallow Dance
+    reqs: Ability:Prime:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: Hallow Rating
+    rote_skills:
+    - Expression
+    - Occult
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 170
+  - name: Supernal Dispellation
+    reqs: Ability:Prime:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: Arcanum rating of the subject spell's caster
+    rote_skills:
+    - Athletics
+    - Intimidation
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 170
+  - name: Blasphemy
+    reqs: Ability:Prime:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: Hallow Rating, if applicable
+    rote_skills:
+    - Athletics
+    - Occult
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 170
+  - name: Create Truth
+    reqs: Ability:Prime:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 5 Mana per Potency
+    withstand: Hallow Rating of desired Hallow
+    rote_skills:
+    - Expression
+    - Occult
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 170
+  - name: Eidolon
+    reqs: Ability:Prime:5
+    has_spec: true
+    practice: Making
+    primary_factor: Potency
+    cost: 1+ Mana
+    withstand: 
+    rote_skills:
+    - Academics
+    - Crafts
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 171
+  - name: Forge Purpose
+    reqs: Ability:Prime:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Empathy
+    - Expression
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 171
+  - name: Word of Unmaking
+    reqs: Ability:Prime:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: Merit rating of the targeted magical object, or Durability if not measured
+      in Merit dots
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Weaponry
+    book: Mage the Awakening, Second Edition
+    page: 171
+  - name: Correspondence
+    reqs: Ability:Space:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Empathy
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 172
+  - name: Ground-Eater
+    reqs: Ability:Space:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Athletics
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 173
+  - name: Isolation
+    reqs: Ability:Space:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Academics
+    - Intimidation
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 173
+  - name: Locate Object
+    reqs: Ability:Space:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Occult
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 173
+  - name: The Outward and Inward Eye
+    reqs: Ability:Space:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Firearms
+    - Investigation
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 174
+  - name: Borrow Threads
+    reqs: Ability:Space:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: Connection
+    rote_skills:
+    - Larceny
+    - Occult
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 174
+  - name: Break Boundary
+    reqs: Ability:Space:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Larceny
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 174
+  - name: Lying Maps
+    reqs: Ability:Space:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Academics
+    - Politics
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 174
+  - name: Scrying
+    reqs: Ability:Space:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Computers
+    - Occult
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 174
+  - name: Secret Door
+    reqs: Ability:Space:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Stealth
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 175
+  - name: Veil Sympathy
+    reqs: Ability:Space:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: Sympathy (Connection)
+    rote_skills:
+    - Politics
+    - Subterfuge
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 175
+  - name: Ward
+    reqs: Ability:Space:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Subterfuge
+    - Weaponry
+    book: Mage the Awakening, Second Edition
+    page: 176
+  - name: Ban
+    reqs: Ability:Space:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Intimidation
+    - Science
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 176
+  - name: Co-Location
+    reqs: Ability:Space:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Firearms
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 176
+  - name: Perfect Sympathy
+    reqs: Ability:Space:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Empathy
+    - Larceny
+    book: Mage the Awakening, Second Edition
+    page: 176
+  - name: Warp
+    reqs: Ability:Space:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Brawl
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 177
+  - name: Web-Weaver
+    reqs: Ability:Space:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Crafts
+    - Empathy
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 177
+  - name: Alter Direction
+    reqs: Ability:Space:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Firearms
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 177
+  - name: Collapse
+    reqs: Ability:Space:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Firearms
+    - Intimidation
+    book: Mage the Awakening, Second Edition
+    page: 177
+  - name: Cut Threads
+    reqs: Ability:Space:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: Sympathy (Connection)
+    rote_skills:
+    - Persuasion
+    - Politics
+    - Weaponry
+    book: Mage the Awakening, Second Edition
+    page: 177
+  - name: Secret Room
+    reqs: Ability:Space:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 178
+  - name: Teleportation
+    reqs: Ability:Space:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Larceny
+    - Persuasion
+    - Science
+    book: Mage the Awakening, Second Edition
+    page: 178
+  - name: Create Sympathy
+    reqs: Ability:Space:5
+    has_spec: true
+    practice: Making
+    primary_factor: Potency
+    cost: 
+    withstand: Connection of desired link
+    rote_skills:
+    - Empathy
+    - Persuasion
+    - Politics
+    book: Mage the Awakening, Second Edition
+    page: 178
+  - name: Forge No Chains
+    reqs: Ability:Space:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Subterfuge
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 178
+  - name: Pocket Dimension
+    reqs: Ability:Space:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Expression
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 178
+  - name: Quarantine
+    reqs: Ability:Space:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Larceny
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 179
+  - name: Coaxing the Spirits
+    reqs: Ability:Spirit:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: 
+    withstand: Composure or Rank
+    rote_skills:
+    - Politics
+    - Athletics
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 180
+  - name: Exorcist's Eye
+    reqs: Ability:Spirit:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Survival
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 180
+  - name: Gremlins
+    reqs: Ability:Spirit:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Larceny
+    - Politics
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 180
+  - name: Invoke Bane
+    reqs: Ability:Spirit:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Brawl
+    - Intimidation
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 180
+  - name: Know Spirit
+    reqs: Ability:Spirit:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Potency
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Academics
+    - Brawl
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 180
+  - name: Cap the Well
+    reqs: Ability:Spirit:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Politics
+    - Survival
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 180
+  - name: Channel Essence
+    reqs: Ability:Spirit:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Persuasion
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 180
+  - name: Command Spirit
+    reqs: Ability:Spirit:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Medicine
+    - Athletics
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 181
+  - name: Ephemeral Shield
+    reqs: Ability:Spirit:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Animal Ken
+    - Medicine
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 181
+  - name: Gossamer Touch
+    reqs: Ability:Spirit:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Brawl
+    - Crafts
+    - Intimidation
+    book: Mage the Awakening, Second Edition
+    page: 181
+  - name: Opener of the Way
+    reqs: Ability:Spirit:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Computers
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 181
+  - name: Shadow Walk
+    reqs: Ability:Spirit:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Stealth
+    - Streetwise
+    book: Mage the Awakening, Second Edition
+    page: 181
+  - name: Slumber
+    reqs: Ability:Spirit:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Expression
+    - Occult
+    - Weaponry
+    book: Mage the Awakening, Second Edition
+    page: 181
+  - name: Bolster Spirit
+    reqs: Ability:Spirit:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Medicine
+    - Occult
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 181
+  - name: Erode Resonance
+    reqs: Ability:Spirit:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Brawl
+    - Intimidation
+    book: Mage the Awakening, Second Edition
+    page: 181
+  - name: Howl From Beyond
+    reqs: Ability:Spirit:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Firearms
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 182
+  - name: Place of Power
+    reqs: Ability:Spirit:3
+    has_spec: true
+    practice: Fraying or Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: Gauntlet Strength
+    rote_skills:
+    - Academics
+    - Expression
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 182
+  - name: Reaching
+    reqs: Ability:Spirit:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: Gauntlet Strength
+    rote_skills:
+    - Athletics
+    - Medicine
+    - Socialize
+    book: Mage the Awakening, Second Edition
+    page: 182
+  - name: Rouse Spirit
+    reqs: Ability:Spirit:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Athletics
+    - Expression
+    - Investigation
+    book: Mage the Awakening, Second Edition
+    page: 182
+  - name: Spirit Summons
+    reqs: Ability:Spirit:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Persuasion
+    - Socialize
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 182
+  - name: Banishment
+    reqs: Ability:Spirit:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Brawl
+    - Expression
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 182
+  - name: Bind Spirit
+    reqs: Ability:Spirit:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Crafts
+    - Brawl
+    - Intimidation
+    book: Mage the Awakening, Second Edition
+    page: 183
+  - name: Craft Fetish
+    reqs: Ability:Spirit:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Crafts
+    - Occult
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 183
+  - name: Familiar
+    reqs: Ability:Spirit:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Expression
+    - Intimidate
+    book: Mage the Awakening, Second Edition
+    page: 183
+  - name: Shadow Scream
+    reqs: Ability:Spirit:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Firearms
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 183
+  - name: Shape Spirit
+    reqs: Ability:Spirit:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Crafts
+    - Medicine
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 184
+  - name: Twilit Body
+    reqs: Ability:Spirit:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Subterfuge
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 184
+  - name: World Walker
+    reqs: Ability:Spirit:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: Gauntlet Strength
+    rote_skills:
+    - Athletics
+    - Persuasion
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 184
+  - name: Annihilate Spirit
+    reqs: Ability:Spirit:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: Rank
+    rote_skills:
+    - Intimidation
+    - Science
+    - Weaponry
+    book: Mage the Awakening, Second Edition
+    page: 184
+  - name: Birth Spirit
+    reqs: Ability:Spirit:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Medicine
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 184
+  - name: Create Locus
+    reqs: Ability:Spirit:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: Gauntlet Strength
+    rote_skills:
+    - Crafts
+    - Empathy
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 184
+  - name: Essence Fountain
+    reqs: Ability:Spirit:5
+    has_spec: true
+    practice: Making
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Expression
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 185
+  - name: Spirit Manse
+    reqs: Ability:Space:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Expression
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 185
+  - name: Divination
+    reqs: Ability:Time:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Empathy
+    - Investigation
+    book: Mage the Awakening, Second Edition
+    page: 186
+  - name: Green Light/Red Light
+    reqs: Ability:Time:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Computer
+    - Larceny
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 187
+  - name: Momentary Flux
+    reqs: Ability:Time:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Investigation
+    - Streetwise
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 187
+  - name: Perfect Timing
+    reqs: Ability:Time:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Socialize
+    - Streetwise
+    book: Mage the Awakening, Second Edition
+    page: 187
+  - name: Postcognition
+    reqs: Ability:Time:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Empathy
+    - Investigation
+    book: Mage the Awakening, Second Edition
+    page: 187
+  - name: Choose the Thread
+    reqs: Ability:Time:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Occult
+    - Science
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 187
+  - name: Constant Presence
+    reqs: Ability:Time:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Persuasion
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 187
+  - name: Hung Spell
+    reqs: Ability:Time:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Occult
+    - Expression
+    book: Mage the Awakening, Second Edition
+    page: 187
+  - name: Shield of Chronos
+    reqs: Ability:Time:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Stealth
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 188
+  - name: Tipping the Hourglass
+    reqs: Ability:Time:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Athletics
+    - Crafts
+    - Investigation
+    book: Mage the Awakening, Second Edition
+    page: 188
+  - name: Veil of Moments
+    reqs: Ability:Time:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Medicine
+    - Investigation
+    - Subterfuge
+    book: Mage the Awakening, Second Edition
+    page: 188
+  - name: Acceleration
+    reqs: Ability:Time:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Potency
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Drive
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 188
+  - name: Chronos' Curse
+    reqs: Ability:Time:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 1 Mana
+    withstand: Stamina
+    rote_skills:
+    - Academics
+    - Occult
+    - Intimidation
+    book: Mage the Awakening, Second Edition
+    page: 189
+  - name: Shifting Sands
+    reqs: Ability:Time:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Occult
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 189
+  - name: Temporal Summoning
+    reqs: Ability:Time:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Investigation
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 189
+  - name: Weight of Years
+    reqs: Ability:Time:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Intimidation
+    - Medicine
+    book: Mage the Awakening, Second Edition
+    page: 190
+  - name: Present as Past
+    reqs: Ability:Time:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Investigation
+    - Streetwise
+    book: Mage the Awakening, Second Edition
+    page: 190
+  - name: Prophecy
+    reqs: Ability:Time:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Expression
+    - Investigation
+    book: Mage the Awakening, Second Edition
+    page: 190
+  - name: Rend Lifespan
+    reqs: Ability:Time:4
+    has_spec: true
+    practice: Unraveling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Athletics
+    - Medicine
+    - Intimidation
+    book: Mage the Awakening, Second Edition
+    page: 190
+  - name: Rewrite History
+    reqs: Ability:Time:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Expression
+    - Investigation
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 190
+  - name: Temporal Stutter
+    reqs: Ability:Time:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Intimidation
+    - Science
+    - Survival
+    book: Mage the Awakening, Second Edition
+    page: 191
+  - name: Blink of an Eye
+    reqs: Ability:Time:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Crafts
+    - Occult
+    book: Mage the Awakening, Second Edition
+    page: 191
+  - name: Corridors of Time
+    reqs: Ability:Time:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Investigation
+    - Persuasion
+    book: Mage the Awakening, Second Edition
+    page: 191
+  - name: Temporal Pocket
+    reqs: Ability:Time:5
+    has_spec: true
+    practice: Making
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Occult
+    - Science
+    - Stealth
+    book: Mage the Awakening, Second Edition
+    page: 191
+  - name: Camera Obscura
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Craft
+    - Expression
+    - Science
+    book: 'MtA: Signs of Sorcery'
+    page: 28
+  - name: Light Under a Bushel
+    reqs: Ability:Prime:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Investigation
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 28
+  - name: Path to Jerusalem
+    reqs: Ability:Prime:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Potency
+    cost: 
+    withstand: Opacity
+    rote_skills:
+    - Expression
+    - Larceny
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 28
+  - name: Shared Sight
+    reqs: Ability:Prime:1
+    has_spec: true
+    practice: Unveiling
+    primary_factor: Duration
+    cost: 1+ Mana
+    withstand: Resolve
+    rote_skills:
+    - Expression
+    - Investigation
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 28
+  - name: Supernal Translation
+    reqs: Ability:Mind:3 & Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Expression
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 28
+  - name: Ritual Focus
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Empathy
+    - Expression
+    - Persuasion
+    book: 'MtA: Signs of Sorcery'
+    page: 55
+  - name: Hone the Perfected Form
+    reqs: Ability:Matter:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Persuasion
+    - Science
+    book: 'MtA: Signs of Sorcery'
+    page: 61
+  - name: Forge Thaumium
+    reqs: Ability:Matter:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Occult
+    - Survival
+    book: 'MtA: Signs of Sorcery'
+    page: 62
+  - name: Forge Sophis
+    reqs: Ability:Matter:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Occult
+    - Science
+    book: 'MtA: Signs of Sorcery'
+    page: 62
+  - name: Forge Dumanium
+    reqs: Ability:Matter:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Expression
+    - Persuasion
+    book: 'MtA: Signs of Sorcery'
+    page: 62
+  - name: Death Touched Item
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Occult
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 64
+  - name: The Right Tool
+    reqs: Ability:Fate:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Expression
+    - Stealth
+    book: 'MtA: Signs of Sorcery'
+    page: 64
+  - name: Perpetual Motion
+    reqs: Ability:Forces:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Science
+    - Survival
+    book: 'MtA: Signs of Sorcery'
+    page: 65
+  - name: Data Hog
+    reqs: Ability:Forces:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Computer
+    - Larceny
+    - Persuasion
+    book: 'MtA: Signs of Sorcery'
+    page: 65
+  - name: Contact High
+    reqs: Ability:Life:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Medicine
+    - Occult
+    - Science
+    book: 'MtA: Signs of Sorcery'
+    page: 65
+  - name: Endless Bounty
+    reqs: Ability:Matter:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Science Streetwise
+    book: 'MtA: Signs of Sorcery'
+    page: 66
+  - name: Give Me That
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Crafts
+    - Empathy
+    - Persuasion
+    book: 'MtA: Signs of Sorcery'
+    page: 66
+  - name: Optimal Container
+    reqs: Ability:Space:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Larceny
+    - Science
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 66
+  - name: Spiritual Tool
+    reqs: Ability:Spirit:3
+    has_spec: true
+    practice: Perfecting
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Occult
+    - Survival
+    book: 'MtA: Signs of Sorcery'
+    page: 66
+  - name: Unliving Vessel
+    reqs: Ability:Death:3 & Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: Resistance
+    rote_skills:
+    - Crafts
+    - Occult
+    - Expression
+    book: 'MtA: Signs of Sorcery'
+    page: 69
+  - name: Rapid Access Memory
+    reqs: Ability:Forces:3 & Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Larceny
+    - Science
+    book: 'MtA: Signs of Sorcery'
+    page: 69
+  - name: Living Vessel
+    reqs: Ability:Life:3 & Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: Stamina
+    rote_skills:
+    - Academics
+    - Medicine
+    - Persuasion
+    book: 'MtA: Signs of Sorcery'
+    page: 69
+  - name: Imbue Room
+    reqs: Ability:Prime:3 & Ability:Space:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Larceny
+    - Occult
+    - Science
+    book: 'MtA: Signs of Sorcery'
+    page: 69
+  - name: Spirit Vessel
+    reqs: Ability:Prime:3 & Ability:Spirit:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: Resistance
+    rote_skills:
+    - Academics
+    - Intimidation
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 69
+  - name: Energize Object
+    reqs: Ability:Forces:3 & Ability:Prime:2
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Expression
+    - Larceny
+    - Science
+    book: 'MtA: Signs of Sorcery'
+    page: 69
+  - name: Spell Potion
+    reqs: Ability:Matter:3 & Ability:Prime:2
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Medicine
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 70
+  - name: Stored Spell
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Academics
+    - Occult
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 70
+  - name: Mana Battery
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Academics
+    - Occult
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 70
+  - name: Primal Transfer
+    reqs: Ability:Prime:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: Composure
+    rote_skills:
+    - Crafts
+    - Empathy
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 71
+  - name: Time Limit
+    reqs: Ability:Time:3 & Ability:Prime:2
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Science
+    - Survival
+    book: 'MtA: Signs of Sorcery'
+    page: 71
+  - name: Steal Life Force
+    reqs: Ability:Life:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: Resolve
+    rote_skills:
+    - Crafts
+    - Medicine
+    - Persuasion
+    book: 'MtA: Signs of Sorcery'
+    page: 72
+  - name: Primary Subject
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: Resolve
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 72
+  - name: Steal Mana
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: Stamina
+    rote_skills:
+    - Expression
+    - Occult
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 72
+  - name: Forced Sympathy
+    reqs: Ability:Space:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: Composure
+    rote_skills:
+    - Empathy
+    - Stealth
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 73
+  - name: Sacrificial Relinquishment
+    reqs: Ability:Death:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Intimidation
+    - Medicine
+    - Streetwise
+    book: 'MtA: Signs of Sorcery'
+    page: 73
+  - name: Broken Relinquishment
+    reqs: Ability:Mind:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 73
+  - name: Reaping Relinquishment
+    reqs: Ability:Death:3
+    has_spec: true
+    practice: Fraying
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Intimidation
+    - Medicine
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 73
+  - name: Reveal Marks
+    reqs: Ability:Prime:3 & Ability:Time:2
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Expression
+    - Investigation
+    book: 'MtA: Signs of Sorcery'
+    page: 74
+  - name: Fracture Grimoire
+    reqs: Ability:Prime:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 1 Mana
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Investigation
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 84
+  - name: Scribe Palimpset
+    reqs: Ability:Prime:3
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 1 Mana
+    withstand: Total Arcanum dots used in the rote + 1
+    rote_skills:
+    - Crafts
+    - Expression
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 84
+  - name: Astral Grimoire
+    reqs: Ability:Mind:3 & Ability:Prime:1
+    has_spec: true
+    practice: Weaving
+    primary_factor: Potency
+    cost: 1 Mana
+    withstand: Total Arcanum dots used in the rote
+    rote_skills:
+    - Crafts
+    - Expression
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 85
+  - name: Living Grimoire
+    reqs: Ability:Life:4 & Ability:Prime:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 1 Mana
+    withstand: Total Arcanum dots used in the rote and Stamina
+    rote_skills:
+    - Crafts
+    - Medicine
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 85
+  - name: Haunted Grimoire
+    reqs: Ability:Spirit:4 & Ability:Prime:1
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 1 Mana
+    withstand: Total Arcanum dots used in the rote and Rank
+    rote_skills:
+    - Crafts
+    - Intimidation
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 86
+  - name: Scribe Daimonomikon
+    reqs: "((Ability:Death:4 | Ability:Fate:4 | Ability:Mind:4 | Ability:Spirit:4)
+      & Ability:Prime:1) | Ability:Prime:4"
+    has_spec: true
+    practice: Patterning
+    primary_factor: Potency
+    cost: 1 Mana
+    withstand: Rank of Attainment + (10 - caster's Gnosis)
+    rote_skills:
+    - Crafts
+    - Expression
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 87
+  - name: Soul Grafting
+    reqs: Ability:Death:4 & Ability:Prime:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 1 Mana
+    withstand: Composure
+    rote_skills:
+    - Crafts
+    - Empathy
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 90
+  - name: Soul Windows
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Investigation
+    - Stealth
+    book: 'MtA: Signs of Sorcery'
+    page: 90
+  - name: Goetic Evocation
+    reqs: Ability:Mind:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Rank of entity evoked
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Persuasion
+    book: 'MtA: Signs of Sorcery'
+    page: 90
+  - name: Transfer Soul Stone
+    reqs: Ability:Prime:4
+    has_spec: true
+    practice: Patterning
+    primary_factor: Duration
+    cost: 
+    withstand: Resolve of soul stone's creator
+    rote_skills:
+    - Crafts
+    - Occult
+    - Persuasion
+    book: 'MtA: Signs of Sorcery'
+    page: 91
+  - name: Supernal Signature
+    reqs: Ability:Prime:1
+    has_spec: true
+    practice: Compelling
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Intimidation
+    - Politics
+    book: 'MtA: Signs of Sorcery'
+    page: 93
+  - name: Sustain Nimbus
+    reqs: Ability:Prime:2 & Ability:Time:1
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Investigation
+    - Survival
+    book: 'MtA: Signs of Sorcery'
+    page: 93
+  - name: Nimbus Forgery
+    reqs: Ability:Prime:2
+    has_spec: true
+    practice: Veiling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Expression
+    - Larceny
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 94
+  - name: Narcissus' Mirror
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Shielding
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Intimidation
+    - Occult
+    - Subterfuge
+    book: 'MtA: Signs of Sorcery'
+    page: 94
+  - name: Nimbus Turning
+    reqs: Ability:Prime:1
+    has_spec: true
+    practice: Knowing
+    primary_factor: Potency
+    cost: 
+    withstand: 
+    rote_skills:
+    - Empathy
+    - Investigation
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 94
+  - name: Unnaming
+    reqs: Ability:Space:5
+    has_spec: true
+    practice: Unmaking
+    primary_factor: Duration
+    cost: 
+    withstand: Composure
+    rote_skills:
+    - Empathy
+    - Expression
+    - Occult
+    book: 'MtA: Signs of Sorcery'
+    page: 94
+  - name: Invisibility Curtain
+    reqs: Ability:Forces:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Duration
+    cost: 
+    withstand: 
+    rote_skills:
+    - Crafts
+    - Stealth
+    - Science
+    book: Creative Thaumaturgy
+    page: Prism
+  - name: Shared Sense
+    reqs: Ability:Mind:2
+    has_spec: true
+    practice: Ruling
+    primary_factor: Potency
+    cost: 
+    withstand: Resolve
+    rote_skills:
+    - Survival
+    - Animal Ken
+    - Empathy
+    book: Creative Thaumaturgy
+    page: Jackson

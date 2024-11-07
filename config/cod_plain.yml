@@ -1,0 +1,26 @@
+---
+cod:
+  plain:
+    sphere: Supernatural
+    power: 
+    resource: 
+    resource_pool: 
+    morality: Integrity
+    start_morality: 7
+    ability: 
+    abilities: 
+    merits: 10
+    anchors:
+    - name: Virtue
+      suggested: Ambitious, Competitive, Courageous, Generous, Honest, Hopeful, Just,
+        Loving, Loyal, Patient, Trustworthy. Custom Virtues should have Willpower
+        details defined in a Ledger Note.
+    - name: Vice
+      suggested: Addictive, Ambitious, Arrogant, Competitive, Corrupt, Cruel, Deceitful,
+        Dogmatic, Greedy, Hasty, Hateful, Pessimistic. Custom Vices should have Willpower
+        details defined in a Ledger Note.
+    classifications: 
+    secondary_desc: 
+    fields: 
+    modifiers:
+    - Merit:Plain Reader:+1

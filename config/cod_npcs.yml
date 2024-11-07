@@ -1,0 +1,1305 @@
+---
+cod:
+  npcs:
+  - name: Angel (Template)
+    group: Ephemeral
+    type: Angel
+    icon: gear-solid.svg
+    sheet:
+      rank: 0
+      power: 0
+      finesse: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      influences: 
+      ban: 
+      bane: 
+      willpower: 0
+      resource_name: Essence
+      resource: 10
+      morality: 7
+  - name: Angel (Low Rank)
+    group: Ephemeral
+    type: Angel
+    icon: gear-solid.svg
+    sheet:
+      rank: 1
+      power: 3
+      finesse: 3
+      resistance: 2
+      attack: 6
+      init: 5
+      defense: 3
+      speed: 11
+      size: 5
+      health: 7
+      influences: 
+      willpower: 5
+      resource_name: Essence
+      resource: 10
+      morality: 7
+  - name: Angel (Mid Rank)
+    group: Ephemeral
+    type: Angel
+    icon: gear-solid.svg
+    sheet:
+      rank: 3
+      power: 9
+      finesse: 7
+      resistance: 9
+      attack: 16
+      init: 16
+      defense: 7
+      speed: 21
+      size: 5
+      health: 14
+      influences: 
+      willpower: 10
+      resource_name: Essence
+      resource: 20
+      morality: 7
+  - name: Angel (High Rank)
+    group: Ephemeral
+    type: Angel
+    icon: gear-solid.svg
+    sheet:
+      rank: 5
+      power: 15
+      finesse: 15
+      resistance: 15
+      attack: 30
+      init: 30
+      defense: 15
+      speed: 35
+      size: 5
+      health: 20
+      influences: 
+      willpower: 10
+      resource_name: Essence
+      resource: 50
+      morality: 7
+  - name: Lare (Template)
+    group: Ephemeral
+    type: Exile
+    icon: gear-solid.svg
+    sheet:
+      rank: 0
+      power: 0
+      finesse: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      structure: 1
+      influences: 
+      ban: 
+      bane: 
+      willpower: 0
+      resource_name: Essence
+      resource: 10
+      morality: 7
+  - name: Changeling (Template)
+    group: Supernatural
+    type: Changeling
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      willpower: 0
+      resource_name: Glamour
+      resource: 10
+      morality_name: Clarity
+      morality: 7
+  - name: Changeling (Squire)
+    group: Supernatural
+    type: Changeling
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 1
+      init: 5
+      health: 6
+      speed: 11
+      willpower: 4
+      resource_name: Glamour
+      resource: 10
+      morality_name: Clarity
+      morality: 5
+      resistance: 2
+      defense: 3
+      attack: 7
+  - name: Changeling (Knight)
+    group: Supernatural
+    type: Changeling
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 2
+      init: 6
+      health: 7
+      speed: 13
+      willpower: 4
+      resource_name: Glamour
+      resource: 11
+      morality_name: Clarity
+      morality: 5
+      resistance: 3
+      defense: 5
+      attack: 8
+  - name: Changeling (Monarch)
+    group: Supernatural
+    type: Changeling
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 3
+      init: 8
+      health: 8
+      speed: 13
+      willpower: 6
+      resource_name: Glamour
+      resource: 12
+      morality_name: Clarity
+      morality: 5
+      resistance: 4
+      defense: 8
+      attack: 11
+  - name: Changeling (Legend)
+    group: Supernatural
+    type: Changeling
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 5
+      init: 10
+      health: 10
+      speed: 15
+      willpower: 8
+      resource_name: Glamour
+      resource: 12
+      resistance: 4
+      defense: 10
+      attack: 15
+  - name: Fae Mount
+    group: Supernatural
+    type: Goblin Beast
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 3
+      intelligence: 1
+      wits: 3
+      resolve: 3
+      strength: 5
+      dexterity: 5
+      stamina: 5
+      presence: 3
+      manipulation: 1
+      composure: 2
+      athletics: 4
+      brawl: 1
+      survival: 2
+      init: 5
+      health: 12
+      speed: 19
+      willpower: 5
+      resource_name: Glamour
+      resource: 12
+      resistance: 4
+      defense: 7
+      bite: 5
+      claw: 6
+  - name: Briarwolf
+    group: Supernatural
+    type: Hobgoblin
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 4
+      intelligence: 2
+      wits: 4
+      resolve: 3
+      strength: 4
+      dexterity: 5
+      stamina: 4
+      presence: 2
+      manipulation: 1
+      composure: 2
+      investigation: 3
+      athletics: 2
+      brawl: 5
+      stealth: 5
+      survival: 4
+      empathy: 4
+      intimidation: 3
+      init: 8
+      health: 9
+      speed: 15
+      willpower: 5
+      resource_name: Glamour
+      resource: 9
+      defense: 6
+      attack: 10
+  - name: Cryptid (Template)
+    group: Supernatural
+    type: Demon
+    icon: gear-solid.svg
+    sheet:
+      rank: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      willpower: 0
+      adaptations: 
+  - name: Demon (Template)
+    group: Supernatural
+    type: Demon
+    icon: gear-solid.svg
+    sheet:
+      primum: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      willpower: 0
+      resource_name: Aether
+      resource: 10
+      morality: 7
+  - name: Ghost (Template)
+    group: Ephemeral
+    type: Ghost
+    icon: ghost-solid.svg
+    sheet:
+      rank: 0
+      power: 0
+      finesse: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      influences: 
+      ban: 
+      bane: 
+      willpower: 0
+      resource_name: Essence
+      resource: 10
+      morality: 7
+  - name: Huntsman (Template)
+    group: Supernatural
+    type: Arcadian
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      willpower: 0
+      resource_name: Glamour
+      resource: 6
+      morality_name: Integrity
+      morality: 7
+      dread_powers: Among the Sheep, Command the Herald, Heart of Iron, Hunter's Panoply
+  - name: Huntsman (Low Wyrd)
+    group: Supernatural
+    type: Arcadian
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 1
+      intelligence: 3
+      wits: 2
+      resolve: 3
+      strength: 5
+      dexterity: 3
+      stamina: 3
+      presence: 2
+      manipulation: 3
+      composure: 3
+      attack: 10
+      init: 6
+      defense: 7
+      speed: 13
+      size: 5
+      health: 8
+      willpower: 6
+      resource_name: Glamour
+      resource: 6
+      morality_name: Integrity
+      morality: 7
+      huntsman_powers: Among the Sheep, Command the Herald, Heart of Iron, Hunter's
+        Panoply
+      dread_powers: 3
+      contracts: 2
+  - name: Huntsman (Mid Wyrd)
+    group: Supernatural
+    type: Arcadian
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 3
+      intelligence: 3
+      wits: 4
+      resolve: 3
+      strength: 6
+      dexterity: 6
+      stamina: 4
+      presence: 3
+      manipulation: 3
+      composure: 3
+      attack: 12
+      init: 9
+      defense: 10
+      speed: 17
+      size: 5
+      health: 9
+      willpower: 6
+      resource_name: Glamour
+      resource: 8
+      morality_name: Integrity
+      morality: 7
+      huntsman_powers: Among the Sheep, Command the Herald, Heart of Iron, Hunter's
+        Panoply
+      dread_powers: 3
+      contracts: 2
+  - name: Huntsman (High Wyrd)
+    group: Supernatural
+    type: Arcadian
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 5
+      intelligence: 4
+      wits: 3
+      resolve: 5
+      strength: 9
+      dexterity: 6
+      stamina: 4
+      presence: 3
+      manipulation: 3
+      composure: 6
+      attack: 18
+      init: 12
+      defense: 12
+      speed: 20
+      size: 5
+      health: 9
+      willpower: 11
+      resource_name: Glamour
+      resource: 10
+      morality_name: Integrity
+      morality: 7
+      huntsman_powers: Among the Sheep, Command the Herald, Heart of Iron, Hunter's
+        Panoply
+      dread_powers: 4
+      contracts: 3
+  - name: Mortal (Template)
+    group: Mortal
+    type: Human
+    icon: star-solid.svg
+    sheet:
+      supernatural_tolerance: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      willpower: 0
+      morality: 7
+  - name: Mortal (Lackey)
+    group: Mortal
+    type: Human
+    icon: star-solid.svg
+    sheet:
+      supernatural_tolerance: 0
+      resistance: 3
+      attack: 5
+      init: 5
+      defense: 3
+      speed: 9
+      size: 5
+      health: 7
+      willpower: 1
+      morality: 7
+  - name: Mortal (Expert)
+    group: Mortal
+    type: Human
+    icon: star-solid.svg
+    sheet:
+      supernatural_tolerance: 2
+      resistance: 5
+      attack: 7
+      init: 7
+      defense: 7
+      speed: 12
+      size: 5
+      health: 7
+      willpower: 2
+      morality: 7
+  - name: Mortal (Boss)
+    group: Mortal
+    type: Human
+    icon: star-solid.svg
+    sheet:
+      supernatural_tolerance: 3
+      resistance: 7
+      attack: 10
+      init: 12
+      defense: 9
+      speed: 15
+      size: 5
+      health: 12
+      willpower: 3
+      morality: 7
+  - name: Nightmare (Minion)
+    group: Horror
+    type: Minion
+    icon: skull-solid.svg
+    sheet:
+      best: 5
+      worst: 0
+      other: 2
+      attack: 5
+      defense: 2
+      resistance: 2
+      init: 5
+      speed: 7
+      size: 5
+      health: 7
+      dread_powers: 3
+      willpower: 2
+  - name: Nightmare (Horde)
+    group: Horror
+    type: Horde
+    icon: skull-solid.svg
+    sheet:
+      best: 7
+      worst: 1
+      other: 3
+      attack: 7
+      defense: 3
+      resistance: 3
+      init: 7
+      speed: 8
+      size: 5
+      health: 9
+      dread_powers: 5
+      willpower: 3
+  - name: Nightmare (Lone Terror)
+    group: Horror
+    type: Lone Terror
+    icon: skull-solid.svg
+    sheet:
+      best: 10
+      worst: 2
+      other: 5
+      attack: 10
+      defense: 5
+      resistance: 5
+      init: 10
+      speed: 10
+      size: 5
+      health: 12
+      dread_powers: 7
+      willpower: 6
+  - name: Horror (Template)
+    group: Supernatural
+    type: Horror
+    icon: skull-solid.svg
+    sheet:
+      supernatural_tolerance: 0
+      potency: 0
+      intelligence: 0
+      wits: 0
+      resolve: 0
+      strength: 0
+      dexterity: 0
+      stamina: 0
+      presence: 0
+      manipulation: 0
+      composure: 0
+      athletics: 0
+      brawl: 0
+      stealth: 0
+      init: 0
+      health: 0
+      speed: 0
+      size: 0
+      willpower: 0
+      resistance: 0
+      defense: 0
+      attack: 0
+  - name: Horror (Low Potency)
+    group: Supernatural
+    type: Horror
+    icon: skull-solid.svg
+    sheet:
+      supernatural_tolerance: 1
+      potency: 1
+      intelligence: 1
+      wits: 1
+      resolve: 2
+      strength: 4
+      dexterity: 4
+      stamina: 3
+      presence: 1
+      manipulation: 1
+      composure: 1
+      athletics: 3
+      brawl: 6
+      stealth: 1
+      init: 5
+      health: 8
+      speed: 13
+      size: 5
+      willpower: 3
+      resistance: 3
+      defense: 4
+      attack: 8
+  - name: Horror (Mid Potency)
+    group: Supernatural
+    type: Horror
+    icon: skull-solid.svg
+    sheet:
+      supernatural_tolerance: 3
+      potency: 3
+      intelligence: 1
+      wits: 1
+      resolve: 2
+      strength: 7
+      dexterity: 6
+      stamina: 4
+      presence: 1
+      manipulation: 2
+      composure: 2
+      athletics: 7
+      brawl: 7
+      stealth: 6
+      init: 8
+      health: 9
+      speed: 18
+      size: 5
+      willpower: 7
+      resistance: 4
+      defense: 8
+  - name: Horror (High Potency)
+    group: Supernatural
+    type: Horror
+    icon: skull-solid.svg
+    sheet:
+      supernatural_tolerance: 5
+      potency: 5
+      intelligence: 3
+      wits: 3
+      resolve: 4
+      strength: 8
+      dexterity: 6
+      stamina: 4
+      presence: 2
+      manipulation: 3
+      composure: 3
+      athletics: 9
+      brawl: 9
+      stealth: 9
+      init: 8
+      health: 11
+      speed: 19
+      size: 5
+      willpower: 10
+      resistance: 7
+      defense: 12
+  - name: Spirit (Template)
+    group: Ephemeral
+    type: Spirit
+    icon: fire-flame-curved-solid.svg
+    sheet:
+      rank: 0
+      power: 0
+      finesse: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      influences: 
+      ban: 
+      bane: 
+      willpower: 0
+      resource_name: Essence
+      resource: 10
+  - name: Spirit of Genius
+    group: Ephemeral
+    type: Spirit
+    icon: fire-flame-curved-solid.svg
+    sheet:
+      rank: 2
+      power: 4
+      finesse: 5
+      resistance: 3
+      attack: 9
+      init: 8
+      defense: 4
+      speed: 13
+      size: 4
+      health: 8
+      influences: Art
+      ban: Cannot damage a work of art
+      bane: Paint Stripper
+      willpower: 8
+      resource_name: Essence
+      resource: 15
+  - name: Vampire (Template)
+    group: Supernatural
+    type: Vampire
+    icon: fangs-solid.svg
+    sheet:
+      blood_potency: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      willpower: 0
+      resource_name: Vitae
+      resource: 10
+      morality: 7
+  - name: Vampire (Neonate)
+    group: Supernatural
+    type: Vampire
+    icon: fangs-solid.svg
+    sheet:
+      blood_potency: 1
+      resistance: 0
+      attack: 6
+      init: 6
+      defense: 2
+      speed: 8
+      size: 5
+      health: 8
+      willpower: 6
+      resource_name: Vitae
+      resource: 11
+      morality: 6
+  - name: Vampire (Ancilla)
+    group: Supernatural
+    type: Vampire
+    icon: fangs-solid.svg
+    sheet:
+      blood_potency: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      willpower: 0
+      resource_name: Vitae
+      resource: 10
+      morality: 7
+  - name: Vampire (Elder)
+    group: Supernatural
+    type: Vampire
+    icon: fangs-solid.svg
+    sheet:
+      blood_potency: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      willpower: 0
+      resource_name: Vitae
+      resource: 10
+      morality: 7
+  - name: Werewolf (Template)
+    group: Supernatural
+    type: Werewolf
+    icon: moon-solid.svg
+    sheet:
+      primal_urge: 0
+      resistance: 0
+      attack: 0
+      init: 0
+      defense: 0
+      speed: 0
+      size: 0
+      health: 6
+      willpower: 0
+      resource_name: Essence
+      resource: 10
+      morality: 7
+  - name: Goblin Beast
+    group: Supernatural
+    type: Hobgoblin
+    icon: leaf-solid.svg
+    sheet:
+      wyrd: 4
+      init: 8
+      health: 8
+      speed: 15
+      willpower: 6
+      resource_name: Glamour
+      resource: 6
+      resistance: 3
+      defense: 5
+      attack: 9
+  - name: Bat
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 0
+      wits: 1
+      resolve: 0
+      strength: 1
+      dexterity: 4
+      stamina: 1
+      presence: 1
+      manipulation: 0
+      composure: 1
+      athletics: 4
+      brawl: 1
+      survival: 3
+      willpower: 1
+      initiative: 9
+      defense: 8
+      speed: 15
+      size: 1
+      health: 2
+      bite: 2
+  - name: Badger
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 3
+      resolve: 3
+      strength: 2
+      dexterity: 3
+      stamina: 5
+      presence: 2
+      manipulation: 1
+      composure: 2
+      athletics: 4
+      brawl: 3
+      intimidation: 1
+      stealth: 2
+      survival: 4
+      willpower: 5
+      initiative: 5
+      defense: 7
+      speed: 9
+      size: 3
+      health: 9
+      bite: 5
+  - name: Bear
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 2
+      resolve: 4
+      strength: 6
+      dexterity: 2
+      stamina: 4
+      presence: 3
+      manipulation: 1
+      composure: 4
+      athletics: 3
+      brawl: 4
+      intimidation: 3
+      survival: 3
+      willpower: 5
+      initiative: 6
+      defense: 5
+      speed: 13
+      size: 7
+      health: 11
+      bite: 10
+      claw: 10
+  - name: Cat (Domestic)
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 4
+      resolve: 3
+      strength: 1
+      dexterity: 5
+      stamina: 3
+      presence: 3
+      manipulation: 1
+      composure: 3
+      athletics: 4
+      brawl: 2
+      stealth: 3
+      willpower: 6
+      initiative: 8
+      defense: 9
+      speed: 13
+      size: 2
+      health: 5
+      bite: 3
+      claw: 3
+  - name: Cat (Great)
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 4
+      resolve: 4
+      strength: 5
+      dexterity: 4
+      stamina: 3
+      presence: 3
+      manipulation: 1
+      composure: 3
+      athletics: 4
+      brawl: 4
+      intimidation: 3
+      stealth: 3
+      survival: 3
+      willpower: 7
+      initiative: 8
+      defense: 8
+      speed: 16
+      size: 5
+      health: 8
+      bite: 9
+      claw: 10
+  - name: Chimpanzee
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 2
+      wits: 3
+      resolve: 2
+      strength: 5
+      dexterity: 4
+      stamina: 3
+      presence: 2
+      manipulation: 2
+      composure: 4
+      athletics: 3
+      brawl: 3
+      intimidation: 3
+      survival: 3
+      willpower: 6
+      initiative: 8
+      defense: 7
+      speed: 13
+      size: 4
+      health: 7
+      bite: 9
+  - name: Coyote
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 4
+      resolve: 4
+      strength: 3
+      dexterity: 3
+      stamina: 3
+      presence: 4
+      manipulation: 1
+      composure: 3
+      athletics: 4
+      brawl: 3
+      intimidation: 3
+      stealth: 2
+      survival: 4
+      willpower: 7
+      initiative: 6
+      defense: 8
+      speed: 13
+      size: 3
+      bite: 6
+      health: 6
+  - name: Crocodoile
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 2
+      resolve: 3
+      strength: 4
+      dexterity: 1
+      stamina: 4
+      presence: 2
+      manipulation: 1
+      composure: 4
+      athletics: 3
+      brawl: 3
+      intimidation: 3
+      stealth: 2
+      survival: 3
+      willpower: 7
+      initiative: 6
+      defense: 5
+      speed: 10
+      size: 4
+      health: 9
+      bite: 7
+  - name: Deer
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 3
+      resolve: 3
+      strength: 3
+      dexterity: 3
+      stamina: 3
+      presence: 3
+      manipulation: 1
+      composure: 3
+      athletics: 3
+      brawl: 3
+      intimidation: 2
+      survival: 2
+      willpower: 6
+      initiative: 6
+      defense: 6
+      speed: 14
+      size: 6
+      health: 9
+      antlers: 7
+  - name: Dog (Large)
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 4
+      resolve: 4
+      strength: 4
+      dexterity: 3
+      stamina: 3
+      presence: 4
+      manipulation: 1
+      composure: 3
+      athletics: 4
+      brawl: 3
+      intimidation: 3
+      stealth: 1
+      survival: 3
+      willpower: 7
+      initiative: 6
+      defense: 8
+      speed: 14
+      size: 4
+      health: 7
+      bite: 6
+  - name: Dog (Small)
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 4
+      resolve: 4
+      strength: 2
+      dexterity: 3
+      stamina: 3
+      presence: 3
+      manipulation: 1
+      composure: 3
+      athletics: 3
+      brawl: 2
+      intimidation: 1
+      stealth: 1
+      survival: 3
+      willpower: 7
+      initiative: 6
+      defense: 7
+      speed: 11
+      size: 2
+      health: 5
+      bite: 4
+  - name: Elephant
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 2
+      resolve: 3
+      strength: 9
+      dexterity: 2
+      stamina: 7
+      presence: 2
+      manipulation: 1
+      composure: 3
+      athletics: 2
+      brawl: 3
+      intimidation: 3
+      survival: 3
+      willpower: 6
+      initiative: 5
+      defense: 4
+      speed: 15
+      size: 15
+      health: 22
+      tusk: 13
+      trample: 12
+  - name: Fox
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 4
+      resolve: 3
+      strength: 1
+      dexterity: 4
+      stamina: 3
+      presence: 2
+      manipulation: 1
+      composure: 3
+      athletics: 4
+      brawl: 3
+      intimidation: 1
+      stealth: 3
+      survival: 3
+      willpower: 5
+      initiative: 7
+      defense: 8
+      speed: 13
+      size: 2
+      health: 5
+      bite: 4
+  - name: Horse
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 3
+      resolve: 3
+      strength: 5
+      dexterity: 3
+      stamina: 5
+      presence: 3
+      manipulation: 1
+      composure: 2
+      athletics: 4
+      brawl: 1
+      survival: 2
+      willpower: 5
+      initiative: 5
+      defense: 7
+      speed: 19
+      size: 7
+      health: 12
+      bite: 5
+      hoof: 6
+  - name: Owl
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 2
+      resolve: 3
+      strength: 1
+      dexterity: 3
+      stamina: 2
+      presence: 3
+      manipulation: 1
+      composure: 3
+      athletics: 3
+      brawl: 2
+      intimidation: 2
+      stealth: 2
+      survival: 3
+      willpower: 6
+      initiative: 6
+      defense: 6
+      speed: 14
+      size: 2
+      health: 4
+      beak: 3
+      talons: 3
+  - name: Rat
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 3
+      resolve: 2
+      strength: 1
+      dexterity: 4
+      stamina: 2
+      presence: 1
+      manipulation: 2
+      composure: 2
+      athletics: 3
+      stealth: 4
+      survival: 1
+      willpower: 4
+      initiative: 5
+      defense: 7
+      speed: 6
+      health: 3
+      bite: 1
+  - name: Raven
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 2
+      wits: 4
+      resolve: 4
+      strength: 1
+      dexterity: 3
+      stamina: 2
+      presence: 3
+      manipulation: 1
+      composure: 3
+      athletics: 3
+      brawl: 1
+      intimidation: 2
+      survival: 3
+      willpower: 7
+      initiative: 6
+      defense: 7
+      speed: 14
+      size: 2
+      health: 4
+      beak: 2
+  - name: Snake
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 2
+      resolve: 3
+      strength: 1
+      dexterity: 3
+      stamina: 1
+      presence: 3
+      manipulation: 1
+      composure: 4
+      athletics: 1
+      brawl: 1
+      intimidation: 2
+      stealth: 4
+      survival: 3
+      willpower: 7
+      initiative: 7
+      defense: 4
+      speed: 6
+      size: 2
+      health: 3
+      bite: 2
+  - name: Toad
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 0
+      wits: 2
+      resolve: 1
+      strength: 1
+      dexterity: 3
+      stamina: 1
+      presence: 1
+      manipulation: 1
+      composure: 3
+      athletics: 2
+      survival: 3
+      willpower: 4
+      initiative: 5
+      defense: 5
+      speed: 6
+      size: 1
+      health: 2
+  - name: Weasel
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 2
+      resolve: 2
+      strength: 1
+      dexterity: 3
+      stamina: 2
+      presence: 2
+      manipulation: 1
+      composure: 2
+      athletics: 2
+      brawl: 1
+      intimidation: 1
+      stealth: 4
+      survival: 3
+      willpower: 4
+      initiative: 5
+      defense: 5
+      speed: 11
+      size: 2
+      health: 4
+      bite: 2
+  - name: Wolf
+    group: Beast
+    type: Animal
+    icon: paw-solid.svg
+    sheet:
+      intelligence: 1
+      wits: 4
+      resolve: 4
+      strength: 4
+      dexterity: 3
+      stamina: 3
+      presence: 4
+      manipulation: 1
+      composure: 3
+      athletics: 4
+      brawl: 3
+      intimidation: 3
+      stealth: 2
+      survival: 4
+      willpower: 7
+      initiative: 6
+      defense: 8
+      speed: 14
+      size: 4
+      health: 7
+      bite: 7

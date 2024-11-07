@@ -1,0 +1,22 @@
+---
+cod:
+  lost_boy:
+    sphere: Supernatural
+    power: 
+    resource: 
+    resource_pool: 
+    morality: Integrity
+    start_morality: 7
+    ability: 
+    abilities: 
+    merits: 10
+    anchors:
+    - name: Virtue
+      suggested: Competitive, Generous, Just, Loyal
+    - name: Vice
+      suggested: Ambitious, Arrogant, Competitive, Greedy
+    classifications: 
+    secondary_desc: 
+    fields: 
+    modifiers:
+    - Merit:The Protocol:+1

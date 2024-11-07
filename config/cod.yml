@@ -1,0 +1,96 @@
+---
+cod:
+  census_fields:
+  - field: primary
+    width: 20
+    value: primary
+  - field: secondary
+    width: 20
+    value: secondary
+  - field: tertiary
+    width: 20
+    value: tertiary
+  client:
+    override_health_box: true
+    override_combat_bar: true
+  max_xp: 100
+  periodic_xp: 1.2
+  starting_xp: 10.0
+  xp_costs:
+    attribute: 4
+    skill: 2
+    specialty: 1
+    merit: 1
+  stat_ranges:
+    attribute:
+      min: 1
+      max: 5
+    skill:
+      min: 0
+      max: 5
+    merit:
+      min: 0
+      max: 5
+  shortcuts:
+    wounds: wound/list
+    wounded: wound/list
+  show_sheet: true
+  char_settings:
+    dice:
+      use: true
+      use_others: true
+      use_others_themes: true
+      sounds: false
+      volume: 100
+      theme_material: plastic
+      theme_texture: marble
+      background: '#21213b'
+      foreground: '#ffffff'
+    options:
+      theme_material: [none, metal, wood, glass, plastic]
+      theme_texture:
+        [
+          none,
+          cloudy,
+          cloudy_2,
+          fire,
+          marble,
+          water,
+          ice,
+          paper,
+          speckles,
+          glitter,
+          glitter_2,
+          stars,
+          stainedglass,
+          wood,
+          metal,
+          skulls,
+          leopard,
+          tiger,
+          cheetah,
+          dragon,
+          liard,
+          bird,
+          astral,
+          acleaf,
+          thecage,
+          isabelle,
+          bronze01,
+          bronze02,
+          bronze03,
+          bronze03a,
+          bronze03b,
+          bronze04
+        ]
+  species:
+    human:
+      size: 5
+      speed: 5
+  xp_cron:
+    day_of_week:
+    - Sat
+    hour:
+    - 23
+    minute:
+    - 0

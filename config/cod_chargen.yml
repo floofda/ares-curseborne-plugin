@@ -1,0 +1,47 @@
+---
+cod:
+  chargen:
+    attr_category_points:
+      primary: 5
+      secondary: 4
+      tertiary: 3
+    max_attr: 5
+    min_attr: 1
+    min_skill: 0
+    max_skill: 5
+    skill_category_points:
+      primary: 11
+      secondary: 7
+      tertiary: 4
+    specialties: 3
+    allowed_templates:
+    - Changeling
+    - Demon
+    - Mage
+    - Mortal
+    - Atariya
+    - Fae-Touched
+    - Proximus
+    - Psychic Vampire
+    - Sleepwalker
+    - Stigmatic
+    m_plus:
+    - Atariya
+    - Psychic Vampire
+    - Sleepwalker
+    - Stigmatic
+    attributes_blurb: 'There are three categories of attributes: Mental, Physical
+      and Social. Prioritize each category according to your character needs, distributing
+      5, 4, 3 dots respectively to each of your primary, secondary and tertiary priorities.
+      All attributes start with 1 dot for free and cannot go below that. No attribute
+      can go higher than 5 at this point.'
+    skills_blurb: As with attributes, there are three categories of skills with each
+      prioritized according to your character. Spend 11 points in your primary category,
+      7 in your secondary and 4 in your tertiary. No skill can go higher than 5 at
+      this point. Skill specialties should be kept succinct, one or two words in most  circumstances.
+      If you need more space or would like to further clarify, please make use of
+      the Notes tab of the Ledger pane in your Profile.
+    merits_blurb: 'You can add and delete merits and must spend all your merit points.
+      Merits requiring additional info should be kept succinct, one or two words in
+      most  circumstances. If you need more space, such as with Professional Training,  please
+      make use of the Notes tab of the Ledger pane in your Profile. Points to spend: '

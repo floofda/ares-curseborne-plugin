@@ -1,0 +1,843 @@
+---
+cod:
+  embeds:
+  - name: Across A Crowded Room
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Subterfuge
+    action: Instant
+    book: Demon the Descent
+    page: 148
+  - name: Alibi
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Stealth
+    action: Instant
+    book: Demon the Descent
+    page: 139
+  - name: Ambush
+    group: Embed
+    category: Instrumental
+    pool: Wits + Stealth
+    action: Instant
+    book: Demon the Descent
+    page: 132
+  - name: Anarchism
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Politics - Composure
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 94
+  - name: Animal Communication
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Animal Ken
+    action: Instant
+    book: Demon the Descent
+    page: 148
+  - name: Animal Messenger
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Animal Ken
+    action: Instant
+    book: Demon the Descent
+    page: 148
+  - name: Apple of Discord
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Expression Vs. Integrity
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 93
+  - name: Associate And Integrate
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Socialize
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 100
+  - name: Authorized
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Intimidation - highest Intelligence present
+    action: Instant
+    book: Demon the Descent
+    page: 140
+  - name: Borrowed Expertise
+    group: Embed
+    category: Vocal
+    pool: Manipulation + (Skill granted)
+    action: Instant
+    book: Demon the Descent
+    page: 149
+  - name: Breakdown
+    group: Embed
+    category: Cacophony
+    pool: Wits + Medicine - Resolve
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 94
+  - name: Bystander Effect
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Intimidation
+    action: Reflexive
+    book: Demon the Descent
+    page: 125
+  - name: Call Out
+    group: Embed
+    category: Instrumental
+    pool: Manipulation + Intimidation vs. target's Presence + Supernatural Tolerance
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 97
+  - name: Cause and Effect
+    group: Embed
+    category: Cacophony
+    pool: Wits + (Any Skill)
+    action: Instant
+    book: Demon the Descent
+    page: 125
+  - name: Check Backdrop
+    group: Embed
+    category: Instrumental
+    pool: Manipulation + Firearms
+    action: Instant
+    book: Demon the Descent
+    page: 133
+  - name: Clothes Make The Man
+    group: Embed
+    category: Mundane
+    pool: Wits + Persuasion vs. highest Wits + Target Skill among all witnesses
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 101
+  - name: Combustion
+    group: Embed
+    category: Cacophony
+    pool: Wits + Science
+    action: Instant
+    book: Demon the Descent
+    page: 126
+  - name: Common Misconception
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Science
+    action: 
+    book: Demon the Descent
+    page: 149
+  - name: Cool Heads Prevail
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Empathy - Composure
+    action: Instant
+    book: Demon the Descent
+    page: 126
+  - name: Cuckoo's Egg
+    group: Embed
+    category: Mundane
+    pool: Dexterity + Larceny
+    action: Instant
+    book: Demon the Descent
+    page: 140
+  - name: Data Retrieval
+    group: Embed
+    category: Instrumental
+    pool: Wits + Computer
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 97
+  - name: Data Wipe
+    group: Embed
+    category: Instrumental
+    pool: Wits + Computer
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 98
+  - name: Deafen
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Medicine - Stamina
+    action: Instant
+    book: Demon the Descent
+    page: 126
+  - name: Deep Cover
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Occult
+    action: Reflexive
+    book: 'DtD: Flowers of Hell'
+    page: 101
+  - name: Devil's Advocate
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Subterfuge - Resolve
+    action: Instant
+    book: Demon the Descent
+    page: 126
+  - name: Diversion
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Expression
+    action: Instant
+    book: Demon the Descent
+    page: 140
+  - name: Don't I Know You
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Subterfuge - Resolve
+    action: Instant
+    book: Demon the Descent
+    page: 141
+  - name: Download Knowledge
+    group: Embed
+    category: Instrumental
+    pool: Wits + Computer
+    action: Instant
+    book: Demon the Descent
+    page: 133
+  - name: Earworm
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Expression - Composure
+    action: Instant
+    book: Demon the Descent
+    page: 142
+  - name: Eavesdrop
+    group: Embed
+    category: Vocal
+    pool: Wits + Empathy
+    action: Instant
+    book: Demon the Descent
+    page: 149
+  - name: Efficiency
+    group: Embed
+    category: Instrumental
+    pool: Wits + Academics
+    action: Reflexive
+    book: Demon the Descent
+    page: 133
+  - name: Ellipses
+    group: Embed
+    category: Instrumental
+    pool: Manipulation + Expression
+    action: Instant
+    book: Demon the Descent
+    page: 133
+  - name: Everybody Knows
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Subterfuge
+    action: Instant
+    book: Demon the Descent
+    page: 150
+  - name: Find The Leak
+    group: Embed
+    category: Vocal
+    pool: Wits + Empathy
+    action: Instant
+    book: Demon the Descent
+    page: 150
+  - name: Fire Drill
+    group: Embed
+    category: Cacophony
+    pool: Wits + Science
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 94
+  - name: Fractal Reality
+    group: Embed
+    category: Cacophony
+    pool: Wits + Science
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 95
+  - name: Freeze Assets
+    group: Embed
+    category: Instrumental
+    pool: Manipulation + Academics - target's Resources
+    action: Instant
+    book: Demon the Descent
+    page: 134
+  - name: Freudian Slip
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Empathy
+    action: Instant
+    book: Demon the Descent
+    page: 150
+  - name: Fulcrum Point
+    group: Embed
+    category: Instrumental
+    pool: Wits + Science
+    action: Instant
+    book: Demon the Descent
+    page: 135
+  - name: Functional Identity
+    group: Embed
+    category: Instrumental
+    pool: Wits + Crafts
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 98
+  - name: Fungible Knowledge
+    group: Embed
+    category: Instrumental
+    pool: Wits + Academics
+    action: Instant
+    book: Demon the Descent
+    page: 135
+  - name: Going Native
+    group: Embed
+    category: Mundane
+    pool: Wits + Socialize
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 102
+  - name: Heart's Desire
+    group: Embed
+    category: Vocal
+    pool: Wits + Empathy - Composure
+    action: Instant
+    book: Demon the Descent
+    page: 151
+  - name: Hesitation
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Intimidation - Resolve
+    action: Reflexive
+    book: Demon the Descent
+    page: 127
+  - name: High Of Birth
+    group: Embed
+    category: Instrumental
+    pool: Manipulation + Politics
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 98
+  - name: Homogenous Memory
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Subterfuge - Resolve
+    action: Instant
+    book: Demon the Descent
+    page: 142
+  - name: Hush
+    group: Embed
+    category: Cacophony
+    pool: Dexterity + Brawl - Defense
+    action: Reflexive
+    book: Demon the Descent
+    page: 127
+  - name: Identity Theft
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Subterfuge
+    action: Instant
+    book: Demon the Descent
+    page: 142
+  - name: Idle Conversation
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Socialize
+    action: Instant
+    book: Demon the Descent
+    page: 143
+  - name: Imagine
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Persuasion
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 105
+  - name: In My Pocket
+    group: Embed
+    category: Mundane
+    pool: Dexterity + Larceny
+    action: Instant
+    book: Demon the Descent
+    page: 143
+  - name: Interference
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Subterfuge
+    action: Instant
+    book: Demon the Descent
+    page: 144
+  - name: Just Bruised
+    group: Embed
+    category: Cacophony
+    pool: Wits + Medicine
+    action: Reflexive
+    book: Demon the Descent
+    page: 128
+  - name: Knock-Off
+    group: Embed
+    category: Instrumental
+    pool: Dexterity + Larceny
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 99
+  - name: Knockout Punch
+    group: Embed
+    category: Cacophony
+    pool: Dexterity + Brawl - Defense
+    action: Instant
+    book: Demon the Descent
+    page: 129
+  - name: Last Place You Look
+    group: Embed
+    category: Mundane
+    pool: Wits + Larceny
+    action: Instant
+    book: Demon the Descent
+    page: 144
+  - name: Left or Right?
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Science
+    action: Instant
+    book: Demon the Descent
+    page: 129
+  - name: Like I Built It
+    group: Embed
+    category: Instrumental
+    pool: Wits + Crafts
+    action: Instant
+    book: Demon the Descent
+    page: 135
+  - name: Like The Movies
+    group: Embed
+    category: Mundane
+    pool: Wits + Academics
+    action: Reflexive
+    book: 'DtD: Flowers of Hell'
+    page: 102
+  - name: Living Recorder
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Investigation
+    action: Instant
+    book: Demon the Descent
+    page: 145
+  - name: Loose Lips
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Socialize - Stamina
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 106
+  - name: Lost In The Crowd
+    group: Embed
+    category: Mundane
+    pool: Wits + Stealth
+    action: Instant
+    book: Demon the Descent
+    page: 145
+  - name: Lucky Break
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Occult
+    action: Instant
+    book: Demon the Descent
+    page: 129
+  - name: Marco Polo
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Persuasion - Composure
+    action: Instant
+    book: Demon the Descent
+    page: 151
+  - name: Meaningless
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Academics
+    action: Instant
+    book: Demon the Descent
+    page: 145
+  - name: Merciless Gunman
+    group: Embed
+    category: Cacophony
+    pool: Dexterity + Firearms
+    action: Instant
+    book: Demon the Descent
+    page: 130
+  - name: Mercury Retrograde
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Subterfuge - highest Wits present
+    action: Instant
+    book: Demon the Descent
+    page: 151
+  - name: Miles Away
+    group: Embed
+    category: Instrumental
+    pool: Wits + Expression
+    action: Reflexive
+    book: Demon the Descent
+    page: 136
+  - name: Mistaken Identity
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Persuasion - highest Composure of targets
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 103
+  - name: Momentum
+    group: Embed
+    category: Instrumental
+    pool: Wits + Science
+    action: Reflexive
+    book: Demon the Descent
+    page: 136
+  - name: Muse
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Expression - Resolve
+    action: Instant
+    book: Demon the Descent
+    page: 152
+  - name: Never Here
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Stealth - Resolve
+    action: Instant
+    book: Demon the Descent
+    page: 146
+  - name: No Quarter
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Brawl vs. Resolve + Supernatural Tolerance
+    action: Instant
+    book: Demon the Descent
+    page: 130
+  - name: Occam's Razor
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Persuasion
+    action: Instant
+    book: Demon the Descent
+    page: 146
+  - name: On the Mend
+    group: Embed
+    category: Cacophony
+    pool: Wits + Medicine
+    action: Instant
+    book: Demon the Descent
+    page: 131
+  - name: Open Sesame
+    group: Embed
+    category: Instrumental
+    pool: Wits + Larceny - applicable penalty
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 99
+  - name: Password Entropy
+    group: Embed
+    category: Cacophony
+    pool: Wits + Computer
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 95
+  - name: Persistent Legend
+    group: Embed
+    category: Mundane
+    pool: Wits + Academics
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 103
+  - name: Play Possum
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Medicine
+    action: Reflexive
+    book: 'DtD: Flowers of Hell'
+    page: 96
+  - name: Quick Change
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Subterfuge
+    action: Instant
+    book: Demon the Descent
+    page: 146
+  - name: Raw Materials
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Crafts
+    action: Instant
+    book: Demon the Descent
+    page: 131
+  - name: Read Hostility
+    group: Embed
+    category: Instrumental
+    pool: Wits + Subterfuge
+    action: Instant
+    book: Demon the Descent
+    page: 137
+  - name: Recurring Hallucinations
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Occult - Resolve
+    action: Instant
+    book: Demon the Descent
+    page: 153
+  - name: Remote Link-Up
+    group: Embed
+    category: Vocal
+    pool: Wits + Socialize
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 107
+  - name: Rhetoric
+    group: Embed
+    category: Vocal
+    pool: Wits + Socialize
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 107
+  - name: Right Tools, Right Job
+    group: Embed
+    category: Instrumental
+    pool: Wits + Crafts
+    action: Instant
+    book: Demon the Descent
+    page: 137
+  - name: Ripple
+    group: Embed
+    category: Cacophony
+    pool: Wits + Science
+    action: Reflexive
+    book: 'DtD: Flowers of Hell'
+    page: 96
+  - name: Sabotage
+    group: Embed
+    category: Cacophony
+    pool: Dexterity + Crafts
+    action: Instant
+    book: Demon the Descent
+    page: 131
+  - name: Shatter
+    group: Embed
+    category: Cacophony
+    pool: Wits + Crafts
+    action: Instant
+    book: Demon the Descent
+    page: 131
+  - name: Shift Consequence
+    group: Embed
+    category: Instrumental
+    pool: Manipulation + Occult - any Resistance trait (ST's discretion)
+    action: Instant
+    book: Demon the Descent
+    page: 137
+  - name: Shifty Eyes
+    group: Embed
+    category: Cacophony
+    pool: Manipulation + Subterfuge - Resolve
+    action: Instant
+    book: Demon the Descent
+    page: 132
+  - name: Social Dynamics
+    group: Embed
+    category: Vocal
+    pool: Wits + Socialize
+    action: Instant
+    book: Demon the Descent
+    page: 153
+  - name: Social Engineering
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Persuasion
+    action: Instant and contested
+    book: 'DtD: Flowers of Hell'
+    page: 107
+  - name: Soup Up
+    group: Embed
+    category: Instrumental
+    pool: Dexterity + Drive - modification penalties
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 99
+  - name: Special Message
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Expression
+    action: Instant
+    book: Demon the Descent
+    page: 153
+  - name: Special Someone
+    group: Embed
+    category: Cacophony
+    pool: Wits + Empathy
+    action: Instant
+    book: Demon the Descent
+    page: 132
+  - name: Strength Through Adversity
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Intimidation - Resolve
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 108
+  - name: Strike First
+    group: Embed
+    category: Instrumental
+    pool: Wits + Brawl
+    action: Reflexive
+    book: Demon the Descent
+    page: 138
+  - name: Sum Of All Fears
+    group: Embed
+    category: Vocal
+    pool: Wits + Empathy - Composure
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 108
+  - name: Synthesis
+    group: Embed
+    category: Instrumental
+    pool: Wits + Investigation
+    action: Instant
+    book: Demon the Descent
+    page: 138
+  - name: Tag and Release
+    group: Embed
+    category: Instrumental
+    pool: Dexterity + Expression
+    action: Instant
+    book: Demon the Descent
+    page: 138
+  - name: The Look
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Intimidation - Stamina
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 105
+  - name: The Map Is Not The Territory
+    group: Embed
+    category: Instrumental
+    pool: Manipulation + Academics - Intelligence
+    action: Instant
+    book: Demon the Descent
+    page: 136
+  - name: The Only Word That Matters
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Expression - Composure
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 106
+  - name: The Voting Dead
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Politics
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 103
+  - name: Tools Into Toys
+    group: Embed
+    category: Instrumental
+    pool: Manipulation + Crafts
+    action: Instant
+    book: Demon the Descent
+    page: 139
+  - name: Tower Of Babel
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Socialize
+    action: Instant
+    book: Demon the Descent
+    page: 154
+  - name: Trick Of The Light
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Investigation - Wits
+    action: Instant
+    book: Demon the Descent
+    page: 154
+  - name: Trip
+    group: Embed
+    category: Cacophony
+    pool: Wits + Athletics - Dexterity
+    action: Reflexive
+    book: 'DtD: Flowers of Hell'
+    page: 96
+  - name: Trivia
+    group: Embed
+    category: Instrumental
+    pool: Manipulation + Expression
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 100
+  - name: Trust No One
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Subterfuge - Resolve
+    action: Instant
+    book: Demon the Descent
+    page: 155
+  - name: Turn Blade
+    group: Embed
+    category: Instrumental
+    pool: Wits + Weaponry
+    action: Reflexive
+    book: Demon the Descent
+    page: 139
+  - name: Unperson
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Subterfuge - Composure
+    action: Instant
+    book: Demon the Descent
+    page: 147
+  - name: Victory At Any Price
+    group: Embed
+    category: Cacophony
+    pool: Wits + Science
+    action: Reflexive
+    book: 'DtD: Flowers of Hell'
+    page: 97
+  - name: Voice Of The Machine
+    group: Embed
+    category: Vocal
+    pool: Wits + Crafts
+    action: Instant
+    book: Demon the Descent
+    page: 155
+  - name: Vox
+    group: Embed
+    category: Vocal
+    pool: Manipulation + Expression
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 109
+  - name: Wasted Time
+    group: Embed
+    category: Instrumental
+    pool: Wits + Science
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 100
+  - name: Wave Function Collapse
+    group: Embed
+    category: Mundane
+    pool: Dexterity + Brawl vs. Stamina + Supernatural Tolerance
+    action: Instant
+    book: 'DtD: Flowers of Hell'
+    page: 104
+  - name: Without A Trace
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Investigation
+    action: Instant
+    book: Demon the Descent
+    page: 147
+  - name: You Can Tell Me
+    group: Embed
+    category: Mundane
+    pool: Manipulation + Empathy - Composure
+    action: Reflexive
+    book: 'DtD: Flowers of Hell'
+    page: 105

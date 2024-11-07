@@ -1,0 +1,166 @@
+---
+cod:
+  mage:
+    sphere: Mage
+    power:
+      name: Gnosis
+      min: 1
+      max: 5
+      cg_min: 1
+      cg_max: 3
+    resource: Mana
+    resource_pool:
+    - 5
+    - 10
+    - 11
+    - 12
+    - 13
+    - 15
+    - 20
+    - 25
+    - 30
+    - 50
+    - 75
+    morality: Wisdom
+    start_morality: 7
+    xp_max_arcana: 5
+    xp_costs:
+      gnosis: 5
+      blessing: [1, 2, 3]
+      arcana: 4
+      over_arcana: 5
+      rote: 1
+    abilities:
+    - name: Arcanum
+      plural: Arcana
+      key: arcana
+      config: arcana
+      has_rating: true
+    - name: Rote
+      plural: Rotes
+      key: rotes
+      config: rotes
+      spec_required: true
+    - name: Praxis
+      plural: Praxes
+      key: praxes
+      config: rotes
+    merits: 10
+    arcana:
+      min: 0
+      max: 3
+      total: 6
+    rotes: 3
+    praxes: 3
+    classifications:
+      primary: Path
+      secondary: Order
+    secondary_desc: Nimbus
+    mage_ability_blurb: |-
+      Your character starts with 6 dots in arcana, only one of which can be at 3,
+      3-5 dots must be from Ruling Arcana and both Ruling Arcana must have at least
+      one dot. No starting dots can go to Inferior Arcana. Additionally, your character
+      starts with 3 rotes from amongst Arcana your character can cast. Finally, select
+      one praxis per dot in Gnosis. NOTE: Praxis and Rote selections will only appear with
+      Arcana dots selected.
+    anchors:
+    - name: Virtue
+      suggested: Ambitious, Competitive, Courageous, Generous, Honest, Hopeful, Just,
+        Loving, Loyal, Patient, Trustworthy. Custom Virtues should have Willpower
+        details defined in a Ledger Note.
+    - name: Vice
+      suggested: Addictive, Ambitious, Arrogant, Competitive, Corrupt, Cruel, Deceitful,
+        Dogmatic, Greedy, Hasty, Hateful, Pessimistic. Custom Vices should have Willpower
+        details defined in a Ledger Note.
+    path:
+    - name: Acanthus
+      ruling_arcana:
+      - Time
+      - Fate
+      inferior_arcana:
+      - Forces
+    - name: Mastigos
+      ruling_arcana:
+      - Space
+      - Mind
+      inferior_arcana:
+      - Matter
+    - name: Moros
+      ruling_arcana:
+      - Matter
+      - Death
+      inferior_arcana:
+      - Spirit
+    - name: Obrimos
+      ruling_arcana:
+      - Forces
+      - Prime
+      inferior_arcana:
+      - Death
+    - name: Thyrsus
+      ruling_arcana:
+      - Life
+      - Spirit
+      inferior_arcana:
+      - Mind
+    order:
+    - name: Adamantine Arrow
+      rote_skills:
+      - Athletics
+      - Intimidation
+      - Medicine
+      modifiers:
+      - Skill:Occult:+1
+      - Merit:Order Status.Adamantine Arrow:+1
+      - Merit:High Speech:+1
+    - name: Free Council
+      rote_skills:
+      - Crafts
+      - Persuasion
+      - Science
+      modifiers:
+      - Skill:Occult:+1
+      - Merit:Order Status.Free Council:+1
+      - Merit:High Speech:+1
+    - name: Guardians of the Veil
+      rote_skills:
+      - Investigation
+      - Stealth
+      - Subterfuge
+      modifiers:
+      - Skill:Occult:+1
+      - Merit:Order Status.Guardians of the Veil:+1
+      - Merit:High Speech:+1
+    - name: Mysterium
+      rote_skills:
+      - Investigation
+      - Occult
+      - Survival
+      modifiers:
+      - Skill:Occult:+1
+      - Merit:Order Status.Mysterium:+1
+      - Merit:High Speech:+1
+    - name: Silver Ladder
+      rote_skills:
+      - Expression
+      - Persuasion
+      - Subterfuge
+      modifiers:
+      - Skill:Occult:+1
+      - Merit:Order Status.Silver Ladder:+1
+      - Merit:High Speech:+1
+    - name: Nameless
+    fields:
+    - name: Resistance Attribute
+      display: false
+      desc: Choose a Resitance Attribute to receive a free dot.
+      values:
+      - name: Stamina
+        modifiers:
+        - Attribute:Stamina:+1
+      - name: Resolve
+        modifiers:
+        - Attribute:Resolve:+1
+      - name: Composure
+        modifiers:
+        - Attribute:Composure:+1

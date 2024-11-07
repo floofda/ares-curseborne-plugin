@@ -1,0 +1,30 @@
+---
+cod:
+  attributes:
+    - name: Intelligence
+      category: mental
+      type: power
+    - name: Wits
+      category: mental
+      type: finesse
+    - name: Resolve
+      category: mental
+      type: resistance
+    - name: Strength
+      category: physical
+      type: power
+    - name: Dexterity
+      category: physical
+      type: finesse
+    - name: Stamina
+      category: physical
+      type: resistance
+    - name: Presence
+      category: social
+      type: power
+    - name: Manipulation
+      category: social
+      type: finesse
+    - name: Composure
+      category: social
+      type: resistance

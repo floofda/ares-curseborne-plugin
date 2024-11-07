@@ -1,0 +1,77 @@
+---
+cod:
+  proximus:
+    sphere: Mage
+    power:
+      name: Gnosis
+      min: 0
+      max: 0
+    resource: Mana
+    resource_pool:
+    - 5
+    modifiers:
+    - Merit:Sleepwalker:+1
+    morality: Integrity
+    start_morality: 7
+    abilities:
+    - name: Blessing
+      plural: Blessings
+      key: blessings
+      config: rotes
+      has_rating: true
+    merits: 10
+    xp_costs:
+      blessings: 1
+    blessings: 1
+    max_blessing_dots: 30
+    anchors:
+    - name: Virtue
+      suggested: Ambitious, Competitive, Courageous, Generous, Honest, Hopeful, Just,
+        Loving, Loyal, Patient, Trustworthy. Custom Virtues should have Willpower
+        details defined in a Ledger Note.
+    - name: Vice
+      suggested: Addictive, Ambitious, Arrogant, Competitive, Corrupt, Cruel, Deceitful,
+        Dogmatic, Greedy, Hasty, Hateful, Pessimistic. Custom Vices should have Willpower
+        details defined in a Ledger Note.
+    classifications:
+      primary: Path
+    path:
+    - name: Acanthus
+      ruling_arcana:
+      - Time
+      - Fate
+    - name: Mastigos
+      ruling_arcana:
+      - Space
+      - Mind
+    - name: Moros
+      ruling_arcana:
+      - Matter
+      - Death
+    - name: Obrimos
+      ruling_arcana:
+      - Fate
+      - Prime
+    - name: Thyrsus
+      ruling_arcana:
+      - Life
+      - Spirit
+    secondary_desc: 
+    chargen_ability_blurb: |-
+      Pick a Parent Path, an Additional Arcanum and one Blessing from one of your
+      available Arcana. You will need to add your Familial Curse once approved.
+    fields:
+    - name: Additional Arcanum
+      display: true
+      desc: Select an Arcanum outside your path's Ruling Arcana.
+      values:
+      - name: Death
+      - name: Fate
+      - name: Forces
+      - name: Life
+      - name: Matter
+      - name: Mind
+      - name: Prime
+      - name: Space
+      - name: Spirit
+      - name: Time

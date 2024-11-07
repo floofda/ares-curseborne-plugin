@@ -1,0 +1,1862 @@
+---
+cod:
+  contracts:
+    - name: A Benevolent Hand
+      group: Regalia
+      category: Scepter
+      type: Royal
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: One chapter
+      blessings: [Elemental, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 46
+    - name: Acantha's Fury
+      group: Regalia
+      category: Thorn
+      type: Royal
+      cost: 2 Glamour + 1 Willpower
+      pool: Presence + Survival + Wyrd vs Stamina + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: [Elemental, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 55
+    - name: Autumn's Fury
+      group: Court
+      category: Autumn
+      type: Common
+      cost: 2-3 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 156
+    - name: Awaken Portal
+      group: Regalia
+      category: Thorn
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: One chapter
+      blessings: [Beast, Elemental]
+      book: 'CtL2e: Kith and Kin'
+      page: 56
+    - name: Baleful Sense
+      group: Court
+      category: Summer
+      type: Common
+      cost: 1 Glamour
+      pool: Wits + Intimidation + Mantle vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 153
+    - name: Beggar Knight
+      group: Regalia
+      category: Coin
+      type: Common
+      cost: 2 Glamour
+      pool: Manipulation + Academics + Wyrd - Composure
+      action: Instant
+      duration: One chapter per success
+      blessings: [Elemental, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 40
+    - name: Blessing of Forgetfulness
+      group: Goblin
+      category: 
+      type: 
+      cost: 2 Glamour
+      pool: Manipulation + Subterfuge + Wyrd vs Composure + Wyrd
+      action: Contested
+      duration: Instant
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 162
+    - name: Blessing of Perfection
+      group: Regalia
+      category: Jewels
+      type: Common
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: One action
+      blessings: [Fairest, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 132
+    - name: Blessing of Spring
+      group: Court
+      category: Spring
+      type: Royal
+      cost: 2 Glamour (animals and plants) or 2 Glamour + 1 Willpower (sapient creatures)
+      pool: Intelligence + Medicine + Mantle vs Stamina + Wyrd (sapient creatures)
+      action: Instant | Contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 152
+    - name: Blood Debt
+      group: Regalia
+      category: Coin
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Elemental, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 42
+    - name: Book of Black and Red
+      group: Regalia
+      category: Coin
+      type: Common
+      cost: 1 Glamour
+      pool: Wits + Academics + Wyrd vs Resolve + Wyrd
+      action: Instant
+      duration: Instant
+      blessings: [Darkling, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 39
+    - name: Boon of the Scuttling Spider
+      group: Regalia
+      category: Steed
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Darkling]
+      book: Changeling the Lost, Second Edition
+      page: 144
+    - name: Briar's Herald
+      group: Regalia
+      category: Thorn
+      type: Common
+      cost: 1 Glamour
+      pool: Manipulation + Larceny + Wyrd vs Composure + Wyrd
+      action: Instant
+      duration: One chapter
+      blessings: [Darkling, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 53
+    - name: Burning Ambition
+      group: Regalia
+      category: Scepter
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Until fulfillment of Aspiration
+      blessings: [Beast, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 44
+    - name: By the Pricking of My Thumbs
+      group: Regalia
+      category: Thorn
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Darkling]
+      book: 'CtL2e: Kith and Kin'
+      page: 54
+    - name: Changeling Hours
+      group: Regalia
+      category: Jewels
+      type: Royal
+      cost: 1 Glamour, +1 Glamour per 5 Size
+      pool: None
+      action: Instant
+      duration: One chapter
+      blessings: [Elemental, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 134
+    - name: Changing Fortunes
+      group: Regalia
+      category: Jewels
+      type: Common
+      cost: 2 Glamour
+      pool: Wits + Occult + Wyrd - Resolve
+      action: Instant
+      duration: One action
+      blessings: [Ogre, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 132
+    - name: Child of the Hearth
+      group: Court
+      category: Summer
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 154
+    - name: Chrysalis
+      group: Regalia
+      category: Steed
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 145
+    - name: Cloak of Night
+      group: Regalia
+      category: Shield
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Darkling, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 140
+    - name: Closing Death's Door
+      group: Regalia
+      category: Chalice
+      type: Royal
+      cost: 3 Glamour + 1 Willpower
+      pool: Manipulation + Empathy + Wyrd
+      action: Instant
+      duration: Instant
+      blessings: [Fairest, Darkling]
+      book: 'CtL2e: Kith and Kin'
+      page: 36
+    - name: Coin Mark
+      group: Regalia
+      category: Coin
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: One story
+      blessings: [Beast, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 41
+    - name: Coming Darkness
+      group: Regalia
+      category: Independent
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Darkling]
+      book: 'CtL2e: Kith and Kin'
+      page: 58
+    - name: Cracked Mirror
+      group: Regalia
+      category: Independent
+      type: Royal
+      cost: 1 Glamour or 1 Glamour + 1 Willpower
+      pool: Manipulation + Larceny + Wyrd vs Stamina + Wyrd
+      action: Contested
+      duration: One scene, or until changeling enacts a switch
+      blessings: [Darkling, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 60
+    - name: Crown of Thorns
+      group: Regalia
+      category: Thorn
+      type: Royal
+      cost: 2 Glamour
+      pool: Presence + Occult + Wyrd vs Resolve + Wyrd
+      action: Contested
+      duration: One story
+      blessings: [Beast, Darkling]
+      book: 'CtL2e: Kith and Kin'
+      page: 56
+    - name: Cupid's Arrow
+      group: Court
+      category: Spring
+      type: Common
+      cost: 1 Glamour
+      pool: Wits + Empathy + Mantle vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 151
+    - name: Curse of Hidden Springs
+      group: Regalia
+      category: Scepter
+      type: Royal
+      cost: 2 Glamour
+      pool: Manipulation + Larceny + Wyrd vs Resolve + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: [Fairest, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 48
+    - name: Curse's Cure
+      group: Regalia
+      category: Chalice
+      type: Common
+      cost: 1 Glamour
+      pool: Intelligence + Medicine + Wyrd
+      action: Instant
+      duration: Instant
+      blessings: [Beast, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 36
+    - name: Cynosure
+      group: Regalia
+      category: Stars
+      type: Common
+      cost: 1 Glamour
+      pool: Manipulation + Empathy + Wyrd vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: [Darkling, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 49
+    - name: Dance of the Toys
+      group: Regalia
+      category: Jewels
+      type: Royal
+      cost: 2 Glamour
+      pool: Manipulation + Crafts + Wyrd
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 134
+    - name: Discreet Summons
+      group: Regalia
+      category: Crown
+      type: Royal
+      cost: 1 Glamour (object) or 2 Glamour (hobgoblin)
+      pool: Manipulation + Persuasion + Wyrd vs Composure + Wyrd
+      action: Instant (object) | Contested (hobgoblin)
+      duration: Scene
+      blessings: [Darkling, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 130
+    - name: Dread Companion
+      group: Regalia
+      category: Independent
+      type: Royal
+      cost: 1 Glamour
+      pool: Manipulation + Occult + Wyrd vs Resistance + Wyrd
+      action: Contested
+      duration: One chapter
+      blessings: [Darkling, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 60
+    - name: Dreamer's Phalanx
+      group: Regalia
+      category: Chalice
+      type: Common
+      cost: 1 Glamour + 1 Glamour per additional dreamer beyond the second
+      pool: None
+      action: Instant
+      duration: One chapter, or until all dreamers wake
+      blessings: [Beast, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 36
+    - name: Dreams of the Earth
+      group: Court
+      category: Spring
+      type: Common
+      cost: 2 Glamour
+      pool: Presence + Expression + Mantle vs Composure + Wyrd
+      action: Contested
+      duration: Minutes equal to successes rolled
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 151
+    - name: Dreamsteps
+      group: Regalia
+      category: Steed
+      type: Common
+      cost: 1 Glamour
+      pool: Intelligence + Empathy + Wyrd vs Bastion's Fortification
+      action: Contested
+      duration: Instant
+      blessings: [Beast, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 144
+    - name: Earth's Gentle Movements
+      group: Regalia
+      category: Independent
+      type: Common
+      cost: 1 Glamour
+      pool: Strength + Crafts + Wyrd
+      action: Instant
+      duration: Instant
+      blessings: [Elemental, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 63
+    - name: Earth's Impenetrable Walls
+      group: Regalia
+      category: Independent
+      type: Royal
+      cost: 2 Glamour
+      pool: Strength + Crafts + Wyrd
+      action: Instant
+      duration: One chapter
+      blessings: [Fairest, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 64
+    - name: Elemental Fury
+      group: Regalia
+      category: Sword
+      type: Royal
+      cost: 1+ Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Elemental, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 149
+    - name: Elemental Weapon
+      group: Regalia
+      category: Sword
+      type: Common
+      cost: 2 Glamour
+      pool: Presence + Survival + Wyrd
+      action: Instant
+      duration: Scene
+      blessings: [Darkling, Elemental]
+      book: Changeling the Lost, Second Edition
+      page: 147
+    - name: Embrace of Nettles
+      group: Regalia
+      category: Thorn
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Reflexive
+      duration: Instant
+      blessings: [Darkling, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 55
+    - name: Ermine's Winter Coat
+      group: Court
+      category: Winter
+      type: Royal
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 160
+    - name: Exchange of Gilded Contracts
+      group: Regalia
+      category: Coin
+      type: Royal
+      cost: 3 Glamour
+      pool: None
+      action: Instant
+      duration: Up to one chapter
+      blessings: [Darkling, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 42
+    - name: Fae Cunning
+      group: Regalia
+      category: Shield
+      type: Common
+      cost: 2 Glamour
+      pool: None
+      action: Reflexive
+      duration: Scene
+      blessings: [Elemental, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 140
+    - name: Fake It Til You Make It
+      group: Regalia
+      category: Scepter
+      type: Royal
+      cost: 2 Glamour
+      pool: Presence + Persuasion + Wyrd - Resolve
+      action: Instant
+      duration: Scene
+      blessings: [Fairest, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 46
+    - name: Fallow Fields
+      group: Court
+      category: Winter
+      type: Royal
+      cost: 2 Glamour
+      pool: Manipulation + Empathy + Mantle vs Resolve + Wyrd
+      action: Contested
+      duration: Days equal to Mantle
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 161
+    - name: Famine's Bulwark
+      group: Court
+      category: Autumn
+      type: Royal
+      cost: 1 Glamour
+      pool: Wits + Occult + Mantle
+      action: Instant
+      duration: Instant
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 157
+    - name: Feast of Plenty
+      group: Regalia
+      category: Chalice
+      type: Royal
+      cost: 2 Glamour
+      pool: Presence + Socialize + Wyrd
+      action: Instant
+      duration: Instant
+      blessings: [Elemental, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 37
+    - name: Field of Regret
+      group: Court
+      category: Winter
+      type: Royal
+      cost: 1 Glamour per target + 1 Willpower
+      pool: Presence + Empathy + Mantle - Resolve
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 161
+    - name: Fiery Tongue
+      group: Court
+      category: Summer
+      type: Royal
+      cost: 1 Glamour + 1 Willpower
+      pool: Presence + Intimidation + Mantle - Resolve
+      action: Instant
+      duration: Instant
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 155
+    - name: Filling the Cup
+      group: Regalia
+      category: Chalice
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: One scene, or until changeling regains Glamour
+      blessings: [Beast, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 34
+    - name: Flames of Summer
+      group: Court
+      category: Summer
+      type: Royal
+      cost: 2 Glamour
+      pool: Stamina + Survival + Mantle
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 155
+    - name: Flickering Hours
+      group: Regalia
+      category: Steed
+      type: Royal
+      cost: 1 Glamour (individual) or 1 Glamour + 1 Willpower (group)
+      pool: None
+      action: Instant
+      duration: Until exiting the Hedge
+      blessings: [Beast, Elemental]
+      book: Changeling the Lost, Second Edition
+      page: 146
+    - name: Fortifying Presence
+      group: Regalia
+      category: Shield
+      type: Royal
+      cost: 2 Glamour
+      pool: Presence + Empathy + Wyrd vs Resolve + Wyrd
+      action: Contested
+      duration: Instant
+      blessings: [Fairest, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 142
+    - name: Frail as the Dying Word
+      group: Regalia
+      category: Chalice
+      type: Common
+      cost: 1 Glamour
+      pool: Manipulation + Occult + Wyrd vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: [Fairest, Darkling]
+      book: 'CtL2e: Kith and Kin'
+      page: 35
+    - name: Frozen Star
+      group: Regalia
+      category: Stars
+      type: Royal
+      cost: 2 Glamour
+      pool: Intelligence + (Empathy | Persuasion) + Wyrd vs Resolve + Wyrd
+      action: Contested
+      duration: Until the next sunrise, or subject touches target
+      blessings: [Darkling, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 50
+    - name: Gift of Warm Blood
+      group: Court
+      category: Spring
+      type: Royal
+      cost: 1 Glamour + 1 Willpower
+      pool: Wits + Medicine + Mantle
+      action: Instant
+      duration: Instant
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 152
+    - name: Gift of Warm Breath
+      group: Court
+      category: Spring
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Instant
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 151
+    - name: Give and Take
+      group: Regalia
+      category: Coin
+      type: Common
+      cost: 1 Glamour or 2 Glamour for Merit exchange
+      pool: None
+      action: Instant
+      duration: Instant | 1 scene for Merits
+      blessings: [Ogre, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 40
+    - name: Glib Tongue
+      group: Goblin
+      category: 
+      type: 
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Instant
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 162
+    - name: Glimpse of a Distant Mirror
+      group: Regalia
+      category: Mirror
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Darkling]
+      book: Changeling the Lost, Second Edition
+      page: 136
+    - name: Goblin's Eye
+      group: Goblin
+      category: 
+      type: 
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 163
+    - name: Goblin's Luck
+      group: Goblin
+      category: 
+      type: 
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 163
+    - name: Golden Promise
+      group: Regalia
+      category: Coin
+      type: Royal
+      cost: 2 Glamour
+      pool: Presence + Socialize + Wyrd - current Availability
+      action: Instant
+      duration: Instant
+      blessings: [Fairest, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 42
+    - name: Grand Revel of the Harvest
+      group: Regalia
+      category: Coin
+      type: Royal
+      cost: 3 Glamour + 1 Willpower
+      pool: None
+      action: Instant
+      duration: One chapter
+      blessings: [Beast, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 43
+    - name: Grease the Wheels
+      group: Regalia
+      category: Coin
+      type: Common
+      cost: 1 Glamour
+      pool: Presence + Persuasion + Wyrd
+      action: Instant
+      duration: Scene
+      blessings: [Darkling, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 41
+    - name: Heart of Ice
+      group: Court
+      category: Winter
+      type: Common
+      cost: 2 Glamour
+      pool: None
+      action: Reflexive
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 159
+    - name: Hedgewall
+      group: Regalia
+      category: Shield
+      type: Royal
+      cost: 2 Glamour + 1 Willpower
+      pool: Intelligence + Survival + Wyrd
+      action: Extended (Five successes necessary; each roll represents one turn)
+      duration: Scene
+      blessings: [Beast, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 142
+    - name: Helios' Judgment
+      group: Court
+      category: Summer
+      type: Royal
+      cost: 1 Glamour or 1 Glamour + 1 Willpower
+      pool: Dexterity + Athletics + Mantle
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 155
+    - name: Helios' Light
+      group: Court
+      category: Summer
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 154
+    - name: Hidden Reality
+      group: Regalia
+      category: Jewels
+      type: Royal
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Fairest, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 134
+    - name: High Summer's Zeal
+      group: Court
+      category: Summer
+      type: Common
+      cost: 2 Glamour
+      pool: Presence + Persuasion +Mantle vs Composure + Wyrd
+      action: Reflexive and contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 155
+    - name: Hostile Takeover
+      group: Regalia
+      category: Crown
+      type: Common
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 128
+    - name: Huntsman's Clarion
+      group: Goblin
+      category: 
+      type: 
+      cost: 2 Glamour
+      pool: Wits + Empathy + Wyrd
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 163
+    - name: Ice Queen's Call
+      group: Court
+      category: Winter
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 159
+    - name: Jealous Vengeance
+      group: Regalia
+      category: Scepter
+      type: Common
+      cost: 1 Glamour
+      pool: Presence + Intimidation + Wyrd vs Resolve + Wyrd
+      action: Contested
+      duration: One chapter
+      blessings: [Elemental, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 44
+    - name: Knight's Oath
+      group: Regalia
+      category: Scepter
+      type: Common
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: One chapter
+      blessings: [Darkling, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 45
+    - name: Know the Competition
+      group: Regalia
+      category: Mirror
+      type: Common
+      cost: 1 Glamour
+      pool: Manipulation + Socialize + Wyrd vs Composure + Wyrd
+      action: Contested
+      duration: Instant
+      blessings: [Beast, Darkling]
+      book: Changeling the Lost, Second Edition
+      page: 136
+    - name: Last Harvest
+      group: Court
+      category: Autumn
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: One harvesting attempt
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 156
+    - name: Leaping Toward Nightfall
+      group: Regalia
+      category: Steed
+      type: Royal
+      cost: 3 Glamour + 1 Willpower
+      pool: Intelligence + Occult + Wyrd vs Resolve + Wyrd
+      action: Instant | Contested
+      duration: Special
+      blessings: [Beast, Darkling]
+      book: Changeling the Lost, Second Edition
+      page: 146
+    - name: Light of Ancient Stars
+      group: Regalia
+      category: Stars
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Instant
+      blessings: [Darkling, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 51
+    - name: Light-Shy
+      group: Regalia
+      category: Jewels
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Darkling, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 133
+    - name: Listen with the Wind's Ears
+      group: Regalia
+      category: Independent
+      type: Royal
+      cost: 1 Glamour or 2 Glamour + 1 Willpower
+      pool: None
+      action: Instant
+      duration: One scene, or until used to teleport
+      blessings: [Beast, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 61
+    - name: Litany of Rivals
+      group: Regalia
+      category: Scepter
+      type: Common
+      cost: 1 Glamour
+      pool: Intelligence + Occult + Wyrd
+      action: Instant
+      duration: Instant
+      blessings: [Beast, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 45
+    - name: Lost Visage
+      group: Goblin
+      category: 
+      type: 
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Instant
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 163
+    - name: Mantle Mask
+      group: Goblin
+      category: 
+      type: 
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 164
+    - name: Mantle of Frost
+      group: Court
+      category: Winter
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 161
+    - name: Mask of Superiority
+      group: Regalia
+      category: Crown
+      type: Common
+      cost: 1 Glamour
+      pool: Presence + Subterfuge + Wyrd
+      action: Instant
+      duration: Scene
+      blessings: [Fairest, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 128
+    - name: Mastermind's Gambit
+      group: Regalia
+      category: Crown
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: 1 chapter
+      blessings: [Elemental, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 130
+    - name: Mien of the Baba Yaga
+      group: Court
+      category: Autumn
+      type: Royal
+      cost: 2 Glamour
+      pool: Presence + Intimidation + Mantle vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 158
+    - name: Might of the Terrible Brute
+      group: Regalia
+      category: Sword
+      type: Common
+      cost: 2 Glamour
+      pool: None
+      action: Reflexive
+      duration: Scene
+      blessings: [Beast, Elemental]
+      book: Changeling the Lost, Second Edition
+      page: 148
+    - name: Mirror Walk
+      group: Regalia
+      category: Steed
+      type: Royal
+      cost: 1 Glamour + 1 Willpower
+      pool: Wits + Survival + Wyrd
+      action: Instant
+      duration: Instant
+      blessings: [Beast, Elemental]
+      book: Changeling the Lost, Second Edition
+      page: 146
+    - name: Momentary Respite
+      group: Regalia
+      category: Independent
+      type: Royal
+      cost: 1 Glamour or 1 Glamour + 1+ Willpower
+      pool: Stamina + Survival + Wyrd
+      action: Instant
+      duration: Scene
+      blessings: [Elemental, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 61
+    - name: Murkblur
+      group: Regalia
+      category: Jewels
+      type: Common
+      cost: 1 Glamour
+      pool: Manipulation + Subterfuge + Wyrd vs Wits + Wyrd
+      action: Contested
+      duration: One turn
+      blessings: [Elemental, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 133
+    - name: Nevertread
+      group: Regalia
+      category: Steed
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 144
+    - name: Oathbreaker's Punishment
+      group: Regalia
+      category: Sword
+      type: Royal
+      cost: 2 Glamour
+      pool: Wits + Empathy + Wyrd - Composure
+      action: Instant
+      duration: Fortnight, or until used
+      blessings: [Wizened, Elemental]
+      book: Changeling the Lost, Second Edition
+      page: 149
+    - name: Overpowering Dread
+      group: Regalia
+      category: Sword
+      type: Common
+      cost: 1 Glamour
+      pool: Presence + Intimidation + Wyrd vs Composure + Wyrd
+      action: Contested
+      duration: Instant
+      blessings: [Elemental, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 148
+    - name: Pandora's Gift
+      group: Court
+      category: Spring
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Sun crossing the horizon
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 152
+    - name: Paralyzing Presence
+      group: Regalia
+      category: Crown
+      type: Common
+      cost: 2 Glamour
+      pool: Presence + Intimidation + Wyrd vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: [Darkling, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 129
+    - name: Pathfinder
+      group: Regalia
+      category: Steed
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 144
+    - name: Pinch of Stardust
+      group: Regalia
+      category: Stars
+      type: Royal
+      cost: 3 Glamour + 1 Willpower
+      pool: Intelligence + Crafts + Wyrd vs Resolve + Wyrd
+      action: Instant (willing) | Contested (hostile)
+      duration: One chapter, or when Delusional resolves
+      blessings: [Darkling, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 52
+    - name: Pipes of the Beastcaller
+      group: Regalia
+      category: Crown
+      type: Royal
+      cost: 1 Glamour
+      pool: Manipulation + Animal Ken + Wyrd vs Resolve + Composure
+      action: Instant (willing) | Contested (hostile)
+      duration: Scene
+      blessings: [Beast, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 131
+    - name: Poison the Well
+      group: Regalia
+      category: Chalice
+      type: Royal
+      cost: 1 Glamour
+      pool: Manipulation + Expression + Wyrd vs Resolve + Wyrd
+      action: Contested
+      duration: One chapter
+      blessings: [Fairest, Elemental]
+      book: 'CtL2e: Kith and Kin'
+      page: 38
+    - name: Pole Star
+      group: Regalia
+      category: Stars
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 49
+    - name: Pomp and Circumstance
+      group: Regalia
+      category: Independent
+      type: Common
+      cost: 1 or 1 Glamour + 1 Willpower
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 59
+    - name: Portents and Visions
+      group: Regalia
+      category: Mirror
+      type: Common
+      cost: 1 Glamour
+      pool: Manipulation + Occult + Wyrd vs Composure + Wyrd
+      action: Contested
+      duration: Instant
+      blessings: [Darkling, Elemental]
+      book: Changeling the Lost, Second Edition
+      page: 137
+    - name: Primal Glory
+      group: Regalia
+      category: Sword
+      type: Common
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Elemental, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 148
+    - name: Prince of Ivy
+      group: Court
+      category: Spring
+      type: Royal
+      cost: 2 Glamour + 1 Willpower
+      pool: Presence + Expression + Mantle
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 153
+    - name: Props and Scenery
+      group: Regalia
+      category: Mirror
+      type: Royal
+      cost: 1 Glamour + 1 Willpower
+      pool: Manipulation + Persuasion + Wyrd
+      action: Instant
+      duration: Scene
+      blessings: [Darkling, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 138
+    - name: Pure Clarity
+      group: Regalia
+      category: Shield
+      type: Royal
+      cost: 2 Glamour + 1 Willpower
+      pool: Resolve + Composure + Wyrd
+      action: Instant
+      duration: Scene
+      blessings: [Fairest, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 143
+    - name: Read Lucidity
+      group: Regalia
+      category: Mirror
+      type: Common
+      cost: 1 Glamour
+      pool: Manipulation + Empathy + Wyrd vs Composure + Wyrd
+      action: Contested
+      duration: Instant
+      blessings: [Beast, Darkling]
+      book: Changeling the Lost, Second Edition
+      page: 137
+    - name: Red Revenge
+      group: Regalia
+      category: Sword
+      type: Royal
+      cost: 3 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Elemental, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 149
+    - name: Reflections of the Past
+      group: Regalia
+      category: Mirror
+      type: Royal
+      cost: 1 Glamour per time frame (week, month, season, year, or decade)
+      pool: Intelligence + Occult + Wyrd
+      action: Instant
+      duration: Scene
+      blessings: [Darkling, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 138
+    - name: Relentless Pursuit
+      group: Regalia
+      category: Sword
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Sun crossing the horizon
+      blessings: [Beast, Elemental]
+      book: Changeling the Lost, Second Edition
+      page: 150
+    - name: Retrograde
+      group: Regalia
+      category: Stars
+      type: Common
+      cost: 1 Glamour
+      pool: Presence + Expression + Wyrd vs Resolve + Wyrd
+      action: Contested
+      duration: One chapter
+      blessings: [Darkling, Elemental]
+      book: 'CtL2e: Kith and Kin'
+      page: 50
+    - name: Riddle-Kith
+      group: Regalia
+      category: Mirror
+      type: Royal
+      cost: 1 Glamour
+      pool: Manipulation + Larceny + Wyrd vs Composure + Wyrd
+      action: Instant | Contested
+      duration: Scene
+      blessings: [Darkling, Elemental]
+      book: Changeling the Lost, Second Edition
+      page: 139
+    - name: Riding the Falling Leaves
+      group: Court
+      category: Autumn
+      type: Royal
+      cost: 2 Glamour
+      pool: Dexterity + Occult + Mantle
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 158
+    - name: Seven-League Leap
+      group: Regalia
+      category: Steed
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Reflexive
+      duration: One turn
+      blessings: [Beast, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 145
+    - name: Shadow Puppet
+      group: Regalia
+      category: Independent
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: One scene
+      blessings: [Beast, Darkling]
+      book: 'CtL2e: Kith and Kin'
+      page: 59
+    - name: Shared Burden
+      group: Regalia
+      category: Shield
+      type: Common
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Instant
+      blessings: [Ogre, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 140
+    - name: Shared Cup
+      group: Regalia
+      category: Chalice
+      type: Royal
+      cost: 2 Glamour + 1 Glamour per additional participant beyond second
+      pool: Presence + Occult + Wyrd vs Composure + Wyrd
+      action: Instant | Contested
+      duration: One chapter
+      blessings: [Darkling, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 38
+    - name: Shooting Star
+      group: Regalia
+      category: Stars
+      type: Common
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: One chapter
+      blessings: [Beast, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 50
+    - name: Shrike's Larder
+      group: Regalia
+      category: Thorn
+      type: Royal
+      cost: 1-3 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 57
+    - name: Sight of Truth and Lies
+      group: Goblin
+      category: 
+      type: 
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 164
+    - name: Skinmask
+      group: Regalia
+      category: Mirror
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Darkling, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 139
+    - name: Sleep's Sweet Embrace
+      group: Regalia
+      category: Chalice
+      type: Common
+      cost: 2 Glamour + 1 Willpower
+      pool: Manipulation + Expression + Wyrd - Resolve
+      action: Instant | Resisted
+      duration: Varies
+      blessings: [Beast, Darkling]
+      book: 'CtL2e: Kith and Kin'
+      page: 35
+    - name: Slipknot Dreams
+      group: Court
+      category: Winter
+      type: Common
+      cost: 1 Glamour
+      pool: Manipulation + Empathy + Mantle vs Resolve + Wyrd
+      action: Contested
+      duration: Instant
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 159
+    - name: Solstice Revelation
+      group: Court
+      category: Summer
+      type: Royal
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 156
+    - name: Sorcerer's Rebuke
+      group: Court
+      category: Autumn
+      type: Royal
+      cost: 2 Glamour
+      pool: Manipulation + Occult + Mantle - Resolve
+      action: Instant
+      duration: Instant
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 158
+    - name: Spare Not the Rod
+      group: Regalia
+      category: Scepter
+      type: Royal
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Fairest, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 48
+    - name: Spinning Wheel
+      group: Regalia
+      category: Crown
+      type: Royal
+      cost: 3 Glamour + 1 Willpower
+      pool: Intelligence + Occult + Wyrd - Resolve
+      action: Extended; each roll 10 minutes. Target higher of Wyrd or Resolve.
+      duration: Earlier of lunar month end or event arrival
+      blessings: [Fairest, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 132
+    - name: Spring's Kiss
+      group: Court
+      category: Spring
+      type: Common
+      cost: 1-2 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 151
+    - name: Star Light, Star Bright
+      group: Regalia
+      category: Stars
+      type: Royal
+      cost: 1-2 Glamour
+      pool: None
+      action: Instant
+      duration: Instant
+      blessings: [Ogre, Wizened]
+      book: 'CtL2e: Kith and Kin'
+      page: 51
+    - name: Steal Influence
+      group: Regalia
+      category: Independent
+      type: Common
+      cost: 1 Glamour per Influence dot
+      pool: Wits + Larceny + Wyrd vs Resolve + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: [Darkling, Elemental]
+      book: 'CtL2e: Kith and Kin'
+      page: 62
+    - name: Stealing the Solid Reflection
+      group: Regalia
+      category: Jewels
+      type: Royal
+      cost: 1 Glamour + 1 Willpower
+      pool: Strength + Larceny + Wyrd
+      action: Instant
+      duration: Scene
+      blessings: [Fairest, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 135
+    - name: Still Waters Run Deep
+      group: Regalia
+      category: Chalice
+      type: Royal
+      cost: 2 Glamour
+      pool: Manipulation + Subterfuge + Wyrd - Resolve
+      action: Instant
+      duration: Scene
+      blessings: [Wizened, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 38
+    - name: Straight On 'Til Morning
+      group: Regalia
+      category: Stars
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Until reaching destination
+      blessings: [Fairest, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 49
+    - name: Summon the Loyal Servant
+      group: Regalia
+      category: Crown
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Elemental, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 129
+    - name: Sunburnt Heart
+      group: Court
+      category: Summer
+      type: Royal
+      cost: 2 Glamour
+      pool: Manipulation + Persuasion + Mantle vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 156
+    - name: Tale of the Baba Yaga
+      group: Court
+      category: Autumn
+      type: Common
+      cost: 1 Glamour
+      pool: Manipulation + Subterfuge + Mantle vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 157
+    - name: Talon and Wing
+      group: Regalia
+      category: Steed
+      type: Royal
+      cost: 1-3 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Beast, Darkling]
+      book: Changeling the Lost, Second Edition
+      page: 147
+    - name: Tasting the Harvest
+      group: Court
+      category: Autumn
+      type: Royal
+      cost: 1 Glamour (per target)
+      pool: Presence + Subterfuge + Mantle
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 158
+    - name: Tatterdemalion's Workshop
+      group: Regalia
+      category: Jewels
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Instant
+      blessings: [Ogre, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 135
+    - name: Tempter's Quest
+      group: Regalia
+      category: Scepter
+      type: Royal
+      cost: 1 Glamour + 1 Willpower
+      pool: Presence + Persuasion + Wyrd vs Composure + Wyrd
+      action: Contested
+      duration: One story
+      blessings: [Darkling, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 47
+    - name: The Dragon Knows
+      group: Court
+      category: Winter
+      type: Common
+      cost: 1 Glamour
+      pool: Wits + Empathy + Mantle vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 159
+    - name: The Gouging Curse
+      group: Regalia
+      category: Thorn
+      type: Common
+      cost: 1 Glamour
+      pool: Manipulation + Occult + Wyrd vs Composure + Wyrd
+      action: Instant
+      duration: One chapter
+      blessings: [Elemental, Fairest]
+      book: 'CtL2e: Kith and Kin'
+      page: 54
+    - name: The Royal Court
+      group: Regalia
+      category: Crown
+      type: Royal
+      cost: 3 Glamour + 1 Willpower
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Fairest, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 131
+    - name: Thief of Reason
+      group: Regalia
+      category: Sword
+      type: Royal
+      cost: 1 Glamour + 1 Willpower
+      pool: Presence + Subterfuge + Wyrd - Resolve
+      action: Instant
+      duration: Instant
+      blessings: [Elemental, Fairest]
+      book: Changeling the Lost, Second Edition
+      page: 150
+    - name: Thirty Pieces
+      group: Regalia
+      category: Coin
+      type: Royal
+      cost: 3 Glamour
+      pool: Wits + Empathy + Wyrd vs Resolve + Wyrd
+      action: Instant
+      duration: Instant
+      blessings: [Darkling, Elemental]
+      book: 'CtL2e: Kith and Kin'
+      page: 44
+    - name: Thistle's Rebuke
+      group: Regalia
+      category: Thorn
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Fairest, Ogre]
+      book: 'CtL2e: Kith and Kin'
+      page: 54
+    - name: Thorns and Brambles
+      group: Regalia
+      category: Shield
+      type: Common
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Darkling, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 141
+    - name: Touch of Winter
+      group: Court
+      category: Winter
+      type: Common
+      cost: 1 Glamour
+      pool: Intelligence + Science + Mantle
+      action: Instant
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 160
+    - name: Touch of Wrath
+      group: Regalia
+      category: Sword
+      type: Common
+      cost: 1 Glamour
+      pool: Intelligence + Crafts + Wyrd
+      action: Instant
+      duration: Instant
+      blessings: [Elemental, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 148
+    - name: Trapdoor Spider's Trick
+      group: Regalia
+      category: Shield
+      type: Common
+      cost: 1 Glamour or 1 Glamour + 1 Willpower
+      pool: None
+      action: Instant
+      duration: One scene or until the sun next crosses the horizon
+      blessings: [Ogre, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 142
+    - name: Trivial Reworking
+      group: Regalia
+      category: Jewels
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Darkling, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 133
+    - name: Tumult
+      group: Regalia
+      category: Crown
+      type: Common
+      cost: 2 Glamour
+      pool: Presence + Empathy + Wyrd - Resolve
+      action: Instant
+      duration: Instant
+      blessings: [Fairest, Ogre]
+      book: Changeling the Lost, Second Edition
+      page: 129
+    - name: Twilight's Harbinger
+      group: Court
+      category: Autumn
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Earlier of lunar month ending or event ending
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 157
+    - name: Uncanny
+      group: Goblin
+      category: 
+      type: 
+      cost: 2 Glamour
+      pool: None
+      action: Reflexive
+      duration: One instant action, or extended action roll
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 164
+    - name: Unmask the Dark Horse
+      group: Regalia
+      category: Scepter
+      type: Common
+      cost: 2 Glamour
+      pool: Presence + Persuasion + Wyrd vs Composure + Wyrd
+      action: Contested
+      duration: Instant
+      blessings: [Fairest, Beast]
+      book: 'CtL2e: Kith and Kin'
+      page: 46
+    - name: Unravel the Tapestry
+      group: Regalia
+      category: Mirror
+      type: Royal
+      cost: 2 Glamour + 1 Willpower
+      pool: Wits + Occult + Wyrd
+      action: Reflexive
+      duration: Instant
+      blessings: [Darkling, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 139
+    - name: Vigilance of Ares
+      group: Court
+      category: Summer
+      type: Common
+      cost: 1 Glamour
+      pool: None
+      action: Reflexive
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 155
+    - name: Vow of No Compromise
+      group: Regalia
+      category: Shield
+      type: Royal
+      cost: 1 Glamour + 1 Willpower
+      pool: None
+      action: Instant
+      duration: Instant
+      blessings: [Ogre, Elemental]
+      book: Changeling the Lost, Second Edition
+      page: 143
+    - name: Waking the Inner Fae
+      group: Court
+      category: Spring
+      type: Royal
+      cost: 1 Glamour
+      pool: Manipulation + Expression + Mantle vs Composure + Wyrd
+      action: Contested
+      duration: Instant
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 153
+    - name: Walls Have Ears
+      group: Regalia
+      category: Mirror
+      type: Common
+      cost: 1-3 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Darkling, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 138
+    - name: Wayward Guide
+      group: Goblin
+      category: 
+      type: 
+      cost: 1 Glamour
+      pool: None
+      action: Instant
+      duration: Instant | Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 164
+    - name: Whispers of Morning
+      group: Regalia
+      category: Shield
+      type: Royal
+      cost: 2 Glamour
+      pool: None
+      action: Instant
+      duration: Scene
+      blessings: [Ogre, Wizened]
+      book: Changeling the Lost, Second Edition
+      page: 143
+    - name: Winter's Curse
+      group: Court
+      category: Winter
+      type: Royal
+      cost: 2 Glamour + 1 Willpower
+      pool: Presence + Survival + Mantle vs Resolve + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 161
+    - name: Witch's Brambles
+      group: Regalia
+      category: Thorn
+      type: Royal
+      cost: 2-3 Glamour + 1 Willpower
+      pool: None
+      action: Reflexive
+      duration: Instant
+      blessings: [Beast, Darkling]
+      book: 'CtL2e: Kith and Kin'
+      page: 58
+    - name: Witches' Intuition
+      group: Court
+      category: Autumn
+      type: Common
+      cost: 1 Glamour
+      pool: Wits + Subterfuge + Mantle vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 157
+    - name: Wyrd-Faced Stranger
+      group: Court
+      category: Spring
+      type: Common
+      cost: 1 Glamour
+      pool: Presence + Subterfuge + Mantle vs Composure + Wyrd
+      action: Contested
+      duration: Scene
+      blessings: []
+      book: Changeling the Lost, Second Edition
+      page: 152

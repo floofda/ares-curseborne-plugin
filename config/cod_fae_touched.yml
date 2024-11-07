@@ -1,0 +1,52 @@
+---
+cod:
+  fae_touched:
+    sphere: Changeling
+    power:
+      name: Wyrd
+      min: 0
+      max: 0
+    resource: Glamour
+    resource_pool:
+    - 10
+    morality: Integrity
+    start_morality: 7
+    abilities:
+    - name: Contract
+      plural: Contracts
+      key: contracts
+      config: contracts
+    merits: 10
+    contracts:
+      common: 2
+    anchors:
+    - name: Virtue
+      suggested: Ambitious, Competitive, Courageous, Generous, Honest, Hopeful, Just,
+        Loving, Loyal, Patient, Trustworthy. Custom Virtues should have Willpower
+        details defined in a Ledger Note.
+    - name: Vice
+      suggested: Addictive, Ambitious, Arrogant, Competitive, Corrupt, Cruel, Deceitful,
+        Dogmatic, Greedy, Hasty, Hateful, Pessimistic. Custom Vices should have Willpower
+        details defined in a Ledger Note.
+    classifications: 
+    secondary_desc: 
+    chargen_ability_blurb: Select two Common Contracts from your Favored Regalia.
+      The character cannot start with Royal Contracts, but you can spend XP to purchase
+      them in play at the same rate as a changeling.
+    fields:
+    - name: Favored Regalia
+      display: true
+      desc: Select a favored regalia for your Fae-Touched.
+      values:
+      - name: Crown
+        boon: 
+      - name: Jewels
+        boon: 
+      - name: Mirror
+        boon: 
+      - name: Shield
+        boon: 
+      - name: Steed
+        boon: 
+      - name: Sword
+        boon: 

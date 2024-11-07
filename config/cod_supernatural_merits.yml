@@ -1,0 +1,1040 @@
+---
+cod:
+  supernatural_merits:
+  - name: Damn Lucky
+    category: atariya
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 79
+    include:
+    - atariya
+  - name: Mr. Lucky
+    category: atariya
+    cost: 1
+    reqs: Merit:Damn Lucky:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 80
+    include:
+    - atariya
+  - name: Nine Lives
+    category: atariya
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Damn Lucky:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 80
+    include:
+    - atariya
+  - name: Count Down
+    category: atariya
+    cost: 1
+    reqs: Merit:Damn Lucky:1 & Merit:Nine Lives:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 80
+    include:
+    - atariya
+  - name: See the Flow
+    category: atariya
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Damn Lucky:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 81
+    include:
+    - atariya
+  - name: Luck Flows Up
+    category: atariya
+    cost: 2
+    reqs: Merit:Damn Lucky:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 81
+    include:
+    - atariya
+  - name: Easy Come, Easy Go
+    category: atariya
+    cost: 1
+    reqs: Merit:Damn Lucky:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 81
+    include:
+    - atariya
+  - name: All-In
+    category: atariya
+    cost: 3
+    reqs: Merit:Damn Lucky:1 & Attribute:Resolve:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 81
+    include:
+    - atariya
+  - name: Subliminal Conditioning
+    category: dreamer
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 83
+    include:
+    - dreamer
+  - name: A Word from Our Sponsor
+    category: dreamer
+    cost:
+    - 2
+    - 3
+    reqs: Merit:Subliminal Conditioning
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 84
+    include:
+    - dreamer
+  - name: Realpolitik
+    category: dreamer
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Merit:Subliminal Conditioning
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 84
+    include:
+    - dreamer
+  - name: Memory Palace
+    category: dreamer
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Subliminal Conditioning
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 84
+    include:
+    - dreamer
+  - name: The Treatment
+    category: dreamer
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Subliminal Conditioning
+    has_spec: true
+    spec_desc: Substance and Skill category
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 84
+    include:
+    - dreamer
+  - name: Not A Bug But A Feature
+    category: dreamer
+    cost:
+    - 2
+    - 3
+    reqs: Merit:Subliminal Conditioning & Merit:The Treatment
+    has_spec: true
+    spec_desc: Object
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 85
+    include:
+    - dreamer
+  - name: Mephistopheles
+    category: dreamer
+    cost: 2
+    reqs: Merit:Subliminal Conditioning
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 85
+    include:
+    - dreamer
+  - name: Déjà vu
+    category: dreamer
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Merit:Subliminal Conditioning
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 85
+    include:
+    - dreamer
+  - name: Field Handler
+    category: dreamer
+    cost:
+    - 1
+    - 3
+    - 5
+    reqs: Merit:Subliminal Conditioning
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 85
+    include:
+    - dreamer
+  - name: Carrier
+    category: infected
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 88
+    include:
+    - infected
+  - name: Bulletman Syndrome
+    category: infected
+    cost: 5
+    reqs: Merit:Carrier
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 88
+    include:
+    - infected
+  - name: The New Flesh
+    category: infected
+    cost:
+    - 1
+    - 3
+    - 5
+    reqs: Merit:Carrier
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 89
+    include:
+    - infected
+  - name: Patient Zero
+    category: infected
+    cost: 2
+    reqs: Merit:Carrier
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 90
+    include:
+    - infected
+  - name: Proud Parent
+    category: infected
+    cost: 1
+    reqs: Merit:Carrier
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 90
+    include:
+    - infected
+  - name: Bloodkin
+    category: infected
+    cost: 1
+    reqs: Merit:Carrier
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 90
+    include:
+    - infected
+  - name: Virulent
+    category: infected
+    cost:
+    - 2
+    - 4
+    reqs: Merit:Carrier
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 90
+    include:
+    - infected
+  - name: Plain Reader
+    category: plain
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 92
+    include:
+    - plain
+  - name: You Are Being Recorded
+    category: plain
+    cost: 1
+    reqs: Merit:Plain Reader
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 93
+    include:
+    - plain
+  - name: I'm Bleeding on You
+    category: plain
+    cost: 1
+    reqs: Merit:Plain Reader
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 93
+    include:
+    - plain
+  - name: Most Infected Thing I've Ever Seen
+    category: plain
+    cost: 2
+    reqs: Merit:Plain Reader
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 94
+    include:
+    - plain
+  - name: Over Before it Started
+    category: plain
+    cost: 1
+    reqs: Merit:Plain Reader
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 94
+    include:
+    - plain
+  - name: Phantom Pain
+    category: plain
+    cost: 1
+    reqs: Merit:Plain Reader
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 94
+    include:
+    - plain
+  - name: The Consequences of Violence
+    category: plain
+    cost: 1
+    reqs: Merit:Plain Reader
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 94
+    include:
+    - plain
+  - name: The Push
+    category: plain
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Plain Reader
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 94
+    include:
+    - plain
+  - name: The Protocol
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 96
+    include:
+    - lost boy
+  - name: Protocol Fixer
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:The Protocol
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 97
+    include:
+    - lost boy
+  - name: Lost Boys Network Status
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:The Protocol
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 97
+    include:
+    - lost boy
+  - name: Archangel System
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:The Protocol:5
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 97
+    include:
+    - lost boy
+  - name: Augmented Resilience
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Special:Merit:The Protocol:Equal Level
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 98
+    include:
+    - lost boy
+  - name: Augmented Speed
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Special:Merit:The Protocol:Equal Level
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 98
+    include:
+    - lost boy
+  - name: Cloaking Device
+    category: lost boy
+    cost: 3
+    reqs: Merit:The Protocol:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 99
+    include:
+    - lost boy
+  - name: Holdout Storage
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Special:Merit:The Protocol:Equal Level
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 99
+    include:
+    - lost boy
+  - name: Implanted Interface
+    category: lost boy
+    cost: 2
+    reqs: Merit:The Protocol:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 99
+    include:
+    - lost boy
+  - name: Jumper
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Special:Merit:The Protocol:Equal Level
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 99
+    include:
+    - lost boy
+  - name: Last-Chance
+    category: lost boy
+    cost: 4
+    reqs: Merit:The Protocol:4
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 99
+    include:
+    - lost boy
+  - name: Pulse Generator
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Special:Merit:The Protocol:Equal Level
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 99
+    include:
+    - lost boy
+  - name: Strength Augmentation
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Special:Merit:The Protocol:Equal Level
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 100
+    include:
+    - lost boy
+  - name: Sub-Dermal Armor
+    category: lost boy
+    cost:
+    - 2
+    - 4
+    reqs: Special:Merit:The Protocol:Equal Level
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 100
+    include:
+    - lost boy
+  - name: Uncanny Perception
+    category: lost boy
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Special:Merit:The Protocol:Equal Level
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 100
+    include:
+    - lost boy
+  - name: Voice Box
+    category: lost boy
+    cost: 1
+    reqs: Merit:The Protocol:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 100
+    include:
+    - lost boy
+  - name: Psychic Vampirism
+    category: psychic vampire
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 101
+    include:
+    - psychic vampire
+  - name: Breath Stealer
+    category: psychic vampire
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Merit:Psychic Vampirism
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 103
+    include:
+    - psychic vampire
+  - name: Burst of Speed
+    category: psychic vampire
+    cost: 1
+    reqs: Merit:Psychic Vampirism
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 103
+    include:
+    - psychic vampire
+  - name: Ephemeral Battery
+    category: psychic vampire
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Psychic Vampirism
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 103
+    include:
+    - psychic vampire
+  - name: Euphoric Touch
+    category: psychic vampire
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Merit:Psychic Vampirism
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 103
+    include:
+    - psychic vampire
+  - name: Nocturnal Supremacy
+    category: psychic vampire
+    cost: 2
+    reqs: Merit:Psychic Vampirism
+    has_spec: true
+    spec_desc: Chosen Benefit
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 103
+    include:
+    - psychic vampire
+  - name: Psychic Infection
+    category: psychic vampire
+    cost: 1
+    reqs: Merit:Psychic Vampirism
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 103
+    include:
+    - psychic vampire
+  - name: Psychic Seduction
+    category: psychic vampire
+    cost: 1
+    reqs: Merit:Psychic Vampirism
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 104
+    include:
+    - psychic vampire
+  - name: Psychic Transference
+    category: psychic vampire
+    cost: 2
+    reqs: Merit:Psychic Vampirism
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 104
+    include:
+    - psychic vampire
+  - name: Shapechanging
+    category: psychic vampire
+    cost:
+    - 2
+    - 3
+    reqs: Merit:Psychic Vampirism
+    has_spec: true
+    spec_desc: Animal Form
+    multi: true
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 104
+    include:
+    - psychic vampire
+  - name: Soul Eater
+    category: psychic vampire
+    cost: 2
+    reqs: Merit:Psychic Vampirism
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 104
+    include:
+    - psychic vampire
+  - name: Unearthly Beauty
+    category: psychic vampire
+    cost:
+    - 1
+    - 2
+    reqs: Merit:Psychic Vampirism
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 104
+    include:
+    - psychic vampire
+  - name: Vampiric Potency
+    category: psychic vampire
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Psychic Vampirism
+    has_spec: true
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 104
+    include:
+    - psychic vampire
+  - name: Trigger Discipline
+    category: fighting
+    cost: 1
+    reqs: Attribute:Wits:2 & Skill:Firearms:2
+    has_spec: true
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 143
+    include: []
+  - name: Loaded for Bear
+    category: fighting
+    cost:
+    - 1
+    - 2
+    reqs: Skill:Athletics:1 & Skill:Survival:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 143
+    include: []
+  - name: Smile Through It
+    category: general
+    cost: 1
+    reqs: Special:Attribute:Composure+Attribute:Resolve>5
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 21
+    include: []
+  - name: Choke It Down
+    category: general
+    cost: 1
+    reqs: Special:Attribute:Composure+Attribute:Resolve>5
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 21
+    include: []

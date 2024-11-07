@@ -1,0 +1,807 @@
+---
+cod:
+  changeling_merits:
+  - name: Acute Senses
+    category: changeling
+    cost: 1
+    reqs: Attribute:Wits:3 | Attribute:Composure:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 111
+    include:
+    - changeling
+  - name: Arcadian Metabolism
+    category: changeling
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 111
+    include:
+    - changeling
+  - name: Brownie's Boon
+    category: changeling
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 111
+    include:
+    - changeling
+  - name: Cloak of Leaves
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Merit:Mantle.Autumn:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 111
+    include:
+    - changeling
+  - name: Cold Hearted
+    category: changeling
+    cost: 3
+    reqs: Merit:Mantle.Winter:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 111
+    include:
+    - changeling
+  - name: Court Goodwill
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Changeling Court
+    multi: true
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 112
+    include:
+    - changeling
+  - name: Defensive Dreamscaping
+    category: changeling
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 112
+    include:
+    - changeling
+  - name: Diviner
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Composure:3 & Attribute:Wits:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 112
+    include:
+    - changeling
+  - name: Dream Warrior
+    category: changeling
+    cost: 1
+    reqs: 'Stat:Wyrd:2 & Special:Social Attribute:3 & (Special:Skill Specialty:Brawl
+      | Special:Skill Specialty: Weaponry)'
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 112
+    include:
+    - changeling
+  - name: Dreamweaver
+    category: changeling
+    cost: 3
+    reqs: Stat:Wyrd:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 113
+    include:
+    - changeling
+  - name: Dull Beacon
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 113
+    include:
+    - changeling
+  - name: Elemental Warrior
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: "(Attribute:Dexterity:3 | Attribute:Wits:3) & (Skill:Brawl:2 | Skill:Firearms:2
+      | Skill:Weaponry:2) & (Ability:Elemental Weapon | Ability:Primal Glory | Field:Seeming:Elemental)"
+    has_spec: true
+    spec_desc: Physical Element
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 113
+    include:
+    - changeling
+  - name: Enchanting Performance
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Presence:3 & Skill:Expression:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 113
+    include:
+    - changeling
+  - name: Fae Mount
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 113
+    include:
+    - changeling
+  - name: Faerie Favor
+    category: changeling
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 114
+    include:
+    - changeling
+  - name: Fair Harvest
+    category: changeling
+    cost:
+    - 1
+    - 2
+    reqs: 
+    has_spec: true
+    spec_desc: Emotion
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 114
+    include:
+    - changeling
+  - name: Firebrand
+    category: changeling
+    cost: 2
+    reqs: Merit:Mantle.Summer:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 115
+    include:
+    - changeling
+  - name: Gentrified Bearing
+    category: changeling
+    cost: 2
+    reqs: Stat:Wyrd:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 115
+    include:
+    - changeling
+  - name: Glamour Fasting
+    category: changeling
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 115
+    include:
+    - changeling
+  - name: Goblin Bounty
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 115
+    include:
+    - changeling
+  - name: Grounded
+    category: changeling
+    cost: 3
+    reqs: Merit:Mantle.Spring:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 115
+    include:
+    - changeling
+  - name: Hedge Brawler
+    category: changeling
+    cost: 2
+    reqs: Skill:Brawl:2 | Skill:Firearms:2 | Skill:Weaponry:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 115
+    include:
+    - changeling
+  - name: Hedge Duelist
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: "(Attribute:Presence:2 | Attribute:Manipulation:2) & (Skill:Brawl:2 | Skill:Weaponry:2)
+      & Special:Social Skill:2"
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 115
+    include:
+    - changeling
+  - name: Hedge Sense
+    category: changeling
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 115
+    include:
+    - changeling
+  - name: Hob Kin
+    category: changeling
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 115
+    include:
+    - changeling
+  - name: Hollow
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Hollow Name
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 116
+    include:
+    - changeling
+  - name: Lethal Mien
+    category: changeling
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 117
+    include:
+    - changeling
+  - name: Mantle
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Changeling Court
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 117
+    include:
+    - changeling
+  - name: Manymask
+    category: changeling
+    cost: 3
+    reqs: Stat:Wyrd:2 & Attribute:Manipulation:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 118
+    include:
+    - changeling
+  - name: Market Sense
+    category: changeling
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 119
+    include:
+    - changeling
+  - name: Noblesse Oblige
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Merit:Mantle:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 119
+    include:
+    - changeling
+  - name: Pandemonical
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Stat:Wyrd:6
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 119
+    include:
+    - changeling
+  - name: Parallel Lives
+    category: changeling
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 119
+    include:
+    - changeling
+  - name: Rigid Mask
+    category: changeling
+    cost: 3
+    reqs: Skill:Subterfuge:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 119
+    include:
+    - changeling
+  - name: Stable Trod
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Trod Name
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 119
+    include:
+    - changeling
+  - name: Token
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Token Name
+    multi: true
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 119
+    include:
+    - changeling
+  - name: Touchstone
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 120
+    include:
+    - changeling
+  - name: Warded Dreams
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Special:Resolve equal to Merit
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 120
+    include:
+    - changeling
+  - name: Workshop
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Ability:Hollow
+    has_spec: true
+    spec_desc: Workshop Specialties
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 120
+    include:
+    - changeling
+  - name: Etiquette
+    category: human
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Composure:3 & Skill:Socialize:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 122
+    include: []
+  - name: Lucid Dreamer
+    category: human
+    cost: 2
+    reqs: Special:Template:NOT Changeling & Attribute:Resolve:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 123
+    include:
+    - mortal
+    - fae-touched
+  - name: Dream Shaper
+    category: fae-touched
+    cost: 2
+    reqs: Merit:Lucid Dreamer
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 320
+    include:
+    - fae-touched
+  - name: Expressive
+    category: fae-touched
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 320
+    include:
+    - fae-touched
+  - name: Find the Oathbreaker
+    category: fae-touched
+    cost: 2
+    reqs: Merit:Sense Vows
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 320
+    include:
+    - fae-touched
+  - name: Hedge Delver
+    category: fae-touched
+    cost: 3
+    reqs: Survival:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 320
+    include:
+    - fae-touched
+  - name: Oathkeeper
+    category: fae-touched
+    cost: 3
+    reqs: Attribute:Resolve:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 320
+    include:
+    - fae-touched
+  - name: Promise of Debt
+    category: fae-touched
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 320
+    include:
+    - fae-touched
+  - name: Promise of Love
+    category: fae-touched
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 320
+    include:
+    - fae-touched
+  - name: Promise of Loyalty
+    category: fae-touched
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 320
+    include:
+    - fae-touched
+  - name: Promise of Protection
+    category: fae-touched
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 320
+    include:
+    - fae-touched
+  - name: Promise to Provide
+    category: fae-touched
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 320
+    include:
+    - fae-touched
+  - name: Promise to Serve
+    category: fae-touched
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 321
+    include:
+    - fae-touched
+  - name: Punish the Oathbreaker
+    category: fae-touched
+    cost: 2
+    reqs: Merit:Find the Oathbreaker
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 321
+    include:
+    - fae-touched
+  - name: Sense Vows
+    category: fae-touched
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 321
+    include:
+    - fae-touched
+  - name: Regalia Manifestation
+    category: changeling
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Special:Token:3 & Special:2 Contracts from one Regalia (at least:1 Royal)
+    has_spec: true
+    spec_desc: Regalia Name
+    multi: true
+    cg_only: false
+    book: 'CtL2e: Kith and Kin'
+    page: 65
+    include:
+    - changeling
+  - name: Dramaturge
+    category: changeling
+    cost: 3
+    reqs: Attribute:Wits:3 & Skill:Expression:3 & Skill:Subterfuge:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: 'CtL2e: Kith and Kin'
+    page: 69
+    include:
+    - changeling
+  - name: Understudy
+    category: changeling
+    cost: 3
+    reqs: Merit:Dramaturge & Skill:Expression:4
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: 'CtL2e: Kith and Kin'
+    page: 69
+    include:
+    - changeling
+  - name: Wyrd Increase
+    category: changeling
+    cost: 5
+    modifiers:
+    - Field:Wyrd:+1
+    has_spec: false
+    spec_desc: 
+    multi: true
+    cg_only: true
+    book: Changeling the Lost, Second Edition
+    page: 92
+    include:
+    - changeling

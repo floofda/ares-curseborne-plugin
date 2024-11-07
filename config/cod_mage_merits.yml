@@ -1,0 +1,1228 @@
+---
+cod:
+  mage_merits:
+  - name: Adamant Hand
+    category: mage
+    cost: 2
+    reqs: Merit:Order Status.Adamantine Arrow:1 & (Skill:Athletics:3 | Skill:Brawl:3
+      | Skill:Weaponry:3)
+    has_spec: true
+    spec_desc: Athletics | Brawl | Weaponry
+    multi: true
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 99
+    include:
+    - mage
+  - name: Artifact
+    category: mage
+    cost:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    reqs: 
+    has_spec: true
+    spec_desc: Artifact Name
+    multi: true
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 99
+    include:
+    - mage
+  - name: Astral Adept
+    category: mage
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 100
+    include:
+    - mage
+    - proximus
+    - sleepwalker
+  - name: Between the Ticks
+    category: mage
+    cost: 2
+    reqs: Skill:Wits:3 & Ability:Time:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 100
+    include:
+    - mage
+  - name: Cabal Theme
+    category: mage
+    cost: 1
+    reqs: Special:Group:Cabal
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: true
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 100
+    include:
+    - mage
+  - name: Order Status
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Order Name
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 100
+    include:
+    - mage
+  - name: Destiny
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 100
+    include:
+    - mage
+  - name: Dream
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Skill:Composure:3 & Skill:Wits:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 101
+    include:
+    - mage
+  - name: Egregore
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Order Status.Mysterium:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 101
+    include:
+    - mage
+  - name: Enhanced Item
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    reqs: 
+    has_spec: true
+    spec_desc: Item Name
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 101
+    include:
+    - mage
+  - name: Familiar
+    category: mage
+    cost:
+    - 2
+    - 4
+    reqs: 
+    has_spec: true
+    spec_desc: Entity
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 101
+    include:
+    - mage
+  - name: Fast Spells
+    category: mage
+    cost: 2
+    reqs: Skill:Firearms:2 & Ability:Time:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 101
+    include:
+    - mage
+  - name: Grimoire
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 101
+    include:
+    - mage
+  - name: Hallow
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Hallow Name
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 101
+    include:
+    - mage
+  - name: Imbued Item
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    reqs: 
+    has_spec: true
+    spec_desc: Item Name
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 102
+    include:
+    - mage
+  - name: Infamous Mentor
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Special:Merit:Mentor:Equal or Higher Level
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 102
+    include:
+    - mage
+  - name: High Speech
+    category: mage
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 102
+    include:
+    - mage
+  - name: Lex Magica
+    category: mage
+    cost: 2
+    reqs: Merit:Order Status.Silver Ladder:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 102
+    include:
+    - mage
+  - name: Mana Sensitivity
+    category: mage
+    cost: 1
+    reqs: Ability:Prime:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 102
+    include:
+    - mage
+  - name: Masque
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Order Status.Guardians of the Veil:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 102
+    include:
+    - mage
+  - name: Mystery Cult Influence
+    category: mage
+    cost:
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Cult
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 103
+    include:
+    - mage
+  - name: Occulation
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 103
+    include:
+    - mage
+  - name: Potent Nimbus
+    category: mage
+    cost:
+    - 1
+    - 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 103
+    include:
+    - mage
+  - name: Potent Resonance
+    category: mage
+    cost:
+    - 1
+    - 2
+    reqs: Field:Gnosis:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 103
+    include:
+    - mage
+  - name: Prelacy
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Merit:Order Status.Seers of the Throne:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 103
+    include:
+    - mage
+  - name: Sanctum
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Safe Place
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: true
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 104
+    include:
+    - mage
+  - name: Techne
+    category: mage
+    cost: 2
+    reqs: Merit:Order Status.Free Council:1
+    has_spec: true
+    spec_desc: Field of Study
+    multi: true
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 104
+    include:
+    - mage
+  - name: Shadow Name
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: true
+    spec_desc: Shadow Name
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 104
+    include:
+    - mage
+  - name: Library, Advanced
+    category: general
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Library:3 & Special:Merit:Safe Place:Equal to Merit Rating
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: true
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 105
+    include: []
+  - name: Banner-Bearer
+    category: sleepwalker
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 305
+    include:
+    - proximus
+    - sleepwalker
+  - name: Deadpan
+    category: sleepwalker
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 305
+    include:
+    - proximus
+    - sleepwalker
+  - name: Fitful Slumber
+    category: sleepwalker
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 306
+    include:
+    - proximus
+    - sleepwalker
+  - name: Loved
+    category: sleepwalker
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 306
+    include:
+    - proximus
+    - sleepwalker
+  - name: Proxy Voice
+    category: sleepwalker
+    cost: 2
+    reqs: Merit:MEntor:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 306
+    include:
+    - proximus
+    - sleepwalker
+  - name: Relic Attuned
+    category: sleepwalker
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 306
+    include:
+    - proximus
+    - sleepwalker
+  - name: Ritual Martyr
+    category: sleepwalker
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 306
+    include:
+    - proximus
+    - sleepwalker
+  - name: Ritual Savvy
+    category: sleepwalker
+    cost: 2
+    reqs: Skill:Occult:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 306
+    include:
+    - proximus
+    - sleepwalker
+  - name: Sleepwalker
+    category: sleepwalker
+    cost: 1
+    reqs: Field:Integrity
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 306
+    include:
+    - proximus
+    - sleepwalker
+  - name: Slippery
+    category: sleepwalker
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 306
+    include:
+    - proximus
+    - sleepwalker
+  - name: Actively Oblivious
+    category: sleeper
+    cost: 2
+    reqs: Field:Integrity
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 302
+    include:
+    - mortal
+  - name: Communal Sleeper
+    category: sleeper
+    cost: 1
+    reqs: Field:Integrity & Skill:Empathy:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 302
+    include:
+    - mortal
+  - name: Detail Oriented
+    category: sleeper
+    cost: 2
+    reqs: Field:Integrity
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 302
+    include:
+    - mortal
+  - name: Liar
+    category: sleeper
+    cost: 1
+    reqs: Field:Integrity
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 302
+    include:
+    - mortal
+  - name: Strained
+    category: sleeper
+    cost: 2
+    reqs: Special:Field:Integrity:<5
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 302
+    include:
+    - mortal
+  - name: Keen Periphery
+    category: mage
+    cost: 2
+    reqs: Attribute:Wits:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 26
+    include:
+    - mage
+  - name: Piercing Glance
+    category: mage
+    cost:
+    - 2
+    - 4
+    reqs: Field:Gnosis:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 26
+    include:
+    - mage
+  - name: Second-Person High Speech
+    category: mage
+    cost: 3
+    reqs: Attribute:Presence:3 & Skill:Expression:3 & Merit:High Speech
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 26
+    include:
+    - mage
+  - name: Fluent High Speech
+    category: mage
+    cost: 3
+    reqs: Attribute:Presence:4 & Skill:Expression:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 26
+    include:
+    - mage
+  - name: Hidden High Speech
+    category: mage
+    cost: 1
+    reqs: Attribute:Manipulation:3 & Skill:Expression:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 26
+    include:
+    - mage
+  - name: High Speech Perception
+    category: mage
+    cost: 2
+    reqs: Template:Mage:0
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 26
+    include:
+    - mage
+  - name: Supernal Taxonomy
+    category: mage
+    cost: 2
+    reqs: Attribute:Intelligence:2 & Skill:Occult:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 27
+    include:
+    - mage
+  - name: Supernal Watcher
+    category: mage
+    cost:
+    - 2
+    - 4
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 43
+    include:
+    - mage
+  - name: Broad Dedication
+    category: mage
+    cost: 1
+    reqs: Ability:Prime:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 57
+    include:
+    - mage
+  - name: Inheritance
+    category: mage
+    cost: 2
+    reqs: Merit:Fame:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 57
+    include:
+    - mage
+  - name: Profligate Dedication
+    category: mage
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 57
+    include:
+    - mage
+  - name: Enriched Item
+    category: mage
+    cost:
+    - 2
+    - 4
+    reqs: 
+    has_spec: true
+    spec_desc: Item and/or Spell
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 76
+    include:
+    - mage
+  - name: Imbued Ally
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    reqs: Ability:Prime:4
+    has_spec: true
+    spec_desc: Person/creature and/or Spell
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 76
+    include:
+    - mage
+  - name: Mana Battery
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 77
+    include:
+    - mage
+  - name: Perfected Item
+    category: mage
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 77
+    include:
+    - mage
+  - name: Cognoscente
+    category: mage
+    cost: 2
+    reqs: Ability:Prime:3 & (Skill:Academics:2 | Skill:Occult:2)
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 87
+    include:
+    - mage
+  - name: Daimonomikon
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 87
+    include:
+    - mage
+  - name: Legacy Pedagogue
+    category: mage
+    cost: 1
+    reqs: Ability:Prime:3 & Field:Gnosis:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 87
+    include:
+    - mage
+  - name: Astral Intruder
+    category: mage
+    cost: 3
+    reqs: Merit:Astral Adept & Attribute:Resolve:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 91
+    include:
+    - mage
+  - name: Dominant Soul
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Composure:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 91
+    include:
+    - mage
+  - name: Echo Chamber
+    category: mage
+    cost: 4
+    reqs: Skill:Empathy:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 91
+    include:
+    - mage
+  - name: Epiphany Stone
+    category: mage
+    cost: 4
+    reqs: "(Merit:Dream Adept | Merit:Astral Adept) & Ability:Mind:2"
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 91
+    include:
+    - mage
+  - name: Potent Soul
+    category: mage
+    cost: 3
+    reqs: Attribute:Presence:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 91
+    include:
+    - mage
+  - name: Soul Dealer
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Skill:Streetwise:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 91
+    include:
+    - mage
+  - name: Soul Stone
+    category: mage
+    cost:
+    - 1
+    - 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 92
+    include:
+    - mage
+  - name: Stalwart Soul
+    category: mage
+    cost:
+    - 1
+    - 2
+    reqs: Attribute:Composure:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 92
+    include:
+    - mage
+  - name: Imposing Nimbus
+    category: mage
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 95
+    include:
+    - mage
+  - name: Persistent Nimbus
+    category: mage
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 95
+    include:
+    - mage
+  - name: Shadow Self
+    category: mage
+    cost: 2
+    reqs: Merit:Shadow Name:3 & Ability:Mind:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 95
+    include:
+    - mage
+  - name: Order Archive
+    category: mage
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Order Status
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: true
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 97
+    include:
+    - mage
+  - name: Profane Tool
+    category: mage
+    cost: 1
+    reqs: Merit:Prelacy:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'MtA: Signs of Sorcery'
+    page: 125
+    include:
+    - mage
+  - name: Gnosis Increase
+    category: mage
+    cost: 5
+    modifiers:
+    - Field:Gnosis:+1
+    has_spec: false
+    spec_desc: 
+    multi: true
+    cg_only: true
+    book: Mage the Awakening, Second Edition
+    page: 80
+    include:
+    - mage

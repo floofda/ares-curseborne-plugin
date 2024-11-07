@@ -1,0 +1,483 @@
+---
+cod:
+  form_abilities:
+  - name: Advanced Optics
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 121
+  - name: Armored Plates
+    category: Modification
+    book: Demon the Descent
+    page: 196
+  - name: Blade Hand
+    category: Modification
+    book: Demon the Descent
+    page: 197
+  - name: Claws and Fangs
+    category: Modification
+    book: Demon the Descent
+    page: 197
+  - name: Component Indicators
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 122
+  - name: Detachable Limbs
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 122
+  - name: Electrical Sight
+    category: Modification
+    book: Demon the Descent
+    page: 197
+  - name: EMP Field
+    category: Modification
+    book: Demon the Descent
+    page: 197
+  - name: Fast Attack
+    category: Modification
+    book: Demon the Descent
+    page: 197
+  - name: Huge Size
+    category: Modification
+    book: Demon the Descent
+    page: 197
+  - name: Inhuman Intelligence
+    category: Modification
+    book: Demon the Descent
+    page: 197
+  - name: Inhuman Strength
+    category: Modification
+    book: Demon the Descent
+    page: 198
+  - name: Inhuman Reflexes
+    category: Modification
+    book: Demon the Descent
+    page: 198
+  - name: Lighting
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 123
+  - name: Limb Retractor
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 123
+  - name: Low Density
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 123
+  - name: Mental Resistance
+    category: Modification
+    book: Demon the Descent
+    page: 198
+  - name: Nauseating Musk
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 123
+  - name: Night Vision
+    category: Modification
+    book: Demon the Descent
+    page: 198
+  - name: Olfactory Enhancements
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 123
+  - name: Radio Suite
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 124
+  - name: Resistors
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 124
+  - name: Rivet Arm
+    category: Modification
+    book: Demon the Descent
+    page: 198
+  - name: Sense the Angelic
+    category: Modification
+    book: Demon the Descent
+    page: 198
+  - name: Slippery Body
+    category: Modification
+    book: Demon the Descent
+    page: 198
+  - name: Sonic Acuity
+    category: Modification
+    book: Demon the Descent
+    page: 199
+  - name: Spurs
+    category: Modification
+    book: Demon the Descent
+    page: 199
+  - name: Steel Frame
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 124
+  - name: Tough as Stone
+    category: Modification
+    book: Demon the Descent
+    page: 199
+  - name: Unyielding Vice
+    category: Modification
+    book: 'DtD: Flowers of Hell'
+    page: 124
+  - name: Casts No Reflection
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Conjuration
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Damage Resistance
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Dead Reckoning
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Enhanced Ability/Attribute (Mod)
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Ghost Sight
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Immune To Bashing Damage
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Immune To Falling Damage
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Multiple Eyes
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Quills
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Relentless
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Weather Sense
+    category: Modification
+    book: 'DtD: Demon Translation Guide'
+    page: 42
+  - name: Abruption Jets
+    category: Technology
+    book: 'DtD: Flowers of Hell'
+    page: 124
+  - name: Acidic Spit
+    category: Technology
+    book: Demon the Descent
+    page: 199
+  - name: Adhesive
+    category: Technology
+    book: 'DtD: Flowers of Hell'
+    page: 124
+  - name: Aura Sight
+    category: Technology
+    book: Demon the Descent
+    page: 199
+  - name: Barbed Tail
+    category: Technology
+    book: Demon the Descent
+    page: 200
+  - name: Blind Sense
+    category: Technology
+    book: Demon the Descent
+    page: 200
+  - name: Clairvoyant Sight
+    category: Technology
+    book: Demon the Descent
+    page: 200
+  - name: Collapsible
+    category: Technology
+    book: 'DtD: Flowers of Hell'
+    page: 125
+  - name: Demonic Horns
+    category: Technology
+    book: Demon the Descent
+    page: 201
+  - name: Electric Jolt
+    category: Technology
+    book: Demon the Descent
+    page: 201
+  - name: Electrical Resistance
+    category: Technology
+    book: Demon the Descent
+    page: 201
+  - name: Environmental Resistance
+    category: Technology
+    book: Demon the Descent
+    page: 202
+  - name: Essence Drain
+    category: Technology
+    book: Demon the Descent
+    page: 202
+  - name: Fire Resistance
+    category: Technology
+    book: Demon the Descent
+    page: 202
+  - name: Frost Aura
+    category: Technology
+    book: Demon the Descent
+    page: 202
+  - name: Fluid Form
+    category: Technology
+    book: Demon the Descent
+    page: 202
+  - name: Inhuman Beauty
+    category: Technology
+    book: Demon the Descent
+    page: 202
+  - name: Glory and Terror
+    category: Technology
+    book: Demon the Descent
+    page: 203
+  - name: Laser Cutter
+    category: Technology
+    book: 'DtD: Flowers of Hell'
+    page: 125
+  - name: Mantle of Fire
+    category: Technology
+    book: 'DtD: Flowers of Hell'
+    page: 125
+  - name: Mind Reading
+    category: Technology
+    book: Demon the Descent
+    page: 203
+  - name: Mirrored Skin
+    category: Technology
+    book: Demon the Descent
+    page: 203
+  - name: Multiversal Antenna
+    category: Technology
+    book: 'DtD: Interface'
+    page: 28
+  - name: Savant Core
+    category: Technology
+    book: 'DtD: Flowers of Hell'
+    page: 125
+  - name: Shielded Compartment
+    category: Technology
+    book: 'DtD: Flowers of Hell'
+    page: 126
+  - name: Affirm
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 39
+  - name: Beckon
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 39
+  - name: Enhanced Ability/Attribute (Tech)
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Eyes of Fate
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Frenzy
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: The Host
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Immune To Poisons
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Mirage
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Mist
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Reaper's Breath
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Rend the Soul
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Sense the Hidden
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Touch of Death
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Toxins
+    category: Technology
+    book: 'DtD: Demon Translation Guide'
+    page: 41-42
+  - name: Aquatic
+    category: Propulsion
+    book: 'DtD: Flowers of Hell'
+    page: 126
+  - name: Burrowing
+    category: Propulsion
+    book: 'DtD: Flowers of Hell'
+    page: 126
+  - name: Long Limbs
+    category: Propulsion
+    book: Demon the Descent
+    page: 204
+  - name: Phasing
+    category: Propulsion
+    book: Demon the Descent
+    page: 204
+  - name: Plasma Drive
+    category: Propulsion
+    book: Demon the Descent
+    page: 204
+  - name: Spatial Distortion
+    category: Propulsion
+    book: Demon the Descent
+    page: 204
+  - name: Teleportation
+    category: Propulsion
+    book: Demon the Descent
+    page: 204
+  - name: Tether
+    category: Propulsion
+    book: Demon the Descent
+    page: 204
+  - name: Tread
+    category: Propulsion
+    book: 'DtD: Flowers of Hell'
+    page: 127
+  - name: Urban Fluidity
+    category: Propulsion
+    book: 'DtD: Flowers of Hell'
+    page: 127
+  - name: Wings
+    category: Propulsion
+    book: Demon the Descent
+    page: 205
+  - name: Aegis Protocol
+    category: Process
+    book: Demon the Descent
+    page: 205
+  - name: Amorphous
+    category: Process
+    book: 'DtD: Flowers of Hell'
+    page: 127
+  - name: Body Modification
+    category: Process
+    book: Demon the Descent
+    page: 205
+  - name: Cavernous Maw
+    category: Process
+    book: Demon the Descent
+    page: 205
+  - name: Corruption Aura
+    category: Process
+    book: Demon the Descent
+    page: 205
+  - name: Dataform
+    category: Process
+    book: 'DtD: Flowers of Hell'
+    page: 128
+  - name: Eliminator Cannon
+    category: Process
+    book: 'DtD: Flowers of Hell'
+    page: 128
+  - name: Extra Mechanical Limbs
+    category: Process
+    book: Demon the Descent
+    page: 206
+  - name: Insect Swarm
+    category: Process
+    book: Demon the Descent
+    page: 206
+  - name: Magnesium Flare
+    category: Process
+    book: Demon the Descent
+    page: 206
+  - name: Memory Theft
+    category: Process
+    book: Demon the Descent
+    page: 207
+  - name: Multiple Images
+    category: Process
+    book: Demon the Descent
+    page: 207
+  - name: Nanobot Composition
+    category: Process
+    book: 'DtD: Flowers of Hell'
+    page: 128
+  - name: Quill Burst
+    category: Process
+    book: Demon the Descent
+    page: 207
+  - name: Rain of Fire
+    category: Process
+    book: Demon the Descent
+    page: 208
+  - name: Voice of the Angel
+    category: Process
+    book: Demon the Descent
+    page: 208
+  - name: Wound Healing
+    category: Process
+    book: Demon the Descent
+    page: 208
+  - name: Aura of Dread
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 39
+  - name: Aura of Entropy
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 39
+  - name: Aura of Misfortune
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 39
+  - name: Aura of Vitality
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 39
+  - name: Cloak of Shadows
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Deathgrip
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Enhanced Ability/Attribute (Proc)
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Extra Actions
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Fiery Blood
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 40
+  - name: Nimble Hunter
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 41
+  - name: Sun's Bounty
+    category: Process
+    book: 'DtD: Demon Translation Guide'
+    page: 41

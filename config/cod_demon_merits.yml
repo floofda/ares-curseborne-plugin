@@ -1,0 +1,351 @@
+---
+cod:
+  demon_merits:
+  - name: Bolthole
+    category: demon
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: true
+    style: false
+    group: false
+    cg_only: false
+    book: Demon the Descent
+    page: 120
+    include:
+    - demon
+  - name: Consummate Professional
+    category: demon
+    cost: 2
+    reqs: Field:Agenda
+    has_spec: true
+    spec_desc: Demon Agenda
+    multi: true
+    style: false
+    group: false
+    cg_only: false
+    book: Demon the Descent
+    page: 121
+    include:
+    - demon
+  - name: Cultists
+    category: demon
+    cost:
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Demon the Descent
+    page: 121
+    include:
+    - demon
+  - name: Multiple Agendas
+    category: demon
+    cost: 2
+    reqs: 
+    has_spec: true
+    spec_desc: Demon Agenda
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Demon the Descent
+    page: 121
+    include:
+    - demon
+  - name: Suborned Infrastructure
+    category: demon
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: true
+    spec_desc: Linchpin
+    multi: true
+    style: false
+    group: false
+    cg_only: false
+    book: Demon the Descent
+    page: 121
+    include:
+    - demon
+  - name: Terrible Form
+    category: demon
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Demon the Descent
+    page: 122
+    include:
+    - demon
+  - name: Versatile Transformation
+    category: demon
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Demon the Descent
+    page: 122
+    include:
+    - demon
+  - name: Advance Form
+    category: demon
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 128
+    include:
+    - demon
+  - name: Efficient Dealer
+    category: demon
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 128
+    include:
+    - demon
+  - name: Electromagnetic Linguistics
+    category: demon
+    cost: 2
+    reqs: Skill:Computer:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 128
+    include:
+    - demon
+  - name: High Tolerance
+    category: demon
+    cost:
+    - 1
+    - 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 129
+    include:
+    - demon
+  - name: Living The Lie
+    category: demon
+    cost: 1
+    reqs: Field:Primum:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 129
+    include:
+    - demon
+  - name: Monkeywrencher
+    category: demon
+    cost: 2
+    reqs: Field:Primum:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 129
+    include:
+    - demon
+  - name: Resonance Aware
+    category: demon
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Wits:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 129
+    include:
+    - demon
+  - name: Resonance Sensitive
+    category: demon
+    cost: 1
+    reqs: Attribute:Wits:4
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 129
+    include:
+    - demon
+  - name: Subsumed Gadget
+    category: demon
+    cost: 2
+    reqs: Field:Primum:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 129
+    include:
+    - demon
+  - name: Sympathetic Stigmatic
+    category: demon
+    cost: 2
+    reqs: Merit:True Friend
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 129
+    include:
+    - demon
+  - name: Tattooed Gadget
+    category: demon
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 129
+    include:
+    - demon
+  - name: Potent Blood
+    category: stigmatic
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 130
+    include:
+    - stigmatic
+  - name: Sleeve Integrator
+    category: stigmatic
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Field:Integrity:5
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 130
+    include:
+    - stigmatic
+  - name: Sympathetic Demon
+    category: social
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: 'DtD: Flowers of Hell'
+    page: 130
+    include: []
+  - name: Additional Cover
+    category: demon
+    cost: 1
+    reqs: Field:Primum:2
+    has_spec: true
+    spec_desc: Cover Name
+    multi: false
+    style: false
+    group: false
+    cg_only: true
+    book: Demon the Descent
+    page: 79
+    include:
+    - demon
+  - name: Primum Increase
+    category: demon
+    cost: 5
+    modifiers:
+    - Field:Primum:+1
+    has_spec: false
+    spec_desc: 
+    multi: true
+    cg_only: true
+    book: Demon the Descent
+    page: 88
+    include:
+    - demon

@@ -1,0 +1,174 @@
+---
+cod:
+  skills:
+    - name: Academics
+      category: mental
+      specialties: [English Literature, History, Law]
+      book: Chronicles of Darkness
+      page: 31
+    - name: Animal Ken
+      category: social
+      specialties: [Dogs, Exotic Pets, Horses, Training, Wild Animals]
+      book: Chronicles of Darkness
+      page: 40
+    - name: Athletics
+      category: physical
+      specialties:
+        [Acrobatics, Basketball, Marathon Running, Rock Climbing, Throwing]
+      book: Chronicles of Darkness
+      page: 36
+    - name: Brawl
+      category: physical
+      specialties: [Blocking, Boxing, Grappling, Muay Thai, Throws]
+      book: Chronicles of Darkness
+      page: 36
+    - name: Computer
+      category: mental
+      specialties:
+        [
+          Data Retrieval,
+          Digital Security,
+          Hacking,
+          Programming,
+          User Interface Design
+        ]
+      book: Chronicles of Darkness
+      page: 32
+    - name: Crafts
+      category: mental
+      specialties: [Automotive, Carpentry, Jury Rigging, Sculpting, Welding]
+      book: Chronicles of Darkness
+      page: 32
+    - name: Drive
+      category: physical
+      specialties: [Evasion, Motorcycles, Piloting, Racing, Stunts]
+      book: Chronicles of Darkness
+      page: 37
+    - name: Empathy
+      category: social
+      specialties: [Buried Feelings, Calming, Emotions, Lies, Motives]
+      book: Chronicles of Darkness
+      page: 40
+    - name: Expression
+      category: social
+      specialties: [Dance, Journalism, Music Composition, Painting, Speeches]
+      book: Chronicles of Darkness
+      page: 41
+    - name: Firearms
+      category: physical
+      specialties: [Fast-Draw, Handguns, Rifles, Shotguns, Sniping]
+      book: Chronicles of Darkness
+      page: 37
+    - name: Intimidation
+      category: social
+      specialties:
+        [
+          Direct Threats,
+          Interrogation,
+          Murderous Stare,
+          Torture,
+          Veiled Threats
+        ]
+      book: Chronicles of Darkness
+      page: 41
+    - name: Investigation
+      category: mental
+      specialties:
+        [Crime Scenes, Cryptography, Dreams, Forensic Accounting, Riddles]
+      book: Chronicles of Darkness
+      page: 33
+    - name: Larceny
+      category: physical
+      specialties:
+        [
+          Alarm Systems,
+          Breaking and Entering,
+          Lock Picking,
+          Safecracking,
+          Sleight of Hand
+        ]
+      book: Chronicles of Darkness
+      page: 38
+    - name: Medicine
+      category: mental
+      specialties: [Cardiology, First Aid, Pathology, Pharmacology, Surgery]
+      book: Chronicles of Darkness
+      page: 34
+    - name: Occult
+      category: mental
+      specialties:
+        [
+          Eastern European Folktales,
+          Ghosts,
+          Mothman Sightings,
+          Psychic Phenomena,
+          Urban Legends
+        ]
+      book: Chronicles of Darkness
+      page: 34
+    - name: Persuasion
+      category: social
+      specialties: [Fast Talking, Inspiring, Sales Pitches, Seduction, Sermons]
+      book: Chronicles of Darkness
+      page: 41
+    - name: Politics
+      category: mental
+      specialties:
+        [
+          Bureaucracy,
+          Local Politics,
+          National Politics,
+          Scandals,
+          Specific Political Party
+        ]
+      book: Chronicles of Darkness
+      page: 34
+    - name: Science
+      category: mental
+      specialties: [Biology, Chemistry, Genetics, Optics, Particle Physics]
+      book: Chronicles of Darkness
+      page: 35
+    - name: Socialize
+      category: social
+      specialties:
+        [
+          Bar hopping,
+          College parties,
+          Formal events,
+          Political fundraisers,
+          Private clubs
+        ]
+      book: Chronicles of Darkness
+      page: 42
+    - name: Stealth
+      category: physical
+      specialties: [Crowds, Hiding, Moving Quietly, Shadowing, Stakeouts]
+      book: Chronicles of Darkness
+      page: 38
+    - name: Streetwise
+      category: social
+      specialties: [Black market, Gangs, Navigation, Rumors, Undercover work]
+      book: Chronicles of Darkness
+      page: 42
+    - name: Subterfuge
+      category: social
+      specialties:
+        [
+          Detecting lies,
+          Hidden meanings,
+          Hiding emotions,
+          Long cons,
+          Misdirection
+        ]
+      book: Chronicles of Darkness
+      page: 43
+    - name: Survival
+      category: physical
+      specialties: [Foraging, Hunting, Navigation, Shelter, Weather]
+      book: Chronicles of Darkness
+      page: 38
+    - name: Weaponry
+      category: physical
+      specialties: [Clubs, Duels, Improvised Weapons, Knives, Swords]
+      book: Chronicles of Darkness
+      page: 39

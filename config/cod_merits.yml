@@ -1,0 +1,2681 @@
+---
+cod:
+  merits:
+  - name: Allies
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Ally Type
+    multi: true
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 49
+    include: []
+  - name: Alternate Identity
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: true
+    spec_desc: Identity
+    multi: true
+    cg_only: true
+    book: Chronicles of Darkness
+    page: 50
+    include: []
+  - name: Ambidextrous
+    category: physical
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: true
+    book: Chronicles of Darkness
+    page: 47
+    include: []
+  - name: Anonymity
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Special:No Merit:Fame
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 50
+    include: []
+  - name: Area of Expertise
+    category: mental
+    cost: 1
+    reqs: Attribute:Resolve:2 & Special:Skill Specialty
+    has_spec: true
+    spec_desc: Skill Specialty
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 44
+    include: []
+  - name: Armed Defense
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Dexterity:3 & Skill:Weaponry:2 & Merit:Defensive Combat.Weaponry
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 60
+    include: []
+  - name: Aura Reading
+    category: supernatural
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 56
+    include:
+    - mortal
+  - name: Automatic Writing
+    category: supernatural
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 56
+    include:
+    - mortal
+  - name: Automotive Genius
+    category: physical
+    cost: 1
+    reqs: Skill:Crafts:3 & Skill:Drive:1 & Skill:Science:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 47
+    include: []
+  - name: Barfly
+    category: social
+    cost: 2
+    reqs: Skill:Socialize:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 50
+    include: []
+  - name: Biokinesis
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 57
+    include:
+    - mortal
+  - name: Cheap Shot
+    category: fighting
+    cost: 2
+    reqs: Merit:Street Fighting:3 & Skill:Subterfuge:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 61
+    include: []
+  - name: Choke Hold
+    category: fighting
+    cost: 2
+    reqs: Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 61
+    include: []
+  - name: Clairvoyance
+    category: supernatural
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 57
+    include:
+    - mortal
+  - name: Close Quarters Combat
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Wits:3 & Skill:Athletics:2 & Skill:Brawl:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 61
+    include: []
+  - name: Closed Book
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Manipulation:3 & Attribute:Resolve:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 50
+    include: []
+  - name: Common Sense
+    category: mental
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 44
+    include: []
+  - name: Contacts
+    category: social
+    cost:
+    - 1
+    reqs: 
+    has_spec: true
+    spec_desc: Contact Type
+    multi: true
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 50
+    include: []
+  - name: Crack Driver
+    category: physical
+    cost:
+    - 2
+    - 3
+    reqs: Skill:Drive:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 47
+    include: []
+  - name: Cursed
+    category: supernatural
+    cost: 2
+    reqs: 
+    has_spec: true
+    spec_desc: Curse Details
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 57
+    include:
+    - mortal
+  - name: Danger Sense
+    category: mental
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 44
+    include: []
+  - name: Defensive Combat
+    category: fighting
+    cost: 1
+    reqs: Skill:Brawl:1 | Skill:Weaponry:1
+    has_spec: true
+    spec_desc: Brawl | Weaponry
+    multi: true
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 61
+    include: []
+  - name: Demolisher
+    category: physical
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Strength:3 | Attribute:Intelligence:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 47
+    include: []
+  - name: Direction Sense
+    category: mental
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 44
+    include: []
+  - name: Double Jointed
+    category: physical
+    cost: 2
+    reqs: Attribute:Dexterity:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 47
+    include: []
+  - name: Eidetic Memory
+    category: mental
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: Skill
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 44
+    include: []
+  - name: Encyclopedic Knowledge
+    category: mental
+    cost: 2
+    reqs: 
+    has_spec: true
+    spec_desc: Skill
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 44
+    include: []
+  - name: Eye for the Strange
+    category: mental
+    cost: 2
+    reqs: Attribute:Resolve:2 & Skill:Occult:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 44
+    include: []
+  - name: Fame
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: true
+    spec_desc: Fame type
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 50
+    include: []
+  - name: Fast Reflexes
+    category: mental
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Wits:3 | Attribute:Dexterity:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 44
+    include: []
+  - name: Fast-Talking
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Manipulation:3 & Skill:Subterfuge:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 50
+    include: []
+  - name: Fighting Finesse
+    category: fighting
+    cost: 2
+    reqs: Attribute:Dexterity:3 & Skill:Weaponry or Skill:Brawl Specialty
+    has_spec: true
+    spec_desc: Brawl or Weaponry Specialty
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 61
+    include: []
+  - name: Firefight
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Composure:3 & Attribute:Dexterity:3 & Skill:Athletics:2 & Skill:Firearms:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 61
+    include: []
+  - name: Fixer
+    category: social
+    cost: 2
+    reqs: Skill:Contacts:2 & Attribute:Wits:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 51
+    include: []
+  - name: Fleet of Foot
+    category: physical
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Skill:Athletics:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 47
+    include: []
+  - name: Giant
+    category: physical
+    cost: 3
+    reqs: 
+    modifiers:
+    - Field:Size:6
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: true
+    book: Chronicles of Darkness
+    page: 47
+    include: []
+  - name: Good Time Management
+    category: mental
+    cost: 1
+    reqs: Skill:Academics:2 | Skill:Science:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 44
+    include: []
+  - name: Grappling
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Stamina:3 & Attribute:Strength:2 & Skill:Athletics:2 & Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 62
+    include: []
+  - name: Greyhound
+    category: physical
+    cost: 1
+    reqs: Skill:Athletics:3 & Attribute:Wits:3 & Attribute:Stamina:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 48
+    include: []
+  - name: Hardy
+    category: physical
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Stamina:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 47
+    include: []
+  - name: Heavy Weapons
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Stamina:3 & Attribute:Strength:3 & Skill:Athletics:2 & Skill:Weaponry:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 62
+    include: []
+  - name: Hobbyist Clique
+    category: social
+    cost: 2
+    reqs: Special:Clique Membership & Chosen Skill:2
+    has_spec: true
+    spec_desc: Skill
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 51
+    include: []
+  - name: Holistic Awareness
+    category: mental
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 44
+    include: []
+  - name: Improvised Weaponry
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Wits:3 & Skill:Weaponry:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 62
+    include: []
+  - name: Indomitable
+    category: mental
+    cost: 2
+    reqs: Attribute:Resolve:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 45
+    include: []
+  - name: Inspiring
+    category: social
+    cost: 3
+    reqs: Attribute:Presence:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 51
+    include: []
+  - name: Interdisciplinary Specialty
+    category: mental
+    cost: 1
+    reqs: Special:Skill:3 with Specialty
+    has_spec: true
+    spec_desc: Skill Specialty
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 45
+    include: []
+  - name: Investigative Aide
+    category: mental
+    cost: 1
+    reqs: Special:Chosen Skill:3
+    has_spec: true
+    spec_desc: Skill
+    multi: true
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 45
+    include: []
+  - name: Investigative Prodigy
+    category: mental
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Wits:3 & Skill:Investigation:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Chronicles of Darkness (2016)
+    page: 45
+    include: []
+  - name: Iron Skin
+    category: fighting
+    cost:
+    - 2
+    - 4
+    reqs: "(Merit:Martial Arts:2 | Merit:Street Fighting:2) & Attribute:Stamina:3"
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 63
+    include: []
+  - name: Iron Stamina
+    category: physical
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Stamina:3 | Attribute:Resolve:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 48
+    include: []
+  - name: Iron Will
+    category: social
+    cost: 2
+    reqs: Attribute:Resolve:4
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 51
+    include: []
+  - name: Language
+    category: mental
+    cost: 1
+    reqs: 
+    has_spec: true
+    spec_desc: Language
+    multi: true
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 45
+    include: []
+  - name: Laying on Hands
+    category: supernatural
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 57
+    include:
+    - mortal
+  - name: Library
+    category: mental
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: true
+    spec_desc: Mental Skill
+    multi: true
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 46
+    include: []
+  - name: Light Weapons
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: "(Attribute:Wits:3 | Merit:Fighting Finesse) & Attribute:Dexterity:3 & Skill:Athletics:2
+      & Skill:Weaponry:2"
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 63
+    include: []
+  - name: Marksmanship
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Composure:3 & Attribute:Resolve:3 & Skill:Firearms:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 63
+    include: []
+  - name: Martial Arts
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Resolve:3 & Attribute:Dexterity:3 & Skill:Athletics:2 & Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 63
+    include: []
+  - name: Meditative Mind
+    category: mental
+    cost:
+    - 1
+    - 2
+    - 4
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 46
+    include: []
+  - name: Medium
+    category: supernatural
+    cost: 3
+    reqs: Skill:Empathy:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 57
+    include:
+    - mortal
+  - name: Mentor
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Mentor Type
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 51
+    include: []
+  - name: Mind of a Madman
+    category: supernatural
+    cost: 2
+    reqs: Skill:Empathy:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 57
+    include:
+    - mortal
+  - name: Multilingual
+    category: mental
+    cost: 1
+    reqs: 
+    has_spec: true
+    spec_desc: 2 Languages
+    multi: true
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 46
+    include: []
+  - name: Mystery Cult Initiation
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Cult Name
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 51
+    include: []
+  - name: Numbing Touch
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 58
+    include:
+    - mortal
+  - name: Omen Sensitivity
+    category: supernatural
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 58
+    include:
+    - mortal
+  - name: Parkour
+    category: physical
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Dexterity:3 & Skill:Athletics:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 48
+    include: []
+  - name: Patient
+    category: mental
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 46
+    include: []
+  - name: Police Tactics
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Skill:Brawl:2 & Skill:Weaponry:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 64
+    include: []
+  - name: Professional Training
+    category: mental
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Profession
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 46
+    include: []
+  - name: Psychokinesis
+    category: supernatural
+    cost:
+    - 3
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Kinesis Element
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 58
+    include:
+    - mortal
+  - name: Psychometry
+    category: supernatural
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 58
+    include:
+    - mortal
+  - name: Pusher
+    category: social
+    cost: 1
+    reqs: Skill:Persuasion:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 53
+    include: []
+  - name: Quick Draw
+    category: physical
+    cost: 1
+    reqs: Attribute:Wits:3 & (Special:Skill Specialty:Weaponry | Special:Skill Specialty:Firearms)
+    has_spec: true
+    spec_desc: Weaponry or Firearms Skill Specialty
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 49
+    include: []
+  - name: Relentless
+    category: physical
+    cost: 1
+    reqs: Skill:Athletics:2 & Attribute:Stamina:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 49
+    include: []
+  - name: Resources
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 53
+    include: []
+  - name: Retainer
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Retainer Name/Type
+    multi: true
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 53
+    include: []
+  - name: Safe Place
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Name/Phrase Descriptor
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 54
+    include: []
+  - name: Seizing the Edge
+    category: physical
+    cost: 2
+    reqs: Attribute:Wits:3 & Attribute:Composure:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 49
+    include: []
+  - name: Shiv
+    category: fighting
+    cost:
+    - 1
+    - 2
+    reqs: Merit:Street Fighting:2 & Skill:Weaponry:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 64
+    include: []
+  - name: Sleight of Hand
+    category: physical
+    cost: 2
+    reqs: Skill:Larceny:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 49
+    include: []
+  - name: Small Unit Tactics
+    category: social
+    cost: 2
+    reqs: Attribute:Presence:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 54
+    include: []
+  - name: Small-Framed
+    category: physical
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: true
+    book: Chronicles of Darkness
+    page: 49
+    include: []
+  - name: Spin Doctor
+    category: social
+    cost: 1
+    reqs: Attribute:Manipulation:3 & Skill:Subterfuge:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 54
+    include: []
+  - name: Staff
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Skill & Staff Type
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 54
+    include: []
+  - name: Status
+    category: social
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Status Group/Org
+    multi: true
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 54
+    include: []
+  - name: Street Fighting
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Stamina:3 & Attribute:Composure:3 & Skill:Brawl:2 & Skill:Streetwise:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 65
+    include: []
+  - name: Striking Looks
+    category: social
+    cost:
+    - 1
+    - 2
+    reqs: 
+    has_spec: true
+    spec_desc: Looks Descriptor
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 54
+    include: []
+  - name: Stunt Driver
+    category: physical
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Dexterity:3 & Skill:Drive:3 & Attribute:Wits:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 49
+    include: []
+  - name: Sympathetic
+    category: social
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 55
+    include: []
+  - name: Table Turner
+    category: social
+    cost: 1
+    reqs: Attribute:Composure:3 & Attribute:Manipulation:3 & Attribute:Wits:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 55
+    include: []
+  - name: Takes One to Know One
+    category: social
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 55
+    include: []
+  - name: Taste
+    category: social
+    cost: 1
+    reqs: Skill:Crafts:2 & (Special:Skill Specialty:Crafts | Special:Skill Specialty:Expression)
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 55
+    include: []
+  - name: Telekinesis
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 59
+    include:
+    - mortal
+  - name: Telepathy
+    category: supernatural
+    cost:
+    - 3
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 59
+    include:
+    - mortal
+  - name: Thief of Fate
+    category: supernatural
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 60
+    include:
+    - mortal
+  - name: Tolerance for Biology
+    category: mental
+    cost: 1
+    reqs: Attribute:Resolve:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 46
+    include: []
+  - name: Trained Observer
+    category: mental
+    cost:
+    - 1
+    - 3
+    reqs: Attribute:Wits:3 | Attribute:Composure:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 46
+    include: []
+  - name: True Friend
+    category: social
+    cost: 3
+    reqs: 
+    has_spec: true
+    spec_desc: Friend Name/Descriptor
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 56
+    include: []
+  - name: Unarmed Defense
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Dexterity:3 & Skill:Brawl:2 & Merit:Defensive Combat.Brawl
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 65
+    include: []
+  - name: Unseen Sense
+    category: supernatural
+    cost: 2
+    reqs: 
+    has_spec: true
+    spec_desc: Type of Supernatural Creature
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 60
+    include:
+    - mortal
+    - stigmatic
+  - name: Untouchable
+    category: social
+    cost: 1
+    reqs: Attribute:Manipulation:3 & Skill:Subterfuge:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 56
+    include: []
+  - name: Vice-Ridden
+    category: mental
+    cost: 2
+    reqs: 
+    has_spec: true
+    spec_desc: Vice
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 46
+    include: []
+  - name: Virtuous
+    category: mental
+    cost: 2
+    reqs: 
+    has_spec: true
+    spec_desc: Virtue
+    multi: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 46
+    include: []
+  - name: Air of Menace
+    category: general
+    cost: 2
+    reqs: Skill:Intimidation:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 41
+    include: []
+  - name: Body as Weapon
+    category: general
+    cost: 2
+    reqs: Attribute:Stamina:3 & Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 41
+    include: []
+  - name: Cohesive Unit
+    category: general
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Presence:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 42
+    include: []
+  - name: Defender
+    category: general
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 42
+    include: []
+  - name: Empath
+    category: general
+    cost: 2
+    reqs: Skill:Empathy:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 42
+    include: []
+  - name: Object Fetishism
+    category: general
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: true
+    spec_desc: Skill Specialty
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 42
+    include: []
+  - name: Peacemaker
+    category: general
+    cost:
+    - 2
+    - 3
+    reqs: Attribute:Wits:3 & Skill:Empathy:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 42
+    include: []
+  - name: Punch Drunk
+    category: general
+    cost: 2
+    reqs: Field:Willpower:6
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 43
+    include: []
+  - name: Scarred
+    category: general
+    cost: 1
+    reqs: Special:Field:Integrity:<5
+    has_spec: true
+    spec_desc: Breaking Point Event/Condition
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 43
+    include: []
+  - name: Support Network
+    category: general
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Allies | Merit:Mentor | Merit:Retainer | Merit:True Friend | Special:Merit:Similar
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 43
+    include: []
+  - name: Survivalist
+    category: general
+    cost: 1
+    reqs: Skill:Survival:3 & Merit:Iron Stamina:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    style_tags: Attitude (Endurance)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 43
+    include: []
+  - name: Avoidance
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Manipulation:3 & Skill:Athletics:2 & Skill:Stealth:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Movement (Agile)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 46
+    include: []
+  - name: Berserker
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Strength:3 & Merit:Iron Stamina:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Attitude (Engaged)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 46
+    include: []
+  - name: Bowmanship
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Dexterity:3 & Skill:Firearms:2 & Merit:Trained Observer:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Archery
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 47
+    include: []
+  - name: Boxing
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Strength:2 & Attribute:Dexterity:2 & Attribute:Stamina:2 & Skill:Brawl:2
+      & Skill:Athletics:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Striking
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 47
+    include: []
+  - name: Chain Weapons
+    category: fighting
+    cost:
+    - 1
+    - 2
+    reqs: Attribute:Strength:3 & Attribute:Dexterity:3 & Skill:Athletics:2 & Skill:Weaponry:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Flexible
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 48
+    include: []
+  - name: Combat Archery
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Strength:3 & Skill:Athletics:2 & Merit:Quick Draw.Bow:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Archery
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 48
+    include: []
+  - name: Falconry
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Wits:3 & Skill:Animal Ken:3 & Special:Condition:Bonded
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Creature (Claw)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 48
+    include: []
+  - name: Grappling
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Stamina:3 & Attribute:Strength:2 & Skill:Athletics:2 & Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Grappling
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 49
+    include: []
+  - name: K-9
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Wits:3 & Skill:Animal Ken:3 & Special:Condition:Bonded
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Creature (Bite), Tactical (Police)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 49
+    include: []
+  - name: Kino Mutai
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Dexterity:2 & Attribute:Resolve:3 & Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Enraged, Street
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 50
+    include: []
+  - name: Loaded for Bear
+    category: fighting
+    cost:
+    - 1
+    - 2
+    reqs: Skill:Athletics:1 & Skill:Survival:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 143
+    include: []
+  - name: Martial Arts
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Resolve:3 & Attribute:Dexterity:3 & Skill:Athletics:2 & Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Striking
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 50
+    include: []
+  - name: Mounted Combat
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Dexterity:3 & Skill:Athletics:2 & Skill:Animal Ken:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Archery, Heavy Melee, Light Melee, Tactical (Police)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 51
+    include: []
+  - name: Powered Projectile
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Dexterity:3 & Skill:Athletics:2 & Skill:Firearms:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Pistol
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 51
+    include: []
+  - name: Spear and Bayonet
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Strength:3 & Attribute:Dexterity:2 & Skill:Weaponry:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Pole Weapons
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 51
+    include: []
+  - name: Staff Fighting
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Strength:2 & Attribute:Dexterity:3 & Skill:Weaponry:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Pole Weapons
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 51
+    include: []
+  - name: Strength Performance
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Strength:3 & Attribute:Stamina:2 & Skill:Athletics:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Movement (Strong)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 52
+    include: []
+  - name: Systema
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Dexterity:3 & Skill:Athletics:3 & Attribute:Wits:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Movement (Agility), Tactical (Military)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 52
+    include: []
+  - name: Thrown Weapons
+    category: fighting
+    cost:
+    - 1
+    - 2
+    reqs: Attribute:Dexterity:3 & Skill:Athletics:2 & Merit:Quick Draw.Thrown Weapons:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Light Melee, Agile
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 52
+    include: []
+  - name: Trigger Discipline
+    category: fighting
+    cost: 1
+    reqs: Attribute:Wits:2 & Skill:Firearms:2
+    has_spec: true
+    spec_desc: Pistol | Shotgun | Rifle | Thrown | Heavy Weapons
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 143
+    include: []
+  - name: Two Weapon Fighting
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Wits:3 & Skill:Weaponry:3 & Merit:Fighting Finesse:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Flexible, Light Melee
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 53
+    include: []
+  - name: Weapon and Shield
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Strength:3 & Attribute:Stamina:3 & Skill:Weaponry:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Light Melee
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 53
+    include: []
+  - name: Armed Restraint
+    category: fighting
+    cost:
+    - 1
+    - 2
+    reqs: Merit:Staff Fighting:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 53
+    include: []
+  - name: Boot Party
+    category: fighting
+    cost:
+    - 1
+    - 2
+    reqs: Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Striking
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 53
+    include: []
+  - name: Clinch Strike
+    category: fighting
+    cost: 1
+    reqs: Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Striking, Grappling, Tactical (Street)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 53
+    include: []
+  - name: Covert Operative
+    category: fighting
+    cost: 1
+    reqs: Attribute:Wits:3 & Attribute:Dexterity:3 & Skill:Stealth:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Tactical (Military)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 53
+    include: []
+  - name: Ground and Pound
+    category: fighting
+    cost: 3
+    reqs: Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Striking, Grappling, Tactical (Street)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 54
+    include: []
+  - name: Ground Fighter
+    category: fighting
+    cost: 3
+    reqs: Attribute:Wits:3 & Attribute:Dexterity:3 & Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Grappling
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 54
+    include: []
+  - name: Headbutt
+    category: fighting
+    cost: 1
+    reqs: Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Striking, Grappling
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 54
+    include: []
+  - name: Iron Chin
+    category: fighting
+    cost:
+    - 2
+    - 4
+    reqs: Attribute:Resolve:3 & Attribute:Stamina:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Attitude (Determined), Striking, Tactical (Street)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 54
+    include: []
+  - name: Phalanx Fighter
+    category: fighting
+    cost: 2
+    reqs: Merit:Weapon and Shield:2 & Merit:Spear and Bayonet:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 54
+    include: []
+  - name: Transfer Maneuver
+    category: fighting
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Intelligence:2 & Attribute:Wits:3 & Special:Fighting Merit:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 54
+    include: []
+  - name: Trunk Squeeze
+    category: fighting
+    cost: 2
+    reqs: Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Creature (Constrictor), Grappling
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 54
+    include: []
+  - name: Retain Weapon
+    category: fighting
+    cost: 2
+    reqs: Attribute:Wits:2 & Skill:Brawl:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Light Weapon, Pistol, Tactical (Police, Military)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 54
+    include: []
+  - name: Roadkill
+    category: fighting
+    cost: 3
+    reqs: Merit:Aggressive Driving:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Tactical (Street)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 55
+    include: []
+  - name: Aggressive Driving
+    category: general
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Resolve:3 & Skill:Drive:3 & Merit:Fast Reflexes:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Tactical (Police) | Tactical (Street)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 55
+    include: []
+  - name: Drone Control
+    category: general
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Attribute:Intelligence:3 & Skill:Computer:3 & Skill:Drive:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    style_tags: Tactical (Military) | Tactical (Police)
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 55
+    include: []
+  - name: Organization Size
+    category: general
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Special:Violence Group Membership
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: true
+    cg_only: false
+    book: Hurt Locker
+    page: 31
+    include: []
+  - name: Animal Possession
+    category: supernatural
+    cost:
+    - 2
+    - 4
+    reqs: Skill:Animal Ken:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 72
+    include:
+    - mortal
+  - name: Apportation
+    category: supernatural
+    cost:
+    - 3
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 72
+    include:
+    - mortal
+  - name: Assertive Implement
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Attribute:Manipulation:3 & Skill:Occult:3 & (Skill:Weaponry:2 | Skill:Weaponry:Firerarms:2)
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 72
+    include:
+    - mortal
+  - name: Biomimicry
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    reqs: Merit:Biokinesis:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 72
+    include:
+    - mortal
+  - name: Bless Amulet
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Skill:Occult:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 72
+    include:
+    - mortal
+  - name: Camera Obscura
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    reqs: Merit:Unseen Sense.Ghost:2 | Merit:Unseen Sense.Spirit:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    style_tags: Merit:Unseen Sense.Ghost:2 | Merit:Unseen Sense.Spirit:2
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 73
+    include:
+    - mortal
+  - name: Consecrate Weapon
+    category: supernatural
+    cost: 4
+    reqs: Attribute:Resolve:3 & Skill:Occult:4
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 73
+    include:
+    - mortal
+  - name: Curse Effigy
+    category: supernatural
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 73
+    include:
+    - mortal
+  - name: Dark Passenger
+    category: supernatural
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 73
+    include:
+    - mortal
+  - name: Doppelganger
+    category: supernatural
+    cost: 3
+    reqs: Merit:Biokinesis:1 & Skill:Subterfuge:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 73
+    include:
+    - mortal
+  - name: Esoteric Armory
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    group: false
+    cg_only: false
+    book: Chronicles of Darkness
+    page: 139
+    include:
+    - mortal
+  - name: Evil Eye
+    category: supernatural
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 73
+    include:
+    - mortal
+  - name: Fated Ferocity
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Cursed:2 & Attribute:Stamina:2 & Attribute:Resolve:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 73
+    include:
+    - mortal
+  - name: Hardened Exorcist
+    category: supernatural
+    cost: 1
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 74
+    include:
+    - mortal
+  - name: Hidden Variable
+    category: supernatural
+    cost: 2
+    reqs: Merit:Unseen Sense.God-Machine:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 74
+    include:
+    - mortal
+  - name: Incite Ecosystem
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Skill:Animal Ken:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 74
+    include:
+    - mortal
+  - name: Invoke Spirit
+    category: supernatural
+    cost: 2
+    reqs: Attribute:Resolve:3 & Merit:Medium:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 74
+    include:
+    - mortal
+  - name: Mind Control
+    category: supernatural
+    cost: 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 74
+    include:
+    - mortal
+  - name: Phantasmagoria
+    category: supernatural
+    cost: 2
+    reqs: Merit:Telepathy:5 & Skill:Expression:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 74
+    include:
+    - mortal
+  - name: Psychic Concealment
+    category: supernatural
+    cost: 3
+    reqs: Merit:Mind Control:3 & Skill:Stealth:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 75
+    include:
+    - mortal
+  - name: Psychic Onslaught
+    category: supernatural
+    cost: 5
+    reqs: Merit:Telekinesis:1 | Merit:Psychokinesis:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 75
+    include:
+    - mortal
+  - name: Psychic Poltergeist
+    category: supernatural
+    cost: 2
+    reqs: Merit:Telekinesis:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 75
+    include:
+    - mortal
+  - name: Psychokinetic Combat
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Psychokinesis:3 | Merit:Psychokinesis:5
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 76
+    include:
+    - mortal
+  - name: Psychokinetic Resistance
+    category: supernatural
+    cost: 1
+    reqs: Merit:Psychokinesis:1
+    has_spec: true
+    spec_desc: Psychokinesis Element
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 76
+    include:
+    - mortal
+  - name: Sacrificial Offering
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Skill:Occult:3 & Merit:Mystery Cult Initiation:5
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 76
+    include:
+    - mortal
+  - name: Sojourner
+    category: supernatural
+    cost: 3
+    reqs: Merit:Apportation:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 76
+    include:
+    - mortal
+  - name: Tactical Telepathy
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Telepathy:5
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 76
+    include:
+    - mortal
+  - name: Technopathy
+    category: supernatural
+    cost:
+    - 2
+    - 3
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 77
+    include:
+    - mortal
+  - name: Telekinetic Evasion
+    category: supernatural
+    cost: 3
+    reqs: Merit:Telekinesis:1
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 77
+    include:
+    - mortal
+  - name: Vengeful Soul
+    category: supernatural
+    cost: 2
+    reqs: 
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 77
+    include:
+    - mortal
+  - name: Supernatural Resistance
+    category: supernatural
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Special:Merit:Supernatural
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Hurt Locker
+    page: 78
+    include:
+    - mortal
+  - name: Etiquette
+    category: general
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Attribute:Composure:3 & Skill:Socialize:2
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: true
+    group: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 122
+    include: []
+  - name: Library, Advanced
+    category: general
+    cost:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    reqs: Merit:Library:3 & Special:Merit:Safe Place:Equal to Merit Rating
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: true
+    cg_only: false
+    book: Mage the Awakening, Second Edition
+    page: 105
+    include: []
+  - name: Lucid Dreamer
+    category: general
+    cost: 2
+    reqs: Special:Template:NOT Changeling & Attribute:Resolve:3
+    has_spec: false
+    spec_desc: 
+    multi: false
+    style: false
+    group: false
+    cg_only: false
+    book: Changeling the Lost, Second Edition
+    page: 123
+    include: []

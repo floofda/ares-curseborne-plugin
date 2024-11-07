@@ -1,0 +1,233 @@
+---
+cod:
+  changeling:
+    sphere: Changeling
+    power:
+      name: Wyrd
+      min: 1
+      max: 5
+      cg_min: 1
+      cg_max: 3
+    resource: Glamour
+    resource_pool:
+    - 0
+    - 10
+    - 11
+    - 12
+    - 13
+    - 15
+    - 20
+    - 25
+    - 30
+    - 50
+    - 75
+    morality: Clarity
+    xp_costs:
+      court_contract_common: 3
+      court_contract_royal: 4
+      goblin_contract: 2
+      regalia_contract_common: 3
+      regalia_contract_royal: 4
+      favored_regalia_contract_common: 2
+      favored_regalia_contract_royal: 3
+      contract_blessing: 1
+      wyrd: 5
+    abilities:
+    - name: Contract
+      plural: Contracts
+      key: contracts
+      config: contracts
+    merits: 10
+    contracts:
+      common: 4
+      royal: 2
+    classifications:
+      primary: Seeming
+      secondary: Kith
+      tertiary: Court
+    secondary_desc: Mien
+    chargen_ability_blurb: Your character begins with four Contracts chosen from among
+      Common Regalia, Common Court, and Goblin Contracts; she must meet the proper
+      requirements to take Court Contracts, see p. 150. Two of those starting Contracts
+      must come from one of the character's two favored Regalia. She also gains two
+      Royal Contracts from her court or favored Regalia.
+    anchors:
+    - name: Needle
+      suggested: Bon Vivant, Chess Master, Commander, Composer, Counselor, Daredevil,
+        Dynamo, Protector, Provider, Scholar, Storyteller, Teacher, Traditionalist,
+        Visionary. Custom Needles should have Willpower details defined in a Ledger
+        Note.
+    - name: Thread
+      suggested: Acceptance, Anger, Family, Friendship, Hate, Honor, Joy, Love, Memory,
+        Revenge. Custom Threads should have Willpower details defined in a Ledger
+        Note.
+    seeming:
+    - name: Beast
+      regalia: Steed
+      modifiers:
+      - Field:Initiative:+3
+      - Field:Speed:+3
+      attribute: resistance
+    - name: Darkling
+      regalia: Mirror
+      attribute: finesse
+    - name: Elemental
+      regalia: Sword
+      attribute: resistance
+    - name: Fairest
+      regalia: Crown
+      attribute: power
+    - name: Ogre
+      regalia: Shield
+      attribute: power
+    - name: Wizened
+      regalia: Jewels
+      attribute: finesse
+    kith:
+    - name: Artist
+    - name: Bright One
+    - name: Chatelaine
+    - name: Gristlegrinder
+    - name: Helldiver
+    - name: Hunterheart
+    - name: Leechfinger
+    - name: Mirrorskin
+    - name: Nightsinger
+    - name: Notary
+    - name: Playmate
+    - name: Snowskin
+    - name: Absinthial
+    - name: Climacteric
+    - name: Concubus
+    - name: Draconic
+    - name: Flowering
+    - name: Ghostheart
+    - name: Moonborn
+    - name: Uttervoice
+    - name: Delver
+    - name: Glimmerwisp
+    - name: Gremlin
+    - name: Manikin
+    - name: Oculus
+    - name: Polychromatic
+    - name: Veneficus
+    - name: Witchtooth
+    - name: Bricoleur
+    - name: Cloakskin
+    - name: Doppelganger
+    - name: Lethipomp
+    - name: Lullescent
+    - name: Riddleseeker
+    - name: Sideromancer
+    - name: Spiegelbild
+    - name: Asclepian
+    - name: Bridgeguard
+    - name: Librorum
+    - name: Liminal
+    - name: Reborn
+    - name: Stoneflesh
+    - name: Wisewitch
+    - name: Airtouched
+    - name: Chalomot
+    - name: Chevalier
+    - name: Farwalker
+    - name: Flickerflash
+    - name: Levinquick
+    - name: Swarmflight
+    - name: Swimmerskin
+    - name: Bearskin
+    - name: Beastcaller
+    - name: Cyclopean
+    - name: Plaguesmith
+    - name: Razorhand
+    - name: Sandharrowed
+    - name: Valkyrie
+    - name: Venombite
+    - name: Apoptosome
+    - name: Becquerel
+    - name: Blightbent
+    - name: Enkrateia
+    - name: Gravewight
+    - name: Shadowsoul
+    - name: Telluric
+    - name: Whisperwisp
+    - name: None
+    court:
+    - name: Spring
+      modifiers:
+      - Merit:Mantle.Spring:+1
+    - name: Summer
+      modifiers:
+      - Merit:Mantle.Summer:+1
+    - name: Autumn
+      modifiers:
+      - Merit:Mantle.Autumn:+1
+    - name: Winter
+      modifiers:
+      - Merit:Mantle.Winter:+1
+    - name: None
+      modifiers: []
+    fields:
+    - name: Favored Regalia
+      display: true
+      desc: |-
+        Each Seeming has an innate Favored Regalia: Beast (Steed), Darklings (Mirror), Elemental (Sword), Fairest (Crown), Ogre (Shield), and Wizened (Jewels).
+
+        Select an additional Regalia beyond the one that comes with your Seeming.
+      values:
+      - name: Crown
+        modifiers: []
+      - name: Jewels
+        modifiers: []
+      - name: Mirror
+        modifiers: []
+      - name: Shield
+        modifiers: []
+      - name: Steed
+        modifiers: []
+      - name: Sword
+        modifiers: []
+      - name: Chalice
+        modifiers: []
+      - name: Coin
+        modifiers: []
+      - name: Scepter
+        modifiers: []
+      - name: Stars
+        modifiers: []
+      - name: Thorn
+        modifiers: []
+    - name: Favored Attribute
+      display: false
+      desc: "Every Seeming has a favored attribute type:\n Power (Strength, Intelligence,
+        Presence) Finesse (Dexterity, Wits, Manipulation) Resistance (Stamina, Resolve,
+        Composure) \n\n Elemental and Beast favor Resistance\n Fairest and Ogre favor
+        Power\n Darkling and Wizened favor Finesse"
+      values:
+      - name: Strength
+        modifiers:
+        - Attribute:Strength:+1
+      - name: Intelligence
+        modifiers:
+        - Attribute:Intelligence:+1
+      - name: Presence
+        modifiers:
+        - Attribute:Presence:+1
+      - name: Dexterity
+        modifiers:
+        - Attribute:Dexterity:+1
+      - name: Wits
+        modifiers:
+        - Attribute:Wits:+1
+      - name: Manipulation
+        modifiers:
+        - Attribute:Manipulation:+1
+      - name: Stamina
+        modifiers:
+        - Attribute:Stamina:+1
+      - name: Resolve
+        modifiers:
+        - Attribute:Resolve:+1
+      - name: Composure
+        modifiers:
+        - Attribute:Composure:+1

@@ -1,0 +1,86 @@
+---
+cod:
+  demon:
+    sphere: Demon
+    power:
+      name: Primum
+      min: 1
+      max: 5
+      cg_min: 1
+      cg_max: 3
+    resource: Aether
+    resource_pool:
+    - 0
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 20
+    - 30
+    - 50
+    - 100
+    specialties: 4
+    morality: Cover
+    start_morality: 7
+    merits: 10
+    modifiers:
+    - Merit:Eidetic Memory:2
+    abilities:
+    - name: Embed
+      plural: Embeds
+      key: embeds
+      config: embeds
+    - name: Exploit
+      plural: Exploits
+      key: exploits
+      config: exploits
+      spec_required: true
+    - name: Form Ability
+      plural: Form Abilities
+      key: form_abilities
+      config: form_abilities
+    embeds_and_exploits:
+      embed: 1
+      exploit: 0
+      max: 4
+    form_abilities:
+      modifications: 3
+      technologies: 2
+      propulsions: 1
+      processes: 1
+    classifications:
+      primary: Incarnation
+      secondary: Agenda
+    secondary_desc: Demonic Form
+    demon_ability_blurb: 'Select 4 Embeds and/or Exploits with at least one Embed.
+      Exploits must be tied to a prerequisite Embed, which is listed in the Exploit
+      entries. Alternate prerequisites are listed in Demon the Descent: Flowers of
+      Hell p. 119.'
+    anchors:
+    - name: Virtue
+      suggested: Calm, Curious, Destructive, Dispassionate, Eccentric, Hidden, Independent,
+        Logical, Obedient, Passionate, Precise, Punctual, Suspicious. Custom Virtues
+        should have Willpower details defined in a Ledger Note.
+    - name: Vice
+      suggested: Calm, Curious, Destructive, Dispassionate, Eccentric, Hidden, Independent,
+        Logical, Obedient, Passionate, Precise, Punctual, Suspicious. Custom Vices
+        should have Willpower details defined in a Ledger Note.
+    incarnation:
+    - name: Analyst
+      embed: None
+    - name: Destroyer
+      embed: Cacophony
+    - name: Guardian
+      embed: Instrumental
+    - name: Messenger
+      embed: Mundane
+    - name: Psychopomp
+      embed: Vocal
+    agenda:
+    - name: Inquisitor
+    - name: Integrator
+    - name: Saboteur
+    - name: Tempter
+    - name: None
