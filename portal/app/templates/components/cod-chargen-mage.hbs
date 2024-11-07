@@ -1,0 +1,72 @@
+<div class="cg-tip">
+  <AnsiFormat @text={{this.cg_lists.template_info.mage_ability_blurb}} />
+</div>
+
+<div class="container {{if this.override_mage 'override-'}}mage">
+  <div class="row mage-arcana">
+    <div class="p-2" style="font-size:larger">Arcana</div>
+    <div class="row">
+      {{#each this.cg_sheet.arcana as |a index|}}
+      <div class="col-sm-6 col-md-3 mb-4 text-center">
+        <CodFillbox @rating={{a.rating}} @ratingName={{a.name}} @minRating={{this.cg_lists.template_info.arcana.min}}
+          @maxRating={{this.cg_lists.template_info.arcana.max}} @updated={{action "arcanaChanged" }}>
+          <em>{{a.name}}</em>
+        </CodFillbox>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+  <div class="row">
+    <div class="p-2" style="font-size:larger">Rotes & Praxes</div>
+    {{#each this.praxes as |p index|}}
+    <div class="row">
+      <div class="col-auto mage-select">
+        <PowerSelect @searchEnabled={{true}} @placeholder="Praxis" @options={{this.rotesList}} @selected={{get (get
+          this.cg_sheet.praxes index) 'name' }} @onChange={{action "setPraxis" index }} as |praxis|>
+          {{praxis}}
+        </PowerSelect>
+      </div>
+      {{#let (get this.cg_sheet.praxes index) as |r|}}
+      {{#if (and r r.name)}}
+      <div class="col">
+        <CodAbilityCard @ability={{r}} @fields={{this.rote_fields}} />
+      </div>
+      {{/if}}
+      {{/let}}
+    </div>
+    {{/each}}
+    {{#each this.rotes as |r index|}}
+    <div class="row">
+      <div class="col-auto mage-select">
+        <PowerSelect @searchEnabled={{true}} @placeholder="Rote" @options={{this.rotesList}} @selected={{get (get
+          this.cg_sheet.rotes index) 'name' }} @onChange={{action "setRote" index }} as |rote|>
+          {{rote}}
+        </PowerSelect>
+        {{#if (get (get this.cg_sheet.rotes index) 'name')}}
+        <PowerSelect @placeholder="Rote Skill" @options={{get (get this.cg_sheet.rotes index) 'rote_skills' }}
+          @selected={{get (get this.cg_sheet.rotes index) 'spec' }} @onChange={{action "setRoteSkill" index }} as
+          |rote_skill|>
+          {{rote_skill}}
+        </PowerSelect>
+        {{/if}}
+      </div>
+      {{#let (get this.cg_sheet.rotes index) as |r|}}
+      {{#if (and r r.name)}}
+      <div class="col">
+        <CodAbilityCard @ability={{r}} @fields={{this.rote_fields}} />
+      </div>
+      {{/if}}
+      {{/let}}
+    </div>
+    <br>
+    <br>
+    {{/each}}
+  </div>
+</div>
+
+<style>
+  .mage .mage-select {
+    min-width: 16em;
+    margin-bottom: 1rem;
+  }
+</style>

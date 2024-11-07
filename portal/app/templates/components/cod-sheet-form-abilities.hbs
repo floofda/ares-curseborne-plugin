@@ -1,0 +1,24 @@
+<div class="row char-abilities-block char-abilities-form-abilities">
+  <div>
+    <table class="table table-striped form-abilities-table">
+      <thead>
+        <th>Form Ability</th>
+        <th>Category</th>
+        <th class="text-end">Reference</th>
+      </thead>
+      <tbody>
+        {{#each this.abilities as |ability|}}
+        <tr>
+          <td>{{ability.name}}</td>
+          <td>{{ability.data.category}}</td>
+          <td>
+            <div class="cg-tip text-end">
+              {{ability.data.book}} p.{{ability.data.page}}
+            </div>
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</div>

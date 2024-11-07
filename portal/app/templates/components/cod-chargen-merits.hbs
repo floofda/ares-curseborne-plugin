@@ -1,0 +1,67 @@
+<p class="cg-tip">
+  <AnsiFormat @text={{(concat this.cg_info.merits_blurb this.cg_lists.template_info.merits)}} />
+</p>
+
+<div class="container">
+  <button name="addmerit" {{action 'addMerit' }} class="btn btn-primary text-right">Add Merit</button>
+
+  <div class="row p-4">
+    <br>
+    {{#each this.cg_sheet.merits as |m index|}}
+    <div class="row">
+      <div class="col-1 mt-1">
+        <button name="deletemerit" {{action 'deleteMerit' index}} class="btn btn-sm btn-outline-danger">x</button>
+      </div>
+      <div class="col-4">
+        <div class="w-100">
+          <PowerSelect @options={{m.options}} @searchEnabled={{true}} @searchField="name" placeholder="Select a Merit"
+            @selected={{m}} @onChange={{action "meritChanged" index}} as |merit|>
+            {{merit.name}}
+          </PowerSelect>
+        </div>
+        {{#if m.name}}
+        <CodFillbox @rating={{m.rating}} @ratingName={{m.name}} @steps={{m.cost}} @updated={{action "meritCostUpdated"
+          }}>
+        </CodFillbox>
+        {{/if}}
+        {{#if m.has_spec}}
+        <div class="w-100 mt-1">
+          <input class="w-100" type="text" placeholder="Specifics" value={{m.spec}} oninput={{action "addSpecifics"
+            index}} />
+        </div>
+        {{/if}}
+      </div>
+      {{#if m.name}}
+      <div class="col">
+        <div class="card">
+          <div class="card-header">
+            <b>{{m.name}}</b> {{#if m.spec}}({{m.spec}}){{/if}}
+          </div>
+          <div class="card-body">
+            <em>Category:</em> <span class="text-capitalize">{{m.details.category}}</span>
+            <br>
+            <em>Cost:</em> <span>{{m.dots}}</span>
+            {{#if m.details.reqs}}
+            <br>
+            <em>Prerequisites:</em> <span>{{m.details.reqs}}</span>
+            {{/if}}
+            <br>
+            {{#if (and m.has_spec (eq m.spec ""))}}
+            <br>
+            <b><em>Additional info needed in Specifics</em></b>
+            {{/if}}
+            <br>
+            <span class="cg-tip">
+              {{m.details.book}} p.{{m.details.page}}
+            </span>
+          </div>
+        </div>
+      </div>
+      {{/if}}
+    </div>
+    {{/each}}
+  </div>
+</div>
+<br>
+Merit Points: {{this.meritPoints}}
+<br>

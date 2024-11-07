@@ -1,0 +1,30 @@
+<div class="d-flex justify-content-start">
+  {{#each this.boxes as |box|}}
+  {{#if this.config.override_health_box}}
+  <div class="cod-health-box">
+    <div class="{{box.fill_type}}-damage"></div>
+  </div>
+  {{else}}
+  <div class="cod-health-box" style="margin-left:3px;display:inline-block;border: 1px solid grey">
+    {{#if (eq box.fill_type 'agg' )}}
+    <div
+      style="position:relative;height:14px;width:14px;background-color:rgb(151, 53, 53);clip-path: polygon(40% 0%, 0% 0%, 0% 40%, 50% 50%, 0% 60%, 0% 100%, 40% 100%, 50% 50%, 60% 100%, 100% 100%, 100% 60%, 50% 50%, 100% 40%, 100% 0%, 60% 0%, 50% 50%)">
+    </div>
+    {{/if}}
+    {{#if (eq box.fill_type 'lethal' )}}
+    <div
+      style="position:relative;height:14px;width:14px;background-color:rgb(151, 53, 53);clip-path: polygon(0 0, 100% 0, 50% 50%, 100% 100%, 0 100%, 50% 50%);">
+    </div>
+    {{/if}}
+    {{#if (eq box.fill_type 'bashing' )}}
+    <div
+      style="position:relative;height:14px;width:14px;background-color:rgb(151, 53, 53);clip-path: polygon(100% 0, 0% 100%, 100% 100%);">
+    </div>
+    {{/if}}
+    {{#if (eq box.fill_type 'empty' )}}
+    <div style="position:relative;height:14px;width:14px"></div>
+    {{/if}}
+  </div>
+  {{/if}}
+  {{/each}}
+</div>

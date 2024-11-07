@@ -1,0 +1,24 @@
+<div class="card">
+  <div class="card-header">
+    <b>{{this.contract.name}}</b> {{#if this.contract.type}}({{this.contract.type}}){{/if}}
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col">
+        <em>Cost:</em> <span>{{this.contract_data.cost}}</span>
+        <br>
+        <em>Action:</em> <span>{{this.contract_data.action}}</span>
+        <br>
+        <em>Pool:</em> <span>{{this.contract_data.pool}}</span>
+      </div>
+      <div class="col">
+        <span><b>{{this.contract_data.group}}</b></span>
+        {{#if this.contract_data.category}}<br>{{this.contract_data.category}}{{/if}}
+        <br>
+        <span class="cg-tip">
+          {{this.contract_data.book}} p.{{this.contract_data.page}}
+        </span>
+      </div>
+    </div>
+  </div>
+</div>

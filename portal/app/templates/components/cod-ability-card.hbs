@@ -1,0 +1,41 @@
+<div class="card cod-ability-card">
+  <div class="card-header">
+    <b>{{this.ability.name}}</b> {{#if this.ability.spec}}({{this.ability.spec}}){{/if}}
+  </div>
+  <div class="card-body">
+    <div class="row">
+      {{#if this.fields}}
+      {{#each-in this.fields as |key name|}}
+      {{#if (get this.ability_data key)}}
+      <div class="d-flex gap-1 ability-card-field">
+        <div><em>{{name}}:</em></div>
+        <div>{{get this.ability_data key}}</div>
+      </div>
+      <br>
+      {{/if}}
+      {{/each-in}}
+      {{else}}
+      {{#if (or this.ability_data.cost this.ability_data.action this.ability_data.pool)}}
+      <div class="col">
+        {{#if this.ability_data.cost}}
+        <em>Cost:</em> <span>{{this.ability_data.cost}}</span>
+        <br>
+        {{/if}}
+        {{#if this.ability_data.action}}
+        <em>Action:</em> <span>{{this.ability_data.action}}</span>
+        <br>
+        {{/if}}
+        {{#if this.ability_data.pool}}
+        <em>Pool:</em> <span>{{this.ability_data.pool}}</span>
+        {{/if}}
+      </div>
+      {{/if}}
+      {{/if}}
+      <div class="d-flex justify-content-end">
+        <div class="cg-tip">
+          {{this.ability_data.book}} p.{{this.ability_data.page}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

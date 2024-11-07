@@ -1,0 +1,84 @@
+{{page-title this.pageTitle}}
+<div class="{{if this.override_scene_focus 'override-'}}cod-scene">
+  <LiveSceneControl @scene={{this.model.scene}} @locations={{this.model.locations}} @abilities={{this.model.abilities}}
+    @places={{this.model.scene.places}} @playerName={{this.currentUser.name}} @characters={{this.model.characters}}
+    @scrollPaused={{this.scrollPaused}} @custom={{this.model.custom}} @refresh={{action "refresh" }}
+    @scrollDown={{action "scrollScene" }} @setScroll={{action "setScroll" }} />
+</div>
+
+<style>
+  .body-wrap {
+    padding: 0;
+    margin: 0;
+  }
+
+  .container-fluid {
+    height: 100dvh;
+  }
+
+  .container-fluid>hr {
+    display: none;
+  }
+
+  .body-container {
+    padding-bottom: 0;
+  }
+
+  .body-container>div>hr {
+    display: none;
+  }
+
+  .header-wrap {
+    display: none;
+  }
+
+  .cod-scene>div>hr {
+    display: none;
+  }
+
+  .cod-scene .play-scene-context-wrap {
+    margin-top: 0;
+  }
+
+  .cod-scene .play-scene-context-prompt {
+    font-size: 1rem;
+  }
+
+  .cod-scene .scene-pose-header {
+    margin-bottom: 0;
+  }
+
+  .cod-scene .scene-pose {
+    margin: 2px 15px;
+  }
+
+  .cod-scene .scene-pose-box {
+    margin-bottom: 0;
+  }
+
+  .cod-scene .scene-pose-box .scene-pose-select,
+  .cod-scene .scene-pose-box .scene-char-select {
+    padding-top: 0;
+  }
+
+  .cod-scene .scene-controls-right {
+    flex-flow: row;
+    flex-direction: row-reverse;
+    justify-content: end;
+    padding-top: 0;
+  }
+
+  .cod-scene .scene-controls-right .pose-buttons {
+    margin-left: 0.5rem;
+  }
+
+  .cod-scene .scene-controls-left {
+    display: flex;
+    align-items: baseline;
+    padding-top: 0;
+  }
+
+  footer {
+    display: none;
+  }
+</style>

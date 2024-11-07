@@ -1,0 +1,25 @@
+<div class="row char-abilities-block char-abilities-blessings">
+  <div>
+    <table class="table table-striped blessings-table">
+      <thead>
+        <th>Arcana</th>
+        <th>Withstand</th>
+        <th class="text-center">Cost</th>
+        <th></th>
+      </thead>
+      <tbody>
+        {{#each this.abilities as |blessing|}}
+        {{log blessing}}
+        <tr>
+          <td>{{blessing.name}}</td>
+          <td>{{blessing.data.withstand}}</td>
+          <td class="text-center">{{blessing.data.cost}}</td>
+          <td class="text-end">
+            <CodDots @rating={{blessing.data.rating}} @max={{blessing.data.rating}} />
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</div>

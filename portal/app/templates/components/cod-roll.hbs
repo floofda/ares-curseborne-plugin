@@ -1,0 +1,87 @@
+<BsModalSimple @title="Add Roll" @closeTitle="Cancel" @submitTitle="Roll" @size={{null}} @fade={{true}}
+  @open={{this.selectAddRoll}} @onSubmit={{action "addRoll" }} @onHide={{action (mut this.selectAddRoll) false}}>
+
+  <div class="d-flex mb-1 align-items-center gap-2">
+    <div>
+      <CharIconStatusBase @char={{this.selectedChar}} @iconClass="small-profile-icon" />
+    </div>
+    <div class="w-100 px-2">
+      <b>Character</b>
+      <PowerSelect @options={{this.selectableChars}} @placeholder="Select Character" @selected={{this.rollChar}}
+        @onChange={{action "selectChar" }} as |c|>
+        {{c}}
+      </PowerSelect>
+    </div>
+  </div>
+
+  <div class="d-flex flex-direction-column flex-wrap justify-content-end mx-2">
+    <div>
+      <b>Roll</b><br>
+      <Input @type="text" size={{70}} id="rollString" placeholder="Str + Athletics.Throwing, Int + Acad, etc"
+        @value={{this.rollString}} />
+    </div>
+    <div class="d-flex gap-3 mt-2">
+      <div>Willpower <Input @type="checkbox" @checked={{this.wp}} /></div>
+      <div>Rote <Input @type="checkbox" @checked={{this.rote}} /></div>
+      <div>8-again <Input @type="checkbox" @checked={{this.eightAgain}} /></div>
+      <div>9-again <Input @type="checkbox" @checked={{this.nineAgain}} /></div>
+      <div>Strict <Input @type="checkbox" @checked={{this.strict}} /></div>
+    </div>
+  </div>
+  <br>
+  <div class="text-center">
+    <button onclick={{action "setOpposed" 'vs' }}>VS</button>
+    <button onclick={{action "setOpposed" '@' }}>@</button>
+    <button onclick={{action "setOpposed" }}>Clear</button>
+  </div>
+  <p class="hint text-left font-weight-lighter">Click on VS for comparing successes, @ to subtract from a roll (like
+    defense) or Clear to only roll for {{this.rollChar}}.</p>
+
+  {{#if (or this.vs this.at)}}
+  <hr>
+  <div class="d-flex mb-1 align-items-center gap-2">
+    {{#if this.selectableTargets}}
+    <div>
+      <CharIconStatusBase @char={{this.selectedTarget}} @iconClass="small-profile-icon" />
+    </div>
+    <div class="w-100 px-2">
+      <b>Character</b>
+      <PowerSelect @options={{this.selectableTargets}} @placeholder="Select Character"
+        @selected={{this.opposedRollChar}} @onChange={{action "selectTarget" }} as |c|>
+        {{c}}
+      </PowerSelect>
+    </div>
+    {{else}}
+    <div class="mx-2 mt-2 w-100 d-flex justify-content-end">
+      <div>
+        <b>Character</b><br>
+        <Input @type="text" size={{70}} id="opposedRollChar" placeholder="Character Name"
+          @value={{this.opposedRollChar}} />
+      </div>
+    </div>
+    {{/if}}
+  </div>
+  <div class="d-flex flex-direction-column flex-wrap justify-content-end mx-2 mt-2">
+    <div>
+      <b>{{if this.vs 'Opposed'}}{{if this.at 'Modifier'}} Roll</b><br>
+      <Input @type="text" size={{70}} id="rollString"
+        placeholder="{{if this.vs 'Resolve + Composure'}}{{if this.at 'Defense'}}" @value={{this.opposedRollString}} />
+    </div>
+  </div>
+  {{/if}}
+</BsModalSimple>
+
+<style>
+  #live-scene-log canvas {
+    position: absolute;
+    pointer-events: none;
+    bottom: 0;
+    opacity: 1;
+    z-index: 2000;
+  }
+
+  #live-scene-log canvas.fade-out {
+    transition: all .4s ease-out;
+    opacity: 0;
+  }
+</style>

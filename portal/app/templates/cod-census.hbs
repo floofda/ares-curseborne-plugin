@@ -1,0 +1,48 @@
+{{page-title "Census"}}
+<h1>Character Census</h1>
+
+<div class="cod-census-nav">
+  <button class="btn btn-primary" onclick={{action 'filterOnTemplate' null}}>All</button>
+  {{#each-in this.model.census.totals as |template count|}}
+  <button class="btn btn-primary" onclick={{action 'filterOnTemplate' template}}>{{template}} ({{count}})</button>
+  {{/each-in}}
+</div>
+
+<div class="table-responsive">
+  <table class="table table-striped census-table cod-census">
+    <thead>
+      {{#each-in this.titles as |title value|}}
+      <th onclick={{action 'orderBy' title}} class="orderable">{{value}}</th>
+      {{/each-in}}
+    </thead>
+
+    <tbody>
+      {{#each this.orderedList as |char| }}
+      <tr>
+        {{#each-in char as |field value| }}
+        {{#unless (eq field 'name')}}
+        <td>
+          {{#if (eq field 'char')}}
+          <CharIconInline @char={{value}} />
+          {{else if (or (eq field 'primary') (eq field 'secondary') (eq field 'tertiary'))}}
+          <div class="field-value">
+            {{value.value}}
+          </div>
+          {{#unless (eq char.template this.filter)}}
+          <div class="field-name">
+            {{value.name}}
+          </div>
+          {{/unless}}
+          {{else}}
+          {{value}}
+          {{/if}}
+        </td>
+        {{/unless}}
+        {{/each-in}}
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
+
+{{outlet}}

@@ -1,0 +1,28 @@
+<div class="cg-tip">
+  <AnsiFormat @text={{this.cg_lists.template_info.chargen_ability_blurb}} />
+</div>
+
+<div class="container">
+  <div class="row p-4">
+    <div class="p-2" style="font-size:larger">Contracts</div>
+    {{#each this.contracts as |c index|}}
+    <div class="row">
+      <div class="col-auto" style="min-width: 16em;">
+        <PowerSelect @searchEnabled={{true}} @placeholder={{c.type}} @options={{c.options}} @selected={{( get (get
+          this.cg_sheet.contracts index) 'name' )}} @onChange={{action "setContract" index }} as |contract|>
+          {{contract}}
+        </PowerSelect>
+      </div>
+      {{#let (get this.cg_sheet.contracts index) as |c|}}
+      {{#if (and c c.name)}}
+      <div class="col">
+        <CodContract @contract={{c}} />
+      </div>
+      {{/if}}
+      {{/let}}
+    </div>
+    <br>
+    <br>
+    {{/each}}
+  </div>
+</div>

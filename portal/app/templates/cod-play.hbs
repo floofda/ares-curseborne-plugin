@@ -1,0 +1,397 @@
+{{page-title 'CoD Play'}}
+
+<div class="{{if this.override_cod_play 'override-'}}cod-play">
+  <div class="cod-header">
+    <div class="cod-site">
+      <div class="cod-site-title">
+        <LinkTo @route="home">{{this.model.app.game.name}}</LinkTo>
+      </div>
+    </div>
+
+    <ul class="navbar navbar-dark cod-nav">
+      {{#each this.model.app.top_navbar as |sec|}}
+      {{#if sec.menu }}
+      <li class="nav-item dropdown">
+        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-haspopup="true"
+          aria-expanded="false">
+          {{{sec.title}}}</a>
+        <ul class="dropdown-menu  dropdown-menu-end">
+          {{#each sec.menu as |navItem|}}
+          {{#if navItem.url}}
+          <li><a class="dropdown-item" href="{{navItem.url}}" target="{{navItem.target}}">{{{navItem.title}}}</a></li>
+          {{else if navItem.divider}}
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          {{else}}
+          <li>
+            {{#if navItem.id}}
+            <LinkTo class="dropdown-item" @route={{navItem.route}} @model={{navItem.id}}>{{{navItem.title}}}</LinkTo>
+            {{else if navItem.ids}}
+            <LinkTo class="dropdown-item" @route={{navItem.route}} @models={{navItem.ids}}>{{{navItem.title}}}
+            </LinkTo>
+            {{else}}
+            <LinkTo class="dropdown-item" @route={{navItem.route}}>{{{navItem.title}}}</LinkTo>
+            {{/if}}
+          </li>
+          {{/if}}
+          {{/each}}
+        </ul>
+      </li>
+      {{else}}
+      <li class="nav-item">
+        {{#if sec.url}}
+        <a href="{{sec.url}}" target="{{sec.target}}" class="nav-link">{{{sec.title}}}</a>
+        {{else}}
+      <li>
+        {{#if sec.id}}
+        <LinkTo @route={{sec.route}} @model={{sec.id}} class="nav-link">{{{sec.title}}}</LinkTo>
+        {{else if sec.ids}}
+        <LinkTo @route={{sec.route}} @models={{sec.ids}} class="nav-link">{{{sec.title}}}</LinkTo>
+        {{else}}
+        <LinkTo @route={{sec.route}} class="nav-link">{{{sec.title}}}</LinkTo>
+        {{/if}}
+      </li>
+      {{/if}}
+      </li>
+      {{/if}}
+      {{/each}}
+    </ul>
+  </div>
+
+  <div class="cod-body">
+    <div class="col col-12 col-md-9">
+      <div class="{{if this.override_cod_scene 'override-'}}cod-scene">
+        <CodLiveSceneControl @scene={{this.currentScene}} @locations={{this.model.locations}}
+          @abilities={{this.model.abilities}} @places={{this.currentScene.places}} @characters={{this.model.characters}}
+          @scrollPaused={{this.scrollPaused}} @playerName={{this.currentUser.name}} @custom={{this.model.custom}}
+          @refresh={{action "refresh" }} @scrollDown={{action "scrollDown" }} @setScroll={{action "setScroll" }} />
+      </div>
+
+      <div class="{{if this.override_cod_chat 'override-'}}cod-chat">
+        <ChatControl @channel={{this.selectedChannel}} @scrollPaused={{this.scrollPaused}}
+          @playerName={{this.currentUser.name}} @refresh={{action "refresh" }} @scrollDown={{action "scrollDown" }}
+          @poseableChars={{this.model.chat.pose_chars}} @setScroll={{action "setScroll" }} />
+      </div>
+
+      {{#if this.emptyPrompt}}
+      <div class="alert alert-info">Please select or join a channel or scene.</div>
+      {{/if}}
+
+    </div>
+
+    <div class="col col-12 col-md-3">
+
+      <div class="cod-sidebar-header">
+        <CodPlayNavbar @model={{this.model.app}} @topNavbar={{this.topNavbar}} @model={{this.model}}
+          @isAdmin={{this.isAdmin}} @isCoder={{this.isCoder}} @isAuthenticated={{this.isAuthenticated}}
+          @isThemeMgr={{this.isThemeMgr}} @currentUser={{this.poseChar}} @currentRoute={{this.currentRoute}} />
+      </div>
+
+      <div class="play-sidebar">
+
+        <button class="btn btn-secondary d-lg-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#sceneMenuCollapse" aria-expanded="false" aria-controls="sceneMenuCollapse">
+          <TooltipIcon @position="right" @message="Show/hide play controls." @icon="fab fa-elementor" />
+          {{#if this.anyNewActivity}}
+          <span class="badge rounded-pill bg-primary"> <i class="fa fa-flag" aria-label="New Activity"></i></span>
+          {{/if}}
+        </button>
+
+        <div class="collapse show" id="sceneMenuCollapse">
+
+          <p class="play-section-title">Scenes
+
+            {{#if this.isApproved}}
+            <LinkTo @route="scenes-live" target="_blank">
+              <TooltipIcon @position="right" @message="Join Scene" @icon="fa fa-play-circle" />
+            </LinkTo>
+
+            <LinkTo @route="scene-create" target="_blank">
+              <TooltipIcon @position="right" @message="Create Scene" @icon="fa fa-plus-circle" />
+            </LinkTo>
+
+            <LinkTo @route="scenes-unshared" target="_blank">
+              <TooltipIcon @position="right" @message="Unshared Scenes" @icon="fa fa-share-square" />
+            </LinkTo>
+            {{/if}}
+
+            <LinkTo @route="who" target="_blank">
+              <TooltipIcon @position="right" @message="Who's Online" @icon="fa fa-users" />
+            </LinkTo>
+
+          </p>
+
+
+          {{#each this.model.scenes as |scene|}}
+          <a href="#" {{action 'switchScene' scene.id}}>
+            <div class="play-selector {{if (eq scene.id this.currentScene.id) 'play-selector-active' ''}}">
+              #{{scene.id}} - {{scene.location.name}}
+              {{#if scene.is_unread}}
+              <span class="badge rounded-pill bg-primary"> <i class="fa fa-flag" aria-label="New Activity"></i></span>
+              {{/if}}
+            </div>
+          </a>
+          <div class="play-hint">
+            {{#each scene.participants as |participant|}}
+            {{participant.name}}
+            {{/each}}
+          </div>
+
+          {{/each}}
+
+
+          <p class="play-section-title">Private Messages
+            <a href="#" {{action (mut this.showNewConversation) true}}>
+              <TooltipIcon @position="right" @message="New Conversation" @icon="fa fa-plus-circle" />
+            </a>
+            {{#if this.showAllPms}}
+            <a href="#" {{action (mut this.showAllPms) false}}>
+              <TooltipIcon @position="right" @message="Hide Inactive" @icon="fa fa-caret-square-up" />
+            </a>
+            {{else}}
+            <a href="#" {{action (mut this.showAllPms) true}}>
+              <TooltipIcon @position="right" @message="Show All" @icon="fa fa-caret-square-down" />
+            </a>
+            {{/if}}
+          </p>
+
+          {{#each this.sortedPageThreads as |channel|}}
+          {{#if (or channel.is_recent this.showAllPms)}}
+          <a href="#" {{action 'changeChannel' channel}}>
+            <div class="play-selector {{if (eq channel.key this.selectedChannel.key) 'play-selector-active' ''}}">
+              # {{channel.title}}
+              {{#if channel.is_hidden}}
+              <i class="fa fa-microphone-slash"></i>
+              {{/if}}
+              <span class="badge rounded-pill bg-primary">{{channel.new_messages}}</span>
+            </div>
+          </a>
+          {{/if}}
+          {{/each}}
+
+          <p class="play-section-title">Channels
+
+            <a href="#" {{action (mut this.showAddChannel) true}}>
+              <TooltipIcon @position="right" @message="Add Channel" @icon="fa fa-plus-circle" />
+            </a>
+            {{#if this.showAllChannels}}
+            <a href="#" {{action (mut this.showAllChannels) false}}>
+              <TooltipIcon @position="right" @message="Hide Inactive" @icon="fa fa-caret-square-up" />
+            </a>
+            {{else}}
+            <a href="#" {{action (mut this.showAllChannels) true}}>
+              <TooltipIcon @position="right" @message="Show All" @icon="fa fa-caret-square-down" />
+            </a>
+            {{/if}}
+          </p>
+
+          {{#each this.sortedChannels as |channel|}}
+          {{#if channel.can_join}}
+          {{#if channel.enabled}}
+          {{#if (or channel.is_recent this.showAllChannels)}}
+          <a href="#" {{action 'changeChannel' channel}}>
+            <div class="play-selector {{if (eq channel.key this.selectedChannel.key) 'play-selector-active' ''}}">
+              # {{channel.title}}
+              {{#if channel.muted}}
+              <i class="fa fa-microphone-slash"></i>
+              {{/if}}
+              <span class="badge rounded-pill bg-primary">{{channel.new_messages}}</span>
+            </div>
+          </a>
+          {{/if}}
+          {{/if}}
+          {{/if}}
+          {{/each}}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<BsModalSimple @title="Add Channel" @submitTitle="Done" @size={{null}} @fade={{true}} @closeTitle="Cancel"
+  @open={{this.showAddChannel}} @onHide={{action (mut this.showAddChannel) false}}>
+
+  <PowerSelect @selected={{this.poseChar}} @options={{this.model.chat.pose_chars}} @searchField="name"
+    @onChange={{action "poseCharChanged" }} as |poseChar|>
+    <CharIconTiny @char={{poseChar}} />
+  </PowerSelect>
+
+  <table>
+    {{#each this.sortedChannels as |channel|}}
+    {{#if channel.can_join}}
+    <tr>
+      <td>
+        <b>{{channel.title}}</b>
+      </td>
+      <td>
+        {{#if channel.desc}}
+        {{channel.desc}}
+        {{else}}
+        No description.
+        {{/if}}
+      </td>
+      <td>
+        <a href="#" {{action 'joinChannel' channel.title}} class="btn btn-primary">Join</a>
+      </td>
+    </tr>
+    {{/if}}
+    {{/each}}
+
+  </table>
+</BsModalSimple>
+
+<BsModalSimple @title="Start Conversation" @closeTitle="Cancel" @submitTitle="Start" @size={{null}} @fade={{true}}
+  @open={{this.showNewConversation}} @onSubmit={{action "startConversation" }} @onHide={{action (mut
+  this.showNewConversation) false}}>
+
+  <div class="card card-default">
+    <div class="card-body">
+      <div class="form-group row">
+        <div class="col-sm-3">
+          <label for="to" class="col-form-label">To:</label>
+        </div>
+        <div class="col-sm-9">
+          <PowerSelectMultiple @selected={{this.newConversationList}} @options={{this.model.characters}}
+            @searchEnabled=true @searchField="name" @onChange={{action "conversationListChanged" }} as |char|>
+            {{char.name}}
+          </PowerSelectMultiple>
+        </div>
+      </div>
+
+      <div class="form-group row">
+        <div class="col-sm-3">
+          <label for="from" class="col-form-label">From:</label>
+        </div>
+        <div class="col-sm-9">
+          <div class="scene-char-select">
+            <PowerSelect @selected={{this.poseChar}} @options={{this.model.chat.pose_chars}} @searchField="name"
+              @onChange={{action "poseCharChanged" }} as |poseChar|>
+              <CharIconTiny @char={{poseChar}} />
+            </PowerSelect>
+          </div>
+        </div>
+      </div>
+
+      <MarkdownEditor @text={{this.newPage}} class="chat-box" @rows="6" @onEnter={{action "startConversation" }} />
+
+    </div>
+  </div>
+
+  <FlashMessages />
+</BsModalSimple>
+
+
+{{outlet}}
+
+<style>
+  .body-wrap {
+    padding: 0;
+    margin: 0;
+  }
+
+  .body-container:has(.cod-play) {
+    padding: 0;
+  }
+
+  .header-wrap {
+    display: none;
+  }
+
+  .container-fluid>hr {
+    display: none;
+  }
+
+  #live-scene-log,
+  #chat-window {
+    height: calc(100dvh - 380px);
+  }
+
+  .cod-play {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cod-play .cod-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cod-play .cod-nav {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+  }
+
+  .cod-play .cod-nav>li {
+    margin-left: 1.5rem;
+  }
+
+  .cod-play .cod-body {
+    display: flex;
+    padding: 0 0.5rem;
+  }
+
+  .cod-play .card-default.markdown-editor {
+    background: none;
+    margin-bottom: 0;
+  }
+
+  .cod-scene>div>hr {
+    display: none;
+  }
+
+  .cod-scene .play-scene-context-wrap {
+    margin-top: 0;
+  }
+
+  .cod-scene .play-scene-context-prompt {
+    font-size: 1rem;
+  }
+
+  .cod-scene .scene-pose-header {
+    margin-bottom: 0;
+  }
+
+  .cod-scene .scene-pose {
+    margin: 2px 15px;
+  }
+
+  .cod-scene .scene-pose-box {
+    margin-bottom: 0;
+  }
+
+  .cod-scene .scene-pose-box .scene-pose-select,
+  .cod-scene .scene-pose-box .scene-char-select {
+    padding-top: 0;
+  }
+
+  .cod-scene .scene-controls {
+    align-items: self-end;
+  }
+
+  .cod-scene .scene-controls-right {
+    flex-flow: row;
+    flex-direction: row-reverse;
+    justify-content: end;
+    padding-top: 0;
+  }
+
+  .cod-scene .scene-controls-right .pose-buttons {
+    margin-left: 0.5rem;
+  }
+
+  .cod-scene .scene-controls-left {
+    display: flex;
+    align-items: baseline;
+    padding-top: 0;
+  }
+
+  footer {
+    display: none;
+  }
+</style>

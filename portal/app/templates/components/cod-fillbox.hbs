@@ -1,0 +1,20 @@
+<div class="row fs3-abilitybox">
+  <div>
+    {{yield}}
+  </div>
+
+  <div>
+    <div class="fs3-rating-control">
+      <button class="fs3-skillbutton {{(unless this.showDecrement 'opacity-0')}}" disabled={{(not this.showDecrement)}}
+        {{action "decrement" }}>-</button>
+
+      <div class="fs3-rating-display">
+        <CodDots @rating={{this.rating}} @max={{this.maxRating}} />
+      </div>
+
+      <button class="fs3-skillbutton {{(unless this.showIncrement 'opacity-0')}}" disabled={{(not this.showIncrement)}}
+        {{action "increment" }}>+</button>
+    </div>
+
+  </div>
+</div>

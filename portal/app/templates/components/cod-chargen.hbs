@@ -1,0 +1,127 @@
+<ul class="nav nav-tabs" role="tablist">
+  <li role="presentation" class="nav-item"><a href="#setup" aria-controls="setup" role="tab" data-bs-toggle="tab"
+      class="nav-link active">Setup</a></li>
+  <li role="presentation" class="nav-item"><a href="#basics" aria-controls="basics" role="tab" data-bs-toggle="tab"
+      class="nav-link">Basics</a></li>
+  {{#if (or this.template_info.classifications this.template_info.fields)}}
+  <li role="presentation" class="nav-item"><a href="#template" aria-controls="template" role="tab" data-bs-toggle="tab"
+      class="nav-link">{{this.char.custom.sheet.template}} Basics</a></li>
+  {{/if}}
+  <li role="presentation" class="nav-item"><a href="#attrs" aria-controls="attrs" role="tab" data-bs-toggle="tab"
+      class="nav-link">Attributes</a></li>
+  <li role="presentation" class="nav-item"><a href="#skills" aria-controls="skills" role="tab" data-bs-toggle="tab"
+      class="nav-link">Skills</a></li>
+  <li role="presentation" class="nav-item"><a href="#merits" aria-controls="merits" role="tab" data-bs-toggle="tab"
+      class="nav-link">Merits</a></li>
+  {{#if this.template_info.abilities}}
+  <li role="presentation" class="nav-item"><a href="#abilities" aria-controls="abilities" role="tab"
+      data-bs-toggle="tab" class="nav-link">{{this.char.custom.sheet.template}} Abilities</a></li>
+  {{/if}}
+</ul>
+
+<div class="tab-content {{if this.override_cod_sheet 'override-'}}cod-sheet">
+  <div role="tabpanel" class="tab-pane active" id="setup">
+    <p class="cg-tip" style="font-weight:bold">
+      <AnsiFormat @text="To start your character, select a template from the dropdown
+          and click the Setup Template button below. When switching templates, make
+          sure to click the button again to update your options." />
+    </p>
+
+    <PowerSelect @selected={{this.selectedTemplate}} @searchField="value" @options={{this.cg_info.allowed_templates}}
+      @onChange={{action "selectTemplate" }} as |template|>
+      {{template}}
+    </PowerSelect>
+    <br>
+    <button name="reset" {{action 'setupTemplate' }} class="btn btn-primary">Setup Template</button>
+  </div>
+
+  <div role="tabpanel" class="tab-pane" id="basics">
+    <div class="p-2">
+      <div style="font-size:larger">Concept</div>
+      <input type="text" size="25" value={{this.cg_sheet.concept}} oninput={{action "setConcept" }} />
+    </div>
+    <div class="p-2">
+      <div style="font-size:larger">Anchors</div>
+      <input type="text" size="25" value={{(get this.cg_sheet.anchors 0)}}
+        placeholder={{this.template_info.anchors.0.name}} oninput={{action "addAnchor" 0}} />
+      <div class="cg-tip">Suggested: {{this.template_info.anchors.0.suggested}}</div>
+      <br>
+      <input type="text" size="25" value={{(get this.cg_sheet.anchors 1)}}
+        placeholder={{this.template_info.anchors.1.name}} oninput={{action "addAnchor" 1}} />
+      <div class="cg-tip">Suggested: {{this.template_info.anchors.1.suggested}}</div>
+    </div>
+  </div>
+  <div role="tabpanel" class="tab-pane" id="template">
+    {{#if this.template_info.classifications}}
+    <div class="p-2">
+      <div style="font-size:larger">{{this.template_info.classifications.primary}}</div>
+      <PowerSelect @options={{this.primaryClassList}} @searchEnabled={{true}}
+        @selected={{this.cg_sheet.classifications.primary}} @onChange={{action "setClassification" 'primary' }} as
+        |primary|>
+        {{primary}}
+      </PowerSelect>
+    </div>
+    {{#if this.template_info.classifications.secondary}}
+    <div class="p-2">
+      <div style="font-size:larger">{{this.template_info.classifications.secondary}}</div>
+      <PowerSelect @options={{this.secondaryClassList}} @searchEnabled={{true}}
+        @selected={{this.cg_sheet.classifications.secondary}} @onChange={{action "setClassification" 'secondary' }} as
+        |secondary|>
+        {{secondary}}
+      </PowerSelect>
+    </div>
+    {{/if}}
+    {{#if this.template_info.classifications.tertiary}}
+    <div class="p-2">
+      <div style="font-size:larger">{{this.template_info.classifications.tertiary}}</div>
+      <PowerSelect @options={{this.tertiaryClassList}} @searchEnabled={{true}}
+        @selected={{this.cg_sheet.classifications.tertiary}} @onChange={{action "setClassification" 'tertiary' }} as
+        |tertiary|>
+        {{tertiary}}
+      </PowerSelect>
+    </div>
+    {{/if}}
+    {{/if}}
+    {{#if this.template_info.secondary_desc}}
+    <div class="p-2">
+      <div class="chargen-section-title">{{this.template_info.secondary_desc}}</div>
+      <MarkdownEditor @text={{this.cg_sheet.secondary_desc}} />
+    </div>
+    {{/if}}
+    {{#each this.template_info.fields as |s index|}}
+    <div class="p-2">
+      <div style="font-size:larger">{{s.name}}</div>
+      <div class="cg-tip">
+        <AnsiFormat @text={{(nl2br s.desc)}} />
+      </div>
+      <PowerSelect @options={{s.values}} @searchEnabled={{true}} @searchField="name" @selected={{(get
+        this.cg_sheet.fields index)}} @onChange={{action "updateField" s.name index}} as |field|>
+        {{field.name}}
+      </PowerSelect>
+    </div>
+    {{/each}}
+  </div>
+
+  <div role="tabpanel" class="tab-pane" id="attrs">
+    <CodChargenAttrs @cg_sheet={{this.cg_sheet}} @cg_info={{this.cg_info}} @cg_lists={{this.cg_lists}} />
+  </div>
+
+  <div role="tabpanel" class="tab-pane" id="skills">
+    <CodChargenSkills @cg_sheet={{this.cg_sheet}} @cg_info={{this.cg_info}} @cg_lists={{this.cg_lists}} />
+  </div>
+
+  <div role="tabpanel" class="tab-pane" id="merits">
+    <CodChargenMerits @cg_sheet={{this.cg_sheet}} @cg_info={{this.cg_info}} @cg_lists={{this.cg_lists}} />
+  </div>
+  <div role="tabpanel" class="tab-pane" id="abilities">
+    {{component this.template_component
+    cg_sheet=this.cg_sheet cg_info=this.cg_info cg_lists=this.cg_lists
+    }}
+  </div>
+</div>
+
+<style>
+  .cod-sheet .fs3-abilitybox {
+    border-bottom-width: 1px;
+  }
+</style>

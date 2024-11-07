@@ -1,0 +1,9 @@
+<div class="row char-abilities-block char-rotes">
+  <div class="row">
+    {{#each this.abilities as |ability|}}
+    <div class="col-sm-12 col-md-6">
+      <CodAbilityCard @ability={{ability}} @fields={{this.fields}} />
+    </div>
+    {{/each}}
+  </div>
+</div>

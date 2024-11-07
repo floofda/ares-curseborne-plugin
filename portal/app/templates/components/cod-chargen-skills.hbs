@@ -1,0 +1,67 @@
+<p class="cg-tip">
+  <AnsiFormat @text={{this.cg_info.skills_blurb}} />
+</p>
+
+<div class="container text-center cod-chargen-skills">
+  <div class="row">
+    <div class="col">
+      <div class="cg-header">
+        <em>Mental</em>
+      </div>
+      {{#each this.mental as |s|}}
+      <CodFillbox @rating={{s.rating}} @ratingName={{s.name}} @minRating={{this.cg_info.min_skill}}
+        @maxRating={{this.cg_info.max_skill}} @updated={{action "skillChanged" }}>
+        <em>{{s.name}}</em>
+      </CodFillbox>
+      {{/each}}
+    </div>
+    <div class="col">
+      <div class="cg-header">
+        <em>Physical</em>
+      </div>
+      {{#each this.physical as |s|}}
+      <div class="row">
+        <CodFillbox @rating={{s.rating}} @ratingName={{s.name}} @minRating={{this.cg_info.min_skill}}
+          @maxRating={{this.cg_info.max_skill}} @updated={{action "skillChanged" }}>
+          <em>{{s.name}}</em>
+        </CodFillbox>
+      </div>
+      {{/each}}
+    </div>
+    <div class="col">
+      <div class="cg-header">
+        <em>Social</em>
+      </div>
+      {{#each this.social as |s|}}
+      <div class="row">
+        <CodFillbox @rating={{s.rating}} @ratingName={{s.name}} @minRating={{this.cg_info.min_skill}}
+          @maxRating={{this.cg_info.max_skill}} @updated={{action "skillChanged" }}>
+          <em>{{s.name}}</em>
+        </CodFillbox>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
+<div>
+  <div class="row p-4">
+    <h6>Specialties</h6>
+    {{#each this.specialties as |spec index|}}
+    <div class="col">
+      <PowerSelect @options={{spec.options}} @searchEnabled={{true}} @searchField="skill" placeholder="Select a Skill"
+        @selected={{get this.cg_sheet.specialties index}} @onChange={{action "specSkillChanged" index}} as |s|>
+        {{s.skill}}
+      </PowerSelect>
+      <input type="text" class="w-100 mt-2" placeholder="Specialty" value={{(get (get this.cg_sheet.specialties
+        index) 'specialty' )}} oninput={{action "addSpecialty" index}} />
+      <br>
+      <div class="cg-tip pw-2">{{spec.examples}}</div>
+    </div>
+    {{/each}}
+  </div>
+</div>
+<br>
+Mental: {{this.mentalPoints}} /
+Physical: {{this.physicalPoints}} /
+Social: {{this.socialPoints}}
+<br>

@@ -1,0 +1,22 @@
+<div class="row char-abilities-block char-abilities-arcana">
+  <div>
+    <table class="table table-striped arcana-table">
+      <thead>
+        <th>Arcana</th>
+        <th></th>
+      </thead>
+      <tbody>
+        {{#each this.abilities as |arcanum|}}
+        {{#if (gt arcanum.data.rating 0)}}
+        <tr>
+          <td>{{arcanum.name}}</td>
+          <td class="text-end">
+            <CodDots @rating={{arcanum.data.rating}} @max={{arcanum.data.rating}} />
+          </td>
+        </tr>
+        {{/if}}
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</div>

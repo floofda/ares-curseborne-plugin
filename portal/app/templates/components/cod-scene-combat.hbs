@@ -1,0 +1,239 @@
+<div>
+  {{#if this.poseElement}}
+  {{#in-element this.poseElement insertBefore=null}}
+  <div class="{{if this.data.config.override_combat_bar 'override-'}}scene-combat">
+    {{#if this.combat}}
+    <div class="fly-out-container {{if this.isFlyoutActive 'show'}}">
+      <div class="combat-char-overview">
+        <div class="d-flex justify-content-end">
+          <button class="btn btn-secondary btn-sm text-center" {{action (mut this.showNpcForm) true }}>
+            <i class="fa fa-plus" /> NPC
+          </button>
+        </div>
+        {{#each this.combatants as |c|}}
+        <div class="d-flex justify-content-end char {{if (and c.is_npc (or this.data.is_st (eq this.data.char.id c.creator_id) (eq this.combat.owner_id
+          this.data.char.id))) 'can-control'}}">
+          {{#if (and c.is_npc (or this.data.is_st (eq this.data.char.id c.creator_id) (eq this.combat.owner_id
+          this.data.char.id)))}}
+          <div class="d-flex flex-column npc-actions">
+            <button aria-label="Remove NPC" class="hint--left btn btn-secondary btn-sm text-center" {{action 'removeNpc'
+              c}}>
+              <i class="fa fa-sm  fa-minus" />
+            </button>
+            <button aria-label="Edit NPC" class="hint--left btn btn-secondary btn-sm text-center" {{action 'editNpc' c
+              }}>
+              <i class="fa fa-sm fa-edit" />
+            </button>
+          </div>
+          {{/if}}
+          <div class="combat-char-info {{if (eq c.name this.combat.curr) 'has-turn'}}">
+            <div class="combat-header sub-block align-items-center">
+              <div class="combat-icon align-items-center">
+                <CharIconStatusBase @char={{c}} @iconClass="tiny-profile-icon" />
+                <div class="char-name"> {{c.name}}</div>
+              </div>
+              <div class="d-flex gap-2">
+                <div class="hint--top" aria-label="Defense">
+                  <i class="combat-char-defensee fa fa-shield" /> {{c.sheet.defense}}
+                </div>
+                <div class="hint--top" aria-label="Init">
+                  <i class="combat-char-init fa fa-hourglass" /> {{c.sheet.init}}
+                </div>
+              </div>
+            </div>
+            <div class="sub-block">
+              <div class="resource">
+                WP: {{c.sheet.curr_wp}} / {{c.sheet.willpower}}
+              </div>
+              {{#if c.sheet.resource}}
+              <div class="resource">
+                {{c.sheet.resource_name}}: {{c.sheet.curr_resource}} / {{c.sheet.resource}}
+              </div>
+              {{/if}}
+            </div>
+            <CodHealthBox @config={{this.data.config}} @health={{c.sheet.health}} @agg={{c.sheet.agg_wounds}}
+              @lethal={{c.sheet.lethal_wounds}} @bashing={{c.sheet.bashing_wounds}} />
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+    <div class="combat-quick-box">
+      <div class="actions">
+        <button class="btn btn-secondary btn-sm" {{action (mut this.selectAddRoll) true}}>
+          Roll
+        </button>
+        <button class="btn btn-secondary btn-sm" {{action (mut this.selectAdjustHealth) true}}>
+          Health
+        </button>
+        <button class="btn btn-secondary btn-sm" {{action (mut this.selectAdjustResource) true}}>
+          Resource
+        </button>
+      </div>
+      <div class="turn-tracker">
+        <button class="btn btn-secondary btn-sm" {{action 'prevChar' }}>
+          {{'<<'}} </button>
+            <div class="curr-combatant">{{#if this.combat.curr}} Current: {{this.combat.curr}}{{/if}}</div>
+            <button class="btn btn-secondary btn-sm" {{action 'nextChar' }}>
+              {{'>>'}}
+            </button>
+      </div>
+      <div class="d-flex align-items-center">
+        {{#if this.hasJoined}}
+        <button type="button" {{action 'rollInit' }} class="btn btn-secondary btn-sm">
+          {{#if this.hasRolledInit}}Modify Init{{else}}Roll Init{{/if}}
+        </button>
+        <input type="text" class="init-mod" value={{this.initModifier}} oninput={{action "updateInitModifier" }} />
+        <button type="button" class="btn btn-secondary btn-sm" {{action 'leaveCombat' }}>
+          Leave
+        </button>
+        {{else}}
+        <button class=" btn btn-secondary btn-sm" {{action 'joinCombat' }}>
+          Join
+        </button>
+        {{/if}}
+        <button type="button" {{action 'setIsFlyoutActive' }} class="btn btn-secondary btn-sm">
+          Overlay
+        </button>
+      </div>
+    </div>
+    {{/if}}
+  </div>
+  {{/in-element}}
+  {{/if}}
+</div>
+<CodCombatAddNpc @add={{this.add}} @combat={{this.combat}} @showNpcForm={{this.showNpcForm}}
+  @formData={{this.formData}} />
+
+<style>
+  #live-scene-log {
+    padding-bottom: 0;
+  }
+
+  .scene-combat {
+    position: sticky;
+    bottom: 0;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .scene-combat .fly-out-container {
+    bottom: 54px;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+  }
+
+  .scene-combat .fly-out-container.show {
+    height: unset;
+    max-height: calc(100dvh - 28.5rem);
+    overflow-y: auto;
+    width: 350px;
+  }
+
+  .scene-combat .combat-char-overview {
+    left: 100%;
+    position: relative;
+    transition: all .2s ease-out;
+    z-index: 1000;
+    margin-right: 0.25rem;
+  }
+
+  .scene-combat .combat-char-overview .char {
+    overflow: visible;
+  }
+
+  .scene-combat .combat-char-overview .char .npc-actions {
+    display: none !important;
+  }
+
+  .scene-combat .combat-char-overview .char:hover .npc-actions {
+    display: flex !important;
+  }
+
+  .scene-combat .fly-out-container.show>.combat-char-overview {
+    left: 0;
+  }
+
+  .scene-combat .combat-char-overview .combat-char-info {
+    min-width: 220px;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+
+  .scene-combat .combat-char-overview .combat-char-info.has-turn {
+    border-color: red;
+  }
+
+  .scene-combat .combat-quick-box {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 0.5em;
+  }
+
+  .scene-combat .combat-quick-box .turn-tracker {
+    display: flex;
+    align-items: center;
+  }
+
+  .scene-combat .combat-quick-box .turn-tracker .curr-combatant {
+    margin: 0 0.5rem;
+  }
+
+  .scene-combat .combat-quick-box .combat {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .scene-combat .init-mod {
+    width: 3rem;
+    margin-right: 0.5rem;
+  }
+
+  .scene-combat .combat-char-overview .combat-info-box-button {
+    margin-left: 0.5rem;
+  }
+
+  .scene-combat .combat-char-overview .combat-header {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .scene-combat .combat-char-overview .npc-actions button {
+    height: 28px;
+    width: 28px;
+    line-height: unset;
+  }
+
+  .scene-combat .combat-char-overview .resource {
+    font-size: smaller;
+    text-align: right;
+  }
+
+  .scene-combat .combat-char-overview .sub-block {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .scene-combat .combat-char-overview .combat-header .combat-icon {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .scene-combat button,
+  .scene-combat button:active,
+  .scene-combat button:active:focus,
+  .scene-combat button:focus {
+    box-shadow: none;
+  }
+</style>

@@ -1,0 +1,58 @@
+<div class="cg-tip">
+  <AnsiFormat @text={{this.cg_lists.template_info.demon_ability_blurb}} />
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="p-2" style="font-size:larger">Embeds and Exploits</div>
+    {{#each this.embeds_and_exploits as |c index|}}
+    <div class="row">
+      <div class="col-auto" style="min-width: 16em;">
+        <PowerSelect @searchEnabled={{true}} @placeholder={{c.type}} @options={{c.options}} @selected={{( get (get
+          this.temp_sheet.embeds_and_exploits index) 'name' )}} @onChange={{action "setEmbedAndExploit" index }} as
+          |exploit_and_embed|>
+          {{exploit_and_embed}}
+        </PowerSelect>
+        {{#let (get this.temp_sheet.embeds_and_exploits index) as |a|}}
+        {{#if (and a a.name a.has_spec)}}
+        <PowerSelect @placeholder={{a.type}} @options={{this.selectedEmbeds}} @selected={{a.spec}}
+          @onChange={{action "setExploitEmbed" index }} as |embed|>
+          {{embed}}
+        </PowerSelect>
+        {{/if}}
+        {{/let}}
+      </div>
+      {{#let (get this.temp_sheet.embeds_and_exploits index) as |e|}}
+      {{#if (and e e.name)}}
+      <div class="col">
+        <CodAbilityCard @ability={{e}} />
+      </div>
+      {{/if}}
+      {{/let}}
+    </div>
+    <br>
+    {{/each}}
+  </div>
+  <div class="row">
+    <div class="p-2" style="font-size:larger">Form Abilities</div>
+    {{#each this.form_abilities as |c index|}}
+    <div class="row">
+      <div class="col-auto" style="min-width: 16em;">
+        <PowerSelect @searchEnabled={{true}} @placeholder={{c.type}} @options={{c.options}} @selected={{( get (get
+          this.cg_sheet.form_abilities index) 'name' )}} @onChange={{action "setFormAbility" index }} as |form_ability|>
+          {{form_ability}}
+        </PowerSelect>
+      </div>
+      {{#let (get this.cg_sheet.form_abilities index) as |f|}}
+      {{#if (and f f.name)}}
+      <div class="col">
+        <CodAbilityCard @ability={{f}} />
+      </div>
+      {{/if}}
+      {{/let}}
+    </div>
+    <br>
+    <br>
+    {{/each}}
+  </div>
+</div>

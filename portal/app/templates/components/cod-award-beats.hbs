@@ -1,0 +1,28 @@
+<BsModalSimple @title="Award Beats" @closeTitle="Cancel" @submitTitle="Award Beats" @size={{null}} @fade={{true}}
+  @open={{this.selectAwardBeats}} @onSubmit={{action "awardBeats" }} @onHide={{action (mut this.selectAwardBeats)
+  false}}>
+
+  <div class="d-flex flex-column mb-1 align-items-center gap-2">
+    <div>
+      <div class="d-flex gap-1 align-items-end">
+        <div class="d-flex mb-1 align-items-center gap-2">
+          <div>
+            <CharIconStatusBase @char={{this.selectedChar}} @iconClass="small-profile-icon" />
+          </div>
+          <div class="w-75 px-2">
+            <b>Character</b>
+            <PowerSelect @options={{this.selectableChars}} @placeholder="Select Character"
+              @selected={{this.selectedChar.name}} @onChange={{action "selectChar" }} as |c|>
+              {{c}}
+            </PowerSelect>
+          </div>
+        </div>
+
+        <Input class="w-25 mb-1" @type="text" size={{20}} id="beats" placeholder="Beats to Award"
+          @value={{this.beats}} />
+
+      </div>
+      <Input @type="text" size={{70}} id="message" placeholder="Note" @value={{this.message}} />
+    </div>
+  </div>
+</BsModalSimple>

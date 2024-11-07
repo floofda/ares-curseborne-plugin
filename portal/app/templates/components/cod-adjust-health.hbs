@@ -1,0 +1,31 @@
+<BsModalSimple @title="Adjust Health" @closeTitle="Cancel" @submitTitle="Adjust Health" @size={{null}} @fade={{true}}
+  @open={{this.selectAdjustHealth}} @onSubmit={{action "adjustHealth" }} @onHide={{action (mut this.selectAdjustHealth)
+  false}}>
+  {{#if this.canSelect}}
+  <div class="d-flex mb-4 align-items-center gap-2">
+    <div>
+      <CharIconStatusBase @char={{this.selectedChar}} @iconClass="small-profile-icon" />
+    </div>
+    <div class="w-100 px-2">
+      <b>Character</b>
+      <PowerSelect @options={{this.selectableChars}} @placeholder="Select Character" @selected={{this.healthChar}}
+        @onChange={{action "selectChar" }} as |c|>
+        {{c}}
+      </PowerSelect>
+    </div>
+  </div>
+  {{/if}}
+  <div class="d-flex flex-direction-column flex-wrap justify-content-end mx-2">
+    <div>
+      <b>Health</b><br>
+      <Input @type="text" size={{70}} id="healthStr" placeholder="+[number] to heal, -[number] to harm"
+        @value={{this.healthStr}} />
+    </div>
+    <div class="d-flex gap-2 mt-2">
+      <div>Bashing <Input @type="checkbox" @checked={{this.bashing}} /></div>
+      <div>Lethal <Input @type="checkbox" @checked={{this.lethal}} /></div>
+      <div>Aggravated <Input @type="checkbox" @checked={{this.agg}} /></div>
+    </div>
+  </div>
+  <br>
+</BsModalSimple>

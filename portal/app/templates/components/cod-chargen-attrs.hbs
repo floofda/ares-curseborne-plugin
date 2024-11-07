@@ -1,0 +1,52 @@
+<p class="cg-tip">
+  <AnsiFormat @text={{this.cg_info.attributes_blurb}} />
+</p>
+
+<div class="text-center cod-chargen-attributes">
+  <div class="row">
+    <div class="col cg-header">
+      <em>Mental</em>
+    </div>
+    <div class="col cg-header">
+      <em>Physical</em>
+    </div>
+    <div class="col cg-header">
+      <em>Social</em>
+    </div>
+  </div>
+  <div class="row">
+    {{#each this.power as |a|}}
+    <div class="col">
+      <CodFillbox @rating={{a.rating}} @ratingName={{a.name}} @minRating={{this.cg_info.min_attr}}
+        @maxRating={{this.cg_info.max_attr}} @updated={{action "attrChanged" }}>
+        <em>{{a.name}}</em>
+      </CodFillbox>
+    </div>
+    {{/each}}
+  </div>
+  <div class="row">
+    {{#each this.finesse as |a|}}
+    <div class="col">
+      <CodFillbox @rating={{a.rating}} @ratingName={{a.name}} @minRating={{this.cg_info.min_attr}}
+        @maxRating={{this.cg_info.max_attr}} @updated={{action "attrChanged" }}>
+        <em>{{a.name}}</em>
+      </CodFillbox>
+    </div>
+    {{/each}}
+  </div>
+  <div class="row">
+    {{#each this.resistance as |a|}}
+    <div class="col">
+      <CodFillbox @rating={{a.rating}} @ratingName={{a.name}} @minRating={{this.cg_info.min_attr}}
+        @maxRating={{this.cg_info.max_attr}} @updated={{action "attrChanged" this.rating a.name }}>
+        <em>{{a.name}}</em>
+      </CodFillbox>
+    </div>
+    {{/each}}
+  </div>
+</div>
+<br>
+Mental: {{this.mentalPoints}} /
+Physical: {{this.physicalPoints}} /
+Social: {{this.socialPoints}}
+<br>

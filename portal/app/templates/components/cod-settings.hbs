@@ -1,0 +1,85 @@
+<div class="container cod-char-settings">
+  <h2>3D Dice</h2>
+  <div class="dice-settings">
+    <div>
+      <div><Input @type="checkbox" @checked={{this.diceFormData.use}} /> Use 3D Dice for Your Rolls</div>
+      <div><Input @type="checkbox" @checked={{this.diceFormData.use_others}} /> Use for Others' Rolls</div>
+      <div><Input @type="checkbox" @checked={{this.diceFormData.use_others_themes}} /> Use Others' Themes</div>
+      <div><Input @type="checkbox" @checked={{this.diceFormData.sounds}} /> Sound</div>
+      <div>
+        <b>Background</b><br>
+        <input type="text" data-coloris value={{this.diceFormData.background}}
+          onchange={{action 'changeDiceSetting' 'background' }}>
+      </div>
+      <div>
+        <b>Foreground</b><br>
+        <input type="text" data-coloris value={{this.diceFormData.foreground}}
+          onchange={{action 'changeDiceSetting' 'foreground' }}>
+      </div>
+      <div>
+        <b>Material</b>
+        <PowerSelect @options={{this.settings.presets.options.theme_material}} @placeholder="Select Material"
+          @selected={{this.diceFormData.theme_material}} @onChange={{action 'selectMaterial' }} as |m|>
+          {{m}}
+        </PowerSelect>
+      </div>
+      <div>
+        <b>Texture</b>
+        <PowerSelect @options={{this.settings.presets.options.theme_texture}} @placeholder="Select Texture"
+          @selected={{this.diceFormData.theme_texture}} @onChange={{action 'selectTexture' }} as |t|>
+          {{t}}
+        </PowerSelect>
+      </div>
+      <button class="btn btn-primary" onclick={{action 'testRoll' }}>Test Roll</button>
+    </div>
+
+    <div class="sample">
+      <div id="dice-tray"></div>
+    </div>
+
+  </div>
+  <div class="footer">
+    <button class="btn btn-primary" onclick={{action 'updateSettings' }}>Update</button>
+  </div>
+</div>
+
+<style>
+  .cod-char-settings .footer {
+    display: flex;
+    justify-content: end;
+  }
+
+  .dice-settings {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .dice-settings>div {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    min-width: 30%;
+  }
+
+  .dice-settings {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .dice-settings .sample {
+    height: 100%;
+    width: 100%;
+  }
+
+  .dice-settings .sample #dice-tray {
+    height: 100%;
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .dice-settings .sample #dice-tray canvas {
+    position: absolute;
+    bottom: 0;
+  }
+</style>

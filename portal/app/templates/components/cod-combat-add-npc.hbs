@@ -1,0 +1,28 @@
+<BsModalSimple @title="{{this.formData.name}}" @closeTitle="Cancel" @submitTitle="{{if this.add 'Add' 'Update'}}"
+  @size={{null}} @fade={{true}} @open={{this.showNpcForm}} @onSubmit={{action (if this.add 'addNpc' 'updateNpc' )}}
+  @onHidden={{action (mut this.showNpcForm) false}}>
+
+  <div class="row mb-4">
+    {{#if (and this.add this.templates)}}
+    <PowerSelect @options={{this.templates}} @placeholder="Select NPC Template" @selected={{this.selectedTemplate}}
+      @onChange={{action "updateTemplate" }} as |t|>
+      {{t.name}}
+    </PowerSelect>
+    {{/if}}
+  </div>
+
+  <div class="row">
+    {{#if this.selectedTemplate}}
+    <div class="col-sm-12 col-md-6 mb-2 d-flex justify-content-between align-items-center">
+      <span class="label">Name</span>
+      <input type="text" name="name" onkeyup={{action 'updateNpcData' }} value={{this.formData.name}} />
+    </div>
+    {{/if}}
+    {{#each-in this.selectedTemplate.sheet as |f v|}}
+    <div class="col-sm-12 col-md-6 mb-2 d-flex justify-content-between align-items-center">
+      <span class="label">{{v.display}}</span>
+      <input type="text" name={{v.key}} onkeyup={{action 'updateSheetData' f}} value={{v.value}} />
+    </div>
+    {{/each-in}}
+  </div>
+</BsModalSimple>

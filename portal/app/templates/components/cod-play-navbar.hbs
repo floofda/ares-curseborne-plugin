@@ -1,0 +1,59 @@
+<nav class="{{if this.override_cod_sidebar_header 'override-'}}cod-sidebar-header">
+
+  {{#if this.isAuthenticated}}
+  <div class="header-block">
+    <div class="cod-char-name">{{this.currentUser.name}}</div>
+    {{#if this.model.app.notification_count}}
+    <span class="badge rounded-pill bg-primary" id="notificationBadge"><i class="fa fa-bell"
+        aria-label="New Notifications"></i> {{this.model.app.notification_count}}</span>
+    {{/if}}
+  </div>
+  <div>
+    <a href="#" data-bs-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+      <CharIconStatusBase @char={{this.currentUser}} @iconClass="small-profile-icon icon-status-web-active" />
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <LinkTo class="dropdown-item" @route="notifications">Notifications</LinkTo>
+      </li>
+      <li>
+        <LinkTo class="dropdown-item" @route="char" @model={{this.currentUser.name}}>Profile</LinkTo>
+      </li>
+      <li>
+        <LinkTo class="dropdown-item" @route="mail">Mail</LinkTo>
+      </li>
+      <li>
+        <LinkTo class="dropdown-item" @route="jobs">{{#if this.model.app.jobs_admin}}Jobs{{else}}Requests{{/if}}
+        </LinkTo>
+      </li>
+      <li>
+        <LinkTo class="dropdown-item" @route="account">Account</LinkTo>
+      </li>
+
+      <li>
+        <LinkTo class="dropdown-item" @route="logout">Logout</LinkTo>
+      </li>
+    </ul>
+  </div>
+
+  {{else}}
+  <li class="nav-item d-lg-none">
+    <LinkTo class="nav-link" @route="login" @query={{hash redirect=this.currentRoute}}>Login</LinkTo>
+  </li>
+  {{/if}}
+</nav>
+
+<style>
+  .cod-sidebar-header {
+    display: flex;
+    justify-content: end;
+  }
+
+  .header-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    margin-right: 0.5rem;
+  }
+</style>

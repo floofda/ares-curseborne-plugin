@@ -1,0 +1,28 @@
+{{#if this.title}}
+<div class="char-stat-title">{{this.title}}</div>
+{{/if}}
+
+<div class="char-stat-list {{if this.flex 'd-flex row'}}">
+  {{#each this.list as |stat| }}
+  <div class="{{if this.col 'col-4' 'row'}} {{if this.flex 'd-flex' }}">
+    <div class="{{unless this.col 'col' }}">
+      <div class="{{if this.flex 'd-flex align-items-center h-100' }}">
+        {{stat.name}}
+        {{#if stat.spec}}
+        <span class="char-stat-spec"> ({{stat.spec}})</span>
+        {{/if}}
+      </div>
+    </div>
+    <div class="col cod-dot d-flex align-items-center justify-content-end me-2">
+      <CodDots class="cod-dot d-flex flex-no-wrap gap-1" @rating={{stat.rating}} @max={{(or this.max stat.rating)}} />
+    </div>
+  </div>
+  {{#if (and this.showSpecs stat.specialties)}}
+  <div class="char-stat-specialties">
+    {{#each stat.specialties as |s|}}
+    <div class="ms-4">{{s}}</div>
+    {{/each}}
+  </div>
+  {{/if}}
+  {{/each}}
+</div>

@@ -1,0 +1,75 @@
+<div class="row char-sheet-block">
+  <div class="col">
+    <CodStat @label="Template" @value={{this.sheet.template}} />
+    <CodStat @label="Concept" @value={{this.sheet.concept}} />
+    {{#each this.sheet.template_config.anchors as |anchor|}}
+    <CodStat @label={{anchor.name}} @value={{anchor.value}} />
+    {{/each}}
+    <hr>
+    {{#each this.sheet.template_config.classifications as |c|}}
+    <CodStat @label={{c.name}} @value={{c.value}} />
+    {{/each}}
+    {{#each this.sheet.template_config.fields as |f|}}
+    <CodStat @label={{f.name}} @value={{f.value}} />
+    {{/each}}
+    <CodStat @label="XP" @value={{this.xp}} />
+  </div>
+  <div class="col">
+    <div class="char-sheet-stat-header">{{this.sheet.template_config.morality}}</div>
+    <CodDots @rating={{this.sheet.morality}} @max={{10}} />
+    <div class="char-sheet-stat-header">Willpower</div>
+    <CodDots @rating={{this.sheet.curr_wp}} @max={{this.sheet.willpower}} />
+  </div>
+  <div class="col">
+    {{#if (gt this.sheet.power 0)}}
+    <div class="char-sheet-stat-header">{{this.sheet.template_config.power}}</div>
+    <CodDots @rating={{this.sheet.power}} @max={{10}} />
+    {{/if}}
+    {{#if (gt this.sheet.resource 0)}}
+    <div class="char-sheet-stat-header">{{this.sheet.template_config.resource}}</div>
+    <CodDots @rating={{this.sheet.curr_resource}} @max={{this.sheet.resource}} />
+    {{/if}}
+  </div>
+</div>
+<div class="row char-sheet-block">
+  <div class="cod-sheet-header">
+    <h4>Stats</h4>
+  </div>
+  <div class="col">
+    <div class="char-sheet-stat-header">Health</div>
+    <CodHealthBox @config={{this.config}} @health={{this.sheet.health}} @agg={{this.sheet.agg_wounds}}
+      @lethal={{this.sheet.lethal_wounds}} @bashing={{this.sheet.bashing_wounds}} />
+  </div>
+  <div class="col">
+    <CodStat @label="Initiative" @value={{this.sheet.initiative}} />
+    <CodStat @label="Defense" @value={{this.sheet.defense}} />
+  </div>
+  <div class="col">
+    <CodStat @label="Size" @value={{this.sheet.size}} />
+    <CodStat @label="Speed" @value={{this.sheet.speed}} />
+  </div>
+</div>
+<div class="row char-sheet-block">
+  <div class="cod-sheet-header">
+    <h4>Attributes</h4>
+  </div>
+  <CodStatGrid class="col" @list={{this.mentalAttrs}} @max={{5}} @showSpecs={{false}} />
+  <CodStatGrid class="col" @list={{this.physicalAttrs}} @max={{5}} @showSpecs={{false}} />
+  <CodStatGrid class="col" @list={{this.socialAttrs}} @max={{5}} @showSpecs={{false}} />
+</div>
+
+<div class="row char-sheet-block">
+  <div class="cod-sheet-header">
+    <h4>Skills</h4>
+  </div>
+  <CodStatGrid class="col" @list={{this.mentalSkills}} @max={{5}} @showSpecs={{true}} />
+  <CodStatGrid class="col" @list={{this.physicalSkills}} @max={{5}} @showSpecs={{true}} />
+  <CodStatGrid class="col" @list={{this.socialSkills}} @max={{5}} @showSpecs={{true}} />
+</div>
+
+<div class="row char-sheet-block">
+  <div class="cod-sheet-header">
+    <h4>Merits</h4>
+  </div>
+  <CodStatGrid class="row" @col={{true}} @flex="{{true}}" @list={{this.sheet.merits}} @showSpecs={{true}} />
+</div>

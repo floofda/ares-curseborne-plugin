@@ -1,0 +1,33 @@
+<div class="cg-tip">
+  <AnsiFormat @text={{this.cg_lists.template_info.chargen_ability_blurb}} />
+</div>
+
+<div class="container {{if this.override_mage 'override-'}}proximus">
+  <div class="row">
+    <div class="p-2" style="font-size:larger">Blessings</div>
+    {{#each this.blessings as |p index|}}
+    <div class="row">
+      <div class="col-auto proximus-select">
+        <PowerSelect @searchEnabled={{true}} @placeholder={{p.spec}} @options={{this.blessingsList}} @selected={{get
+          (get this.cg_sheet.blessings index) 'name' }} @onChange={{action "setBlessing" index }} as |blessing|>
+          {{blessing}}
+        </PowerSelect>
+      </div>
+      {{#let (get this.cg_sheet.blessings index) as |b|}}
+      {{#if (and b b.name)}}
+      <div class="col">
+        <CodAbilityCard @ability={{b}} @fields={{this.blessing_fields}} />
+      </div>
+      {{/if}}
+      {{/let}}
+    </div>
+    {{/each}}
+  </div>
+</div>
+
+<style>
+  .proximus .proximus-select {
+    min-width: 16em;
+    margin-bottom: 1rem;
+  }
+</style>
