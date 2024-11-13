@@ -1,0 +1,50 @@
+<div class="cod-scene-card">
+  <div class="row">
+    <h6 class="template">{{this.char.custom.sheet.template}}</h6>
+    <div class="col col-3 card-left">
+      <CharIcon class="char-icon" @char={{this.char}} />
+      <CodHealthBox class="text-center" @config={{this.custom.config}} @health={{this.char.custom.sheet.health}}
+        @agg={{this.char.custom.sheet.agg_wounds}} @lethal={{this.char.custom.sheet.lethal_wounds}}
+        @bashing={{this.char.custom.sheet.bashing_wounds}} />
+    </div>
+    <div class="col col-4">
+      {{#each this.basicInfo as |demo|}}
+      <div class="row">
+        <div class="col col-5">
+          <b>{{demo.name}}</b>
+        </div>
+        <div class="col col-7">
+          {{demo.value}}
+        </div>
+      </div>
+      {{/each}}
+    </div>
+    <div class="col col-5">
+      {{#if this.char.custom.sheet.classifications}}
+      {{#each this.char.custom.sheet.classifications as |class|}}
+      <div class="row">
+        <div class="col col-4">
+          <b>{{class.name}}</b>
+        </div>
+        <div class="col col-8">
+          {{class.value}}
+        </div>
+      </div>
+      {{/each}}
+      {{/if}}
+    </div>
+  </div>
+  <hr>
+  {{#if this.char.description}}
+  <div class="desc">
+    <AnsiFormat @text={{this.char.description}} />
+  </div>
+  {{/if}}
+
+  {{#if this.char.custom.sheet.secondary_desc}}
+  <hr>
+  <div class="secondary-desc">
+    <AnsiFormat @text={{nl2br this.char.custom.sheet.secondary_desc}} />
+  </div>
+  {{/if}}
+</div>

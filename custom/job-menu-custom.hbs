@@ -1,0 +1,9 @@
+<li><a href="#" {{action (mut this.selectAddRoll) true}} class="dropdown-item">Roll</a></li>
+{{#if this.job.custom.is_st}}
+<li><a href="#" {{action (mut this.selectAwardBeats) true}} class="dropdown-item">Award Beats</a></li>
+{{/if}}
+
+<CodRoll @data={{this.job.custom}} @actionType="job" @job={{this.job}} @selectAddRoll={{this.selectAddRoll}}
+  @show3dDice={{false}} />
+
+<CodAwardBeats @job={{this.job}} @char={{this.job.custom.char}} @selectAwardBeats={{this.selectAwardBeats}} />

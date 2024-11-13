@@ -1,0 +1,9 @@
+{{#if this.char.custom.sheet.id}}
+<li class="nav-item"><a data-bs-toggle="tab" class="nav-link" href="#sheet">Sheet</a></li>
+
+{{#each-in this.ability_links as |k v| }}
+<li class="nav-item">
+        <a data-bs-toggle="tab" class="nav-link" href="#abilities-{{k}}">{{v}}</a>
+</li>
+{{/each-in}}
+{{/if}}

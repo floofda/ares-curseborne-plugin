@@ -1,0 +1,33 @@
+{{#unless this.completed}}
+
+{{#unless this.hasCombat}}
+<li><a href="#" {{action (mut this.selectAddRoll) true}} class="dropdown-item">Roll</a></li>
+<li><a href="#" {{action (mut this.selectAdjustHealth) true}} class="dropdown-item">Adjust Health</a></li>
+<li><a href="#" {{action (mut this.selectAdjustResource) true}} class="dropdown-item">Adjust Resource</a></li>
+<hr role="separator" class="dropdown-divider">
+{{/unless}}
+
+{{#unless this.hasCombat}}
+<li><a href="#" {{action 'combatStart' }} class="dropdown-item">Start Conflict</a></li>
+{{else}}
+<li><a href="#" {{action 'combatEnd' }} class="dropdown-item">End Conflict</a></li>
+{{/unless}}
+
+{{#unless this.isSceneFocus}}
+<li class="dropdown-item"><a href="/scene-focus/{{this.scene.id}}">Open Focused Scene</a></li>
+{{else}}
+<li class="dropdown-item"><a href="/scene-live/{{this.scene.id}}">Return to Full Scene</a></li>
+{{/unless}}
+
+<CodRoll @data={{this.custom}} @combat={{this.combat}} @scene={{this.scene}} @actionType="scene"
+  @selectAddRoll={{this.selectAddRoll}} @show3dDice={{this.show3dDice}} />
+<CodAdjustHealth @data={{this.custom}} @combat={{this.combat}} @scene={{this.scene}}
+  @selectAdjustHealth={{this.selectAdjustHealth}} />
+<CodAdjustResource @data={{this.custom}} @combat={{this.combat}} @scene={{this.scene}}
+  @selectAdjustResource={{this.selectAdjustResource}} />
+
+<CodSceneCombat @combat={{this.combat}} @scene={{this.scene}} @data={{this.custom}}
+  @selectAddRoll={{this.selectAddRoll}} @selectAdjustResource={{this.selectAdjustResource}}
+  @selectAdjustHealth={{this.selectAdjustHealth}} />
+
+{{/unless}}
