@@ -8,7 +8,7 @@ Over at City of Glass, we’ve had the great pleasure of getting to use a custom
 
 The code includes support for Mortal/Mortal+, Changeling, Mage, and Demon, along with the M++ templates Atariya, Dreamer, Infected, Lost Boy, and Psychic Vampire. (We only use Atariya and Psychic Vampire on CoG, so those are the only two I can fully attest to.)
 
-This should be considered abandonware: nothing in it is going to change or be updated, and the documentation included is all you get.
+**This should be considered abandonware: nothing in it is going to change or be updated, and the documentation included is all you get. It was designed under Ares 1.x and will require code changes for 2.x games.**
 
 ## Install
 
