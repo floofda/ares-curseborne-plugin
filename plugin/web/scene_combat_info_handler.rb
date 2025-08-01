@@ -2,7 +2,7 @@ module AresMUSH
   module CoD
     class SceneCombatInfoHandler
       def handle(request)
-        scene = Scene[request.args[:scene_id]]
+        scene = Scene[request.args['scene_id']]
         enactor = request.enactor
 
         error = Website.check_login(request)

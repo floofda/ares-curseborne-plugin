@@ -2,11 +2,11 @@ module AresMUSH
   module CoD
     class AdjustHealthHandler
       def handle(request)
-        scene = Scene[request.args[:id]]
-        target = Character.named(request.args[:char]) || Npc.named(request.args[:char])
+        scene = Scene[request.args['id']]
+        target = Character.named(request.args['char']) || Npc.named(request.args['char'])
         enactor = request.enactor
         data = request.args
-        amount = data[:value].to_i
+        amount = data['value'].to_i
 
         error = Website.check_login(request)
         return error if error
@@ -22,8 +22,8 @@ module AresMUSH
         res, error = CoD.build_adjust_health_emit({
           enactor: enactor,
           char: target&.name || enactor.name,
-          value: data[:value].to_i,
-          type: ['agg', 'lethal', 'bashing'][[data[:agg], data[:lethal], data[:bashing]].index('true') || 2]
+          value: data['value'].to_i,
+          type: ['agg', 'lethal', 'bashing'][[data['agg'], data['lethal'], data['bashing']].index(true) || 2]
         })
 
         return { c_error: error } if error

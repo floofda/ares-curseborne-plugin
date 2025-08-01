@@ -2,8 +2,8 @@ module AresMUSH
   module CoD
     class LeaveCombatHandler
       def handle(request)
-        scene = Scene[request.args[:scene_id]]
-        combat = Combat[request.args[:combat_id]]
+        scene = Scene[request.args['scene_id']]
+        combat = Combat[request.args['combat_id']]
         enactor = request.enactor
 
         error = Website.check_login(request)

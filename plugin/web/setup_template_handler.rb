@@ -3,7 +3,7 @@ module AresMUSH
     class SetupTemplateHandler
       def handle(request)
         char = Character[request.args['id']]
-        template = request.args[:template]
+        template = request.args['template']
 
         error = Website.check_login(request)
         return error if error
