@@ -3,7 +3,7 @@ module AresMUSH
 
     def self.is_npc? obj
       return true if obj.class.name == 'AresMUSH::Npc'
-      return true if obj.is_a?(Hash) && obj[:is_npc]
+      return true if obj.is_a?(Hash) && obj['is_npc']
       false
     end
 
@@ -35,7 +35,7 @@ module AresMUSH
     end
 
     def self.update_npc combat, npc, updates
-      npc.update(name: get_unique_npc_name(combat, updates[:name]), sheet: create_npc_sheet(updates[:sheet]))
+      npc.update(name: get_unique_npc_name(combat, updates['name']), sheet: create_npc_sheet(updates['sheet']))
     end
 
     def self.get_unique_npc_name combat, name
@@ -47,14 +47,14 @@ module AresMUSH
     end
 
     def self.create_npc enactor, combat, config
-      sheet = create_npc_sheet config[:sheet] || {}
+      sheet = create_npc_sheet config['sheet'] || {}
       npc = Npc.create(
         creator_id: enactor.id, combat_id: combat.id, uuid: generate_uuid,
-        name: config[:name].strip, icon: config[:icon], sheet: sheet
+        name: config['name'].strip, icon: config['icon'], sheet: sheet
       )
       s_sheet = npc.sheet
       sheet[:npc_id] = npc.id
-      uniq_name = get_unique_npc_name(combat, config[:name].strip)
+      uniq_name = get_unique_npc_name(combat, config['name'].strip)
       npc.update(sheet: sheet, name: uniq_name)
     end
 

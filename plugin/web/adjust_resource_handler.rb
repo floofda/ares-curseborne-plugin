@@ -2,11 +2,11 @@ module AresMUSH
   module CoD
     class AdjustResourceHandler
       def handle(request)
-        scene = Scene[request.args[:id]]
-        target = Character.named(request.args[:char]) || Npc.named(request.args[:char])
+        scene = Scene[request.args['id']]
+        target = Character.named(request.args['char']) || Npc.named(request.args['char'])
         enactor = request.enactor
         data = request.args
-        amount = data[:value].to_i
+        amount = data['value'].to_i
 
         error = Website.check_login(request)
         return error if error
@@ -30,8 +30,8 @@ module AresMUSH
           { field: 'morality', name: config&.dig('morality') || :morality }
         ]
 
-        type = map.select { |t| t[:name]&.start_with? (data[:type] || 'x') }.first
-        return { c_error: t('cod.invalid_switch', switch: data[:type]) } if !type
+        type = map.select { |t| t[:name]&.start_with? (data['type'] || 'x') }.first
+        return { c_error: t('cod.invalid_switch', switch: data['type']) } if !type
 
         stat = CoD.get_stat(target.sheet, type[:name])
         curr = CoD.get_rating(target.sheet, "curr_#{type[:field]}")

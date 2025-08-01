@@ -2,9 +2,9 @@ module AresMUSH
   module CoD
     class JoinCombatHandler
       def handle(request)
-        scene = Scene[request.args[:scene_id]]
-        combat = Combat[request.args[:combat_id]]
-        target = Character.named(request.args[:target]) || request.enactor
+        scene = Scene[request.args['scene_id']]
+        combat = Combat[request.args['combat_id']]
+        target = Character.named(request.args['target']) || request.enactor
 
         error = Website.check_login(request)
         return error if error

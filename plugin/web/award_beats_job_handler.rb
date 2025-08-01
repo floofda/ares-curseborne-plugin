@@ -2,11 +2,11 @@ module AresMUSH
   module CoD
     class AwardBeatsJobHandler
       def handle(request)
-        job = Job[request.args[:id]]
-        char = Character.named(request.args[:char])
+        job = Job[request.args['id']]
+        char = Character.named(request.args['char'])
         enactor = request.enactor
-        beats = request.args[:beats]
-        message = request.args[:message]
+        beats = request.args['beats']
+        message = request.args['message']
 
         error = Website.check_login(request)
         return error if error
